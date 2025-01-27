@@ -14,7 +14,6 @@ This comprehensive curriculum combines theoretical understanding with practical 
 - **Cutting-edge techniques** including LoRA, quantization, and multimodal integration
 - **Industry best practices** for ethical AI and scalable deployment
 
- mathematical foundations → text processing → model architecture → training → evaluation → specialization → ethics → optimization → deployment → advanced applications.
 ![image](https://github.com/user-attachments/assets/6c983312-9769-4dd8-8279-7e2ce7b9dda8)
 
 ---
