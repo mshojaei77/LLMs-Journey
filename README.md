@@ -1,6 +1,9 @@
+
 # Mastering Large Language Models: From Foundations to Production
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
 
 ---
 
@@ -11,20 +14,21 @@ This comprehensive curriculum combines theoretical understanding with practical 
 - **Cutting-edge techniques** including LoRA, quantization, and multimodal integration
 - **Industry best practices** for ethical AI and scalable deployment
 
-![image](https://github.com/user-attachments/assets/7f710869-e3d4-4038-ba01-2270d047dac9)
+
+![image](https://github.com/user-attachments/assets/6c983312-9769-4dd8-8279-7e2ce7b9dda8)
 
 ---
 
 ## Module 0: Mathematical Foundations
 **Objective:** Build essential mathematical literacy for LLM development
 
-1. **Matrix Calculus for Attention**  
+1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Matrix Calculus for Attention**  
    Implement batch matrix multiplication with broadcasting using NumPy. Profile memory usage for different tensor shapes.
 
-2. **Probability Foundations**  
+2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Probability Foundations**  
    Analyze log probability distributions in language model outputs using PyTorch. Compare sampling strategies.
 
-3. **Hardware-Aware Algebra**  
+3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Hardware-Aware Algebra**  
    Benchmark matrix operations on CPU/GPU using CUDA/CuPy. Analyze FLOP efficiency.
 
 ---
@@ -32,19 +36,19 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 1: Text Processing & Tokenization
 **Objective:** Master text preprocessing and embedding techniques
 
-- [x] **Tokenization Exploration**  
-  Compare whitespace, NLTK, SpaCy, and BPE techniques [**Open In Colab**](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)
+- [x] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb) **Tokenization Exploration**  
+  Compare whitespace, NLTK, SpaCy, and BPE techniques
   
-- [x] **Hugging Face Tokenizers**  
-  Prepare text data using HF tokenizers [**Open In Colab**](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)
+- [x] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb) **Hugging Face Tokenizers**  
+  Prepare text data using HF tokenizers
 
-- [x] **Custom Tokenizer Training**  
-  Train BPE/WordPiece/Unigram tokenizers [**Open In Colab**](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing)
+- [x] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) **Custom Tokenizer Training**  
+  Train BPE/WordPiece/Unigram tokenizers
 
-- [ ] **Embedding Visualization**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Embedding Visualization**  
   Train Word2Vec/GloVe/FastText embeddings and visualize with t-SNE
 
-- [ ] **Multilingual Pipeline**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Multilingual Pipeline**  
   Process data in 3+ languages with comparative analysis
 
 ---
@@ -52,19 +56,19 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 2: Core LLM Architectures
 **Objective:** Implement and analyze transformer components
 
-- [ ] **Self-Attention Mechanism**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Self-Attention Mechanism**  
   Build basic self-attention in PyTorch with attention weight visualization
 
-- [ ] **Transformer Encoder**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Transformer Encoder**  
   Implement encoder with positional encoding and feed-forward networks
 
-- [ ] **Multi-Head Attention**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Multi-Head Attention**  
   Compare performance on sequence-to-sequence tasks
 
-- [ ] **Normalization Techniques**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Normalization Techniques**  
   Experiment with LayerNorm vs RMSNorm impacts
 
-- [ ] **Residual Connections**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Residual Connections**  
   Analyze architectures with/without residual connections
 
 ---
@@ -72,19 +76,19 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 3: Training & Optimization
 **Objective:** Master modern training techniques
 
-- [ ] **Mixed Precision Training**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Mixed Precision Training**  
   Implement AMP with gradient scaling
 
-- [ ] **LoRA Fine-tuning**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **LoRA Fine-tuning**  
   Adapt LLaMA-7B for medical QA using PubMedQA
 
-- [ ] **Distributed Training**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Distributed Training**  
   Configure PyTorch DDP across multiple GPUs
 
-- [ ] **Hyperparameter Optimization**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Hyperparameter Optimization**  
   Use Bayesian optimization for LLM configs
 
-- [ ] **Gradient Strategies**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Gradient Strategies**  
   Implement clipping/accumulation for stability
 
 ---
@@ -92,16 +96,16 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 4: Evaluation & Validation
 **Objective:** Build robust assessment systems
 
-- [ ] **Toxicity Detection**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Toxicity Detection**  
   Create ensemble detector with Perspective API
 
-- [ ] **Human Evaluation Platform**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Human Evaluation Platform**  
   Build web app for model comparisons
 
-- [ ] **Perplexity Analysis**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Perplexity Analysis**  
   Implement metric across different datasets
 
-- [ ] **Bias Assessment**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Bias Assessment**  
   Measure fairness using Hugging Face benchmarks
 
 ---
@@ -109,16 +113,16 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 5: Fine-tuning & Adaptation
 **Objective:** Specialize models for domain tasks
 
-- [ ] **Medical RAG System**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Medical RAG System**  
   PubMed-based retrieval augmentation
 
-- [ ] **Legal Document Analysis**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Legal Document Analysis**  
   Contract clause classification
 
-- [ ] **Parameter-Efficient Tuning**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Parameter-Efficient Tuning**  
   Compare LoRA vs Adapters
 
-- [ ] **Cross-Domain Adaptation**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Cross-Domain Adaptation**  
   Fine-tune across medical/legal/tech domains
 
 ---
@@ -126,16 +130,16 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 6: Inference Optimization
 **Objective:** Enhance model efficiency
 
-- [ ] **KV-Cache Implementation**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **KV-Cache Implementation**  
   Accelerate inference through caching
 
-- [ ] **4-bit Quantization**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **4-bit Quantization**  
   GPTQ vs AWQ comparison
 
-- [ ] **Model Pruning**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Model Pruning**  
   Implement magnitude-based pruning
 
-- [ ] **Knowledge Distillation**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Knowledge Distillation**  
   Train smaller model from LLM
 
 ---
@@ -143,16 +147,16 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 7: Deployment & Scaling
 **Objective:** Production-grade implementation
 
-- [ ] **Kubernetes Orchestration**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Kubernetes Orchestration**  
   Auto-scaling LLM endpoints
 
-- [ ] **Security Hardening**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Security Hardening**  
   Input/output sanitization
 
-- [ ] **Edge Deployment**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Edge Deployment**  
   Optimize for mobile inference
 
-- [ ] **Cost Calculator**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Cost Calculator**  
   Cloud deployment TCO analysis
 
 ---
@@ -160,16 +164,16 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 8: Advanced Applications
 **Objective:** Build cutting-edge systems
 
-- [ ] **Multimodal Assistant**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Multimodal Assistant**  
   CLIP+GPT image captioning
 
-- [ ] **Code Repair Engine**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Code Repair Engine**  
   LLM-based debugging tool
 
-- [ ] **Personalized Tutor**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Personalized Tutor**  
   Adaptive learning system
 
-- [ ] **AI Red Teaming**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **AI Red Teaming**  
   Adversarial attack simulation
 
 ---
@@ -177,13 +181,13 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 9: Ethics & Security
 **Objective:** Ensure responsible AI
 
-- [ ] **Constitutional AI**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Constitutional AI**  
   Ethical constraint programming
 
-- [ ] **Model Watermarking**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Model Watermarking**  
   Generation traceability
 
-- [ ] **Privacy Preservation**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Privacy Preservation**  
   Differential privacy methods
 
 ---
@@ -191,13 +195,13 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 10: Maintenance & Monitoring
 **Objective:** Ensure reliable operation
 
-- [ ] **Drift Detection**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Drift Detection**  
   Concept drift monitoring
 
-- [ ] **Explainability Dashboard**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Explainability Dashboard**  
   SHAP/LIME integration
 
-- [ ] **Continuous Learning**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Continuous Learning**  
   Online adaptation pipeline
 
 ---
@@ -205,13 +209,13 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 11: Multimodal Systems
 **Objective:** Cross-modal integration
 
-- [ ] **Image-to-Text**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Image-to-Text**  
   CLIP-guided captioning
 
-- [ ] **Audio Understanding**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Audio Understanding**  
   Whisper+LLM integration
 
-- [ ] **Video Summarization**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Video Summarization**  
   Frame+transcript analysis
 
 ---
@@ -219,13 +223,13 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 12: Capstone Project
 **Objective:** End-to-end mastery
 
-- [ ] **Full-Stack Application**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Full-Stack Application**  
   Custom fine-tuning + monitoring
 
-- [ ] **Research Reproduction**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Research Reproduction**  
   Reimplement landmark paper
 
-- [ ] **Energy Efficiency Study**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Energy Efficiency Study**  
   Carbon footprint analysis
 
 ---
@@ -233,13 +237,13 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 13: Emerging Trends
 **Objective:** Stay ahead of the curve
 
-- [ ] **Sparse Mixture-of-Experts**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Sparse Mixture-of-Experts**  
   Dynamic routing implementation
 
-- [ ] **Quantum ML Exploration**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Quantum ML Exploration**  
   Quantum attention advantages
 
-- [ ] **Neurological Modeling**  
+- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Neurological Modeling**  
   fMRI-to-text decoding
 
 ---
