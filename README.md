@@ -1,141 +1,260 @@
-# Practical Tasks to Learn LLMs from Scratch
+# Mastering Large Language Models: From Foundations to Production
 
-**Structured into 14 comprehensive modules covering fundamental concepts to advanced deployment**
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Module I: Foundations of Language Models
-*Combines historical context, ethics, and core architecture understanding*
+---
 
-- [ ] **History Timeline Project**: Create timeline of major LLM milestones from ELIZA to GPT-4
-- [ ] **Ethics Case Study**: Analyze real-world LLM deployment challenges (e.g. bias in hiring tools)
-- [ ] **Model Taxonomy Exercise**: Compare 3 different LLM architectures (GPT, BERT, T5)
-- [ ] **Responsible AI Framework**: Develop guidelines for ethical LLM development
-- [ ] **Industry Impact Analysis**: Research LLM applications across 5 different sectors
+## Program Overview
+This comprehensive curriculum combines theoretical understanding with practical implementation through:
+- **Structured progression** from mathematical foundations to production deployment
+- **Real-world projects** in healthcare, legal, and creative domains
+- **Cutting-edge techniques** including LoRA, quantization, and multimodal integration
+- **Industry best practices** for ethical AI and scalable deployment
 
-## Module II: Text Data Processing & Tokenization
-*Expanded with multilingual support and visualization tasks*
+![image](https://github.com/user-attachments/assets/7f710869-e3d4-4038-ba01-2270d047dac9)
 
-- [x] [Hugging Face Tokenizers](https://colab.research.google.com/...)
-- [x] [Custom Tokenizer Training](https://colab.research.google.com/...)
-- [ ] **Multilingual Data Pipeline**: Process data in 3+ languages with comparative analysis
-- [ ] **Embedding Visualization**: 3D t-SNE exploration of semantic relationships
-- [ ] **Noise Injection Study**: Experiment with dirty data recovery techniques
-- [ ] **Cross-Lingual Tokenization**: Compare tokenization efficiency across languages
-- [ ] **Vocabulary Optimization**: Create optimal vocab for domain-specific corpus
+---
 
-*(Includes all original Module I tasks + new additions from second list)*
+## Module 0: Mathematical Foundations
+**Objective:** Build essential mathematical literacy for LLM development
 
-## Module III: Core LLM Architectures
-*Enhanced with attention variants and normalization comparisons*
+1. **Matrix Calculus for Attention**  
+   Implement batch matrix multiplication with broadcasting using NumPy. Profile memory usage for different tensor shapes.
 
-- [ ] **Transformer Block from Scratch**: Build with PyTorch including custom backward pass
-- [ ] **Flash Attention Implementation**: Optimize for long-sequence processing
-- [ ] **Normalization Ablation Study**: Compare LayerNorm vs RMSNorm impacts
-- [ ] **Sparse Attention Patterns**: Implement local+global attention windows
-- [ ] **Memory-optimized Architectures**: Design model for low VRAM environments
+2. **Probability Foundations**  
+   Analyze log probability distributions in language model outputs using PyTorch. Compare sampling strategies.
 
-*(Integrates original Module II + additional architecture tasks)*
+3. **Hardware-Aware Algebra**  
+   Benchmark matrix operations on CPU/GPU using CUDA/CuPy. Analyze FLOP efficiency.
 
-## Module IV: Training & Optimization Strategies
-*Combines pre-training through quantization techniques*
+---
 
-- [ ] **Mixed Precision Mastery**: Implement AMP with gradient scaling
-- [ ] **LoRA Fine-tuning**: Adapter-based tuning for medical texts
-- [ ] **4-bit Quantization**: GPTQ implementation comparison
-- [ ] **Distributed Training**: Multi-node PyTorch DDP setup
-- [ ] **Hyperparameter Search**: Bayesian optimization for LLM configs
+## Module 1: Text Processing & Tokenization
+**Objective:** Master text preprocessing and embedding techniques
 
-*(Merges original Modules III, V, VIII + new training methods)*
+- [x] **Tokenization Exploration**  
+  Compare whitespace, NLTK, SpaCy, and BPE techniques [**Open In Colab**](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)
+  
+- [x] **Hugging Face Tokenizers**  
+  Prepare text data using HF tokenizers [**Open In Colab**](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)
 
-## Module V: Evaluation & Validation
-*Enhanced with bias detection and human eval*
+- [x] **Custom Tokenizer Training**  
+  Train BPE/WordPiece/Unigram tokenizers [**Open In Colab**](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing)
 
-- [ ] **Toxicity Classifier**: Build bias detection pipeline
-- [ ] **Human Evaluation Suite**: Crowdsource rating system for generations
-- [ ] **Adversarial Test Cases**: Create challenge set for model breaking
-- [ ] **Domain Shift Analysis**: Measure performance degradation
-- [ ] **Multilingual Benchmarking**: XNLI cross-lingual evaluation
+- [ ] **Embedding Visualization**  
+  Train Word2Vec/GloVe/FastText embeddings and visualize with t-SNE
 
-## Module VI: Fine-tuning & Adaptation
-*Expanded domain adaptation and efficiency*
+- [ ] **Multilingual Pipeline**  
+  Process data in 3+ languages with comparative analysis
 
-- [ ] **Medical RAG System**: PubMed-based retrieval augmentation
-- [ ] **Legal Document Adaptation**: Contract analysis specialization
-- [ ] **Parameter-efficient Tuning**: Compare LoRA vs Adapters
-- [ ] **Instruction Tuning**: Align models with human preferences
-- [ ] **Cross-modal Fine-tuning**: Adapt text model for audio tasks
+---
 
-## Module VII: Deployment & Scaling
-*Production-grade implementation focus*
+## Module 2: Core LLM Architectures
+**Objective:** Implement and analyze transformer components
 
-- [ ] **Kubernetes Orchestration**: Auto-scaling LLM endpoints
-- [ ] **Security Hardening**: Implement input/output sanitization
-- [ ] **A/B Testing Framework**: Statistical comparison of model versions
-- [ ] **Cost Calculator**: Cloud deployment TCO analysis
-- [ ] **Edge Deployment**: Optimize for mobile inference
+- [ ] **Self-Attention Mechanism**  
+  Build basic self-attention in PyTorch with attention weight visualization
 
-*(Combines original Modules X, XIII + cloud deployment tasks)*
+- [ ] **Transformer Encoder**  
+  Implement encoder with positional encoding and feed-forward networks
 
-## Module VIII: Advanced Applications
-*Cutting-edge implementation projects*
+- [ ] **Multi-Head Attention**  
+  Compare performance on sequence-to-sequence tasks
 
-- [ ] **Multimodal Assistant**: CLIP+GPT image captioning system
-- [ ] **Code Repair Engine**: Debugging via LLM code analysis
-- [ ] **Personalized Tutor**: Adaptive learning system
-- [ ] **AI Red Teaming**: Adversarial attack simulation
-- [ ] **Neurological Dataset Modeling**: fMRI-to-text decoding
+- [ ] **Normalization Techniques**  
+  Experiment with LayerNorm vs RMSNorm impacts
 
-## Module IX: Emerging Trends & Capstone
-*Future-focused research integration*
+- [ ] **Residual Connections**  
+  Analyze architectures with/without residual connections
 
-- [ ] **Sparse Mixture-of-Experts**: Implement routing layer
-- [ ] **Constitutional AI**: Ethical constraint programming
-- [ ] **Capstone Project**: Full-stack LLM application
-- [ ] **Research Survey**: Latest arXiv papers analysis
-- [ ] **Energy Efficiency Study**: Carbon footprint analysis
+---
 
-*(Retains all original Module XII tasks + future directions)*
+## Module 3: Training & Optimization
+**Objective:** Master modern training techniques
 
-## Module X: Maintenance & Monitoring
-*Real-world operational focus*
+- [ ] **Mixed Precision Training**  
+  Implement AMP with gradient scaling
 
-- [ ] **Drift Detection**: Implement concept drift monitoring
-- [ ] **Explainability Dashboard**: SHAP/LIME integration
-- [ ] **Continuous Learning**: Online adaptation pipeline
-- [ ] **Compliance Audit**: GDPR/HIPAA compliance check
-- [ ] **Cost Optimization**: Spot instance management
+- [ ] **LoRA Fine-tuning**  
+  Adapt LLaMA-7B for medical QA using PubMedQA
 
-## Module XI: Security & Robustness
-*Enhanced protection mechanisms*
+- [ ] **Distributed Training**  
+  Configure PyTorch DDP across multiple GPUs
 
-- [ ] **Adversarial Training**: Gradient masking resistance
-- [ ] **Prompt Injection Defense**: Input validation layers
-- [ ] **Model Watermarking**: Generation traceability
-- [ ] **Privacy Preservation**: Differential privacy methods
-- [ ] **Backdoor Detection**: Model poisoning prevention
+- [ ] **Hyperparameter Optimization**  
+  Use Bayesian optimization for LLM configs
 
-## Module XII: Multimodal Integration
-*Cross-modal learning techniques*
+- [ ] **Gradient Strategies**  
+  Implement clipping/accumulation for stability
 
-- [ ] **Image-to-Text**: CLIP-guided captioning
-- [ ] **Audio Understanding**: Whisper+LLM integration
-- [ ] **Video Summarization**: Frame+transcript analysis
-- [ ] **Multimodal RAG**: Cross-domain retrieval
-- [ ] **Sensor Fusion**: IoT+LLM integration
+---
 
-## Module XIII: Performance Optimization
-*Hardware-aware efficiency*
+## Module 4: Evaluation & Validation
+**Objective:** Build robust assessment systems
 
-- [ ] **Kernel Fusion**: Custom CUDA optimizations
-- [ ] **Graph Compilation**: torch.compile benchmarking
-- [ ] **Quantization-Aware Training**: QAT implementation
-- [ ] **Pruning Strategies**: Movement vs magnitude
-- [ ] **Memory Mapping**: Large model offloading
+- [ ] **Toxicity Detection**  
+  Create ensemble detector with Perspective API
 
-## Module XIV: Community & Collaboration
-*Open-source ecosystem engagement*
+- [ ] **Human Evaluation Platform**  
+  Build web app for model comparisons
 
-- [ ] **Hugging Face Contribution**: Model/dataset submission
-- [ ] **Benchmark Creation**: New evaluation metric design
-- [ ] **Reproducibility Study**: Replicate landmark paper
-- [ ] **Technical Writing**: Blog post on LLM insights
-- [ ] **Open-source Maintenance**: Package development
+- [ ] **Perplexity Analysis**  
+  Implement metric across different datasets
+
+- [ ] **Bias Assessment**  
+  Measure fairness using Hugging Face benchmarks
+
+---
+
+## Module 5: Fine-tuning & Adaptation
+**Objective:** Specialize models for domain tasks
+
+- [ ] **Medical RAG System**  
+  PubMed-based retrieval augmentation
+
+- [ ] **Legal Document Analysis**  
+  Contract clause classification
+
+- [ ] **Parameter-Efficient Tuning**  
+  Compare LoRA vs Adapters
+
+- [ ] **Cross-Domain Adaptation**  
+  Fine-tune across medical/legal/tech domains
+
+---
+
+## Module 6: Inference Optimization
+**Objective:** Enhance model efficiency
+
+- [ ] **KV-Cache Implementation**  
+  Accelerate inference through caching
+
+- [ ] **4-bit Quantization**  
+  GPTQ vs AWQ comparison
+
+- [ ] **Model Pruning**  
+  Implement magnitude-based pruning
+
+- [ ] **Knowledge Distillation**  
+  Train smaller model from LLM
+
+---
+
+## Module 7: Deployment & Scaling
+**Objective:** Production-grade implementation
+
+- [ ] **Kubernetes Orchestration**  
+  Auto-scaling LLM endpoints
+
+- [ ] **Security Hardening**  
+  Input/output sanitization
+
+- [ ] **Edge Deployment**  
+  Optimize for mobile inference
+
+- [ ] **Cost Calculator**  
+  Cloud deployment TCO analysis
+
+---
+
+## Module 8: Advanced Applications
+**Objective:** Build cutting-edge systems
+
+- [ ] **Multimodal Assistant**  
+  CLIP+GPT image captioning
+
+- [ ] **Code Repair Engine**  
+  LLM-based debugging tool
+
+- [ ] **Personalized Tutor**  
+  Adaptive learning system
+
+- [ ] **AI Red Teaming**  
+  Adversarial attack simulation
+
+---
+
+## Module 9: Ethics & Security
+**Objective:** Ensure responsible AI
+
+- [ ] **Constitutional AI**  
+  Ethical constraint programming
+
+- [ ] **Model Watermarking**  
+  Generation traceability
+
+- [ ] **Privacy Preservation**  
+  Differential privacy methods
+
+---
+
+## Module 10: Maintenance & Monitoring
+**Objective:** Ensure reliable operation
+
+- [ ] **Drift Detection**  
+  Concept drift monitoring
+
+- [ ] **Explainability Dashboard**  
+  SHAP/LIME integration
+
+- [ ] **Continuous Learning**  
+  Online adaptation pipeline
+
+---
+
+## Module 11: Multimodal Systems
+**Objective:** Cross-modal integration
+
+- [ ] **Image-to-Text**  
+  CLIP-guided captioning
+
+- [ ] **Audio Understanding**  
+  Whisper+LLM integration
+
+- [ ] **Video Summarization**  
+  Frame+transcript analysis
+
+---
+
+## Module 12: Capstone Project
+**Objective:** End-to-end mastery
+
+- [ ] **Full-Stack Application**  
+  Custom fine-tuning + monitoring
+
+- [ ] **Research Reproduction**  
+  Reimplement landmark paper
+
+- [ ] **Energy Efficiency Study**  
+  Carbon footprint analysis
+
+---
+
+## Module 13: Emerging Trends
+**Objective:** Stay ahead of the curve
+
+- [ ] **Sparse Mixture-of-Experts**  
+  Dynamic routing implementation
+
+- [ ] **Quantum ML Exploration**  
+  Quantum attention advantages
+
+- [ ] **Neurological Modeling**  
+  fMRI-to-text decoding
+
+---
+
+## Prerequisites
+- Python 3.10+
+- PyTorch 2.0
+- CUDA 11.7
+- Basic Linux/CLI skills
+
+## Resources
+```markdown
+- **Datasets**: Hugging Face Hub, Kaggle, Common Crawl
+- **Tools**: W&B, MLflow, Docker
+- **Libraries**: Transformers, DeepSpeed, vLLM
+```
+
+[Contributing Guidelines](CONTRIBUTING.md) | [License](LICENSE)
