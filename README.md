@@ -246,19 +246,3 @@ This comprehensive curriculum combines theoretical understanding with practical 
 - [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Neurological Modeling**  
   fMRI-to-text decoding
 
----
-
-## Prerequisites
-- Python 3.10+
-- PyTorch 2.0
-- CUDA 11.7
-- Basic Linux/CLI skills
-
-## Resources
-```markdown
-- **Datasets**: Hugging Face Hub, Kaggle, Common Crawl
-- **Tools**: W&B, MLflow, Docker
-- **Libraries**: Transformers, DeepSpeed, vLLM
-```
-
-[Contributing Guidelines](CONTRIBUTING.md) | [License](LICENSE)
