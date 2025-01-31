@@ -57,7 +57,7 @@ Here's an enhanced version of the module description, incorporating insights fro
 
 **Objective:** Gain a rapid understanding of what LLMs are, their practical uses, and critical limitations through hands-on experience. This module will provide a foundational understanding of LLMs, their underlying architecture, and their capabilities, while also emphasizing responsible use.
 
-- [ ] **Understanding LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+- [ ] **Understanding LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19k6DRX3h2_s1J7VwQl3fJKx-q5jrd7a_?usp=sharing)
     -   **Description:** LLMs are transformer-based models leveraging attention and next token prediction from massive text datasets to achieve in-context learning and perform new tasks based on prompts, with performance scaling with model and data size.
     -   **Additional Sources:**
         *   [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Focus on the *concept* of Transformers and "attention"). This resource provides a visual and simplified explanation of the Transformer architecture, which is fundamental to understanding LLMs.
@@ -76,7 +76,7 @@ Here's an enhanced version of the module description, incorporating insights fro
     - **Practical Tasks:**
         1. Implement an encoder stack with N=6 identical layers in PyTorch.
         2. Build a decoder with a masked self-attention mechanism.
-        3. Train a basic neural machine translation (EN->DE) model.
+        3. Train a basic neural machine translation (EN->FA) model.
     - **Additional Sources:**
         - [Transformers from Scratch](https://e2eml.school/transformers.html)
         - [Transformer Basics Tutorial](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
