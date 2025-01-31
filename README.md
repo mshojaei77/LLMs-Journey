@@ -1,4 +1,3 @@
-
 # Mastering Large Language Models: From Foundations to Production
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -7,19 +6,7 @@
 
 ---
 
-## Program Overview
-This comprehensive curriculum combines theoretical understanding with practical implementation through:
-- **Structured progression** from mathematical foundations to production deployment
-- **Real-world projects** in healthcare, legal, and creative domains
-- **Cutting-edge techniques** including LoRA, quantization, and multimodal integration
-- **Industry best practices** for ethical AI and scalable deployment
-
-![image](https://github.com/user-attachments/assets/6c983312-9769-4dd8-8279-7e2ce7b9dda8)
-
----
-
-## Module 0: Foundations
-**Objective:** Build essential foundations for LLM development
+## Module 0: Essential foundations for LLM development
 
 - [x] **Linear Algebra Fundamentals for LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing)
   
@@ -94,10 +81,107 @@ This comprehensive curriculum combines theoretical understanding with practical 
       - Papers  
         - [Distributed Representations of Words (2013)](https://arxiv.org/abs/1301.3781)  
         - [BERT: Pre-training of Deep Bidirectional Transformers (2018)](https://arxiv.org/abs/1810.04805)
+      
+---
 
 ## Module 2: The Transformer Architecture
-[Already formatted in previous answer]
+- [ ] **Encoder-Decoder Architecture** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harvardnlp/annotated-transformer/blob/master/The%20Annotated%20Transformer.ipynb)
+      - Practical tasks  
+        1. Implement encoder stack with N=6 identical layers  
+        2. Build decoder with masked self-attention mechanism  
+        3. Train on neural machine translation (EN->DE) task
+      - Additional Sources  
+        - [Transformer Basics Tutorial](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)  
+        - [Sequence-to-Sequence Modeling](https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html)
+      - Papers  
+        - [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762)  
+        - [Efficient Transformers: A Survey (2020)](https://arxiv.org/abs/2009.06732)
 
+- [ ] **Decoder-Only Models** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-)
+      - Practical tasks  
+        1. Implement causal attention masking  
+        2. Fine-tune GPT-2 for story generation  
+        3. Compare decoder-only vs encoder-decoder performance
+      - Additional Sources  
+        - [HuggingFace Generation Docs](https://huggingface.co/docs/transformers/generation_strategies)  
+        - [LLM University - Decoders](https://llm.university/)
+      - Papers  
+        - [Language Models are Unsupervised Multitask Learners (2019)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)  
+        - [LLaMA: Open and Efficient Foundation Models (2023)](https://arxiv.org/abs/2302.13971)
+
+- [ ] **Self-Attention Mechanism** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rPk3ohrmVclqhH7uQ7qys4oznDdAhpzF)
+      - Practical tasks  
+        1. Compute attention scores from Q/K/V matrices  
+        2. Visualize attention patterns for different sentence structures  
+        3. Implement relative position encoding
+      - Additional Sources  
+        - [Attention Visualization Tool](https://github.com/jessevig/bertviz)  
+        - [Math of Self-Attention](https://deeplearning.ai/short-courses/mathematics-of-transformer/)
+      - Papers  
+        - [Self-Attention with Relative Position (2018)](https://arxiv.org/abs/1803.02155)  
+        - [Longformer: Local+Global Attention (2020)](https://arxiv.org/abs/2004.05150)
+
+- [ ] **Multi-Head Attention** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pytorch/examples/blob/main/transformer/transformer_tutorial.ipynb)
+      - Practical tasks  
+        1. Implement parallel attention heads  
+        2. Analyze head specialization patterns  
+        3. Experiment with different head counts (4-16)
+      - Additional Sources  
+        - [Multi-Head Attention Explained](https://jalammar.github.io/illustrated-transformer/)  
+        - [Attention Head Analysis](https://arxiv.org/abs/2005.00753)
+      - Papers  
+        - [Are Sixteen Heads Really Better Than One? (2019)](https://arxiv.org/abs/1905.10650)  
+        - [Talking Heads Attention (2020)](https://arxiv.org/abs/2003.02436)
+
+- [ ] **Positional Encoding** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rPk3ohrmVclqhH7uQ7qys4oznDdAhpzF)
+      - Practical tasks  
+        1. Implement sinusoidal encoding  
+        2. Compare with learned positional embeddings  
+        3. Test ALiBi (Attention with Linear Biases)
+      - Additional Sources  
+        - [Positional Encoding Explorer](https://github.com/jalammar/positional-encoding-explorer)  
+        - [Rotary Embeddings Guide](https://blog.eleuther.ai/rotary-embeddings/)
+      - Papers  
+        - [RoPE: Rotary Position Embedding (2021)](https://arxiv.org/abs/2104.09864)  
+        - [Train Short, Test Long (2021)](https://arxiv.org/abs/2108.12409)
+
+- [ ] **Feed-Forward Networks** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/nlp/ipynb/text_classification_with_transformer.ipynb)
+      - Practical tasks  
+        1. Implement position-wise FFN  
+        2. Experiment with activation functions (GELU vs ReLU)  
+        3. Study impact of hidden layer dimension
+      - Additional Sources  
+        - [FFN Architecture Analysis](https://arxiv.org/abs/2205.05638)  
+        - [GELU Activation Paper](https://arxiv.org/abs/1606.08415)
+      - Papers  
+        - [GLU Variants Improve Transformer (2022)](https://arxiv.org/abs/2002.05202)  
+        - [DeepNet: Scaling Transformers (2022)](https://arxiv.org/abs/2203.00555)
+
+- [ ] **Layer Normalization** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1p6vS3hHxJWzaQOxv8rXZh8zBk1jVpW-M)
+      - Practical tasks  
+        1. Compare pre-LN vs post-LN architectures  
+        2. Implement RMSNorm alternative  
+        3. Debug gradient flow with normalization
+      - Additional Sources  
+        - [Normalization Deep Dive](https://leimao.github.io/blog/Layer-Normalization/)  
+        - [DeepNorm Implementation](https://github.com/microsoft/DeepSpeed/tree/master/deepspeed)
+      - Papers  
+        - [Root Mean Square Layer Normalization (2019)](https://arxiv.org/abs/1910.07467)  
+        - [Understanding LN in Transformers (2020)](https://arxiv.org/abs/2002.04745)
+
+- [ ] **Residual Connections** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/facebookresearch/fairseq/blob/main/examples/translation/README.md)
+      - Practical tasks  
+        1. Build transformer block with skip connections  
+        2. Analyze gradient magnitudes across layers  
+        3. Experiment with different residual weights
+      - Additional Sources  
+        - [Residual Theory Explained](https://theaisummer.com/skip-connections/)  
+        - [Transformer Residuals Paper](https://arxiv.org/abs/2305.14864)
+      - Papers  
+        - [ResNet: Deep Residual Learning (2015)](https://arxiv.org/abs/1512.03385)  
+        - [DeepNet: Scaling Transformers (2022)](https://arxiv.org/abs/2203.00555)
+      
+---
 ## Module 3: Data Preparation and Tokenization
 - [ ] **Data Collection** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
       - Practical tasks  
@@ -169,7 +253,8 @@ This comprehensive curriculum combines theoretical understanding with practical 
       - Papers  
         - [CCNet: Cleaning Web Data (2020)](https://arxiv.org/abs/1911.00359)  
         - [The Curse of Low-Quality Data (2022)](https://arxiv.org/abs/2205.11487)
-
+      
+---
 ## Module 4: Building an LLM from Scratch: Core Components
 - [ ] **Coding an LLM** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
       - Practical tasks  
@@ -218,7 +303,8 @@ This comprehensive curriculum combines theoretical understanding with practical 
       - Papers  
         - [ZeRO: Memory Optimizations (2020)](https://arxiv.org/abs/1910.02054)  
         - [8-bit Optimizers via Block-wise Quantization (2022)](https://arxiv.org/abs/2110.02861)
-
+      
+---
 ## Module 5: Pretraining LLMs
 - [ ] **Pretraining Process** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
       - Practical tasks  
@@ -291,7 +377,8 @@ This comprehensive curriculum combines theoretical understanding with practical 
       - Papers  
         - [GPipe: Efficient Training with Pipeline Parallelism (2019)](https://arxiv.org/abs/1811.06965)  
         - [ZeRO-Offload: Democratizing Billion-Scale Model Training (2021)](https://arxiv.org/abs/2101.06840)
-
+      
+---
 ## Module 6: Evaluating LLMs
 - [ ] **Text Generation Metrics** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
       - Practical tasks  
