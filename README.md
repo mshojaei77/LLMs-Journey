@@ -130,6 +130,7 @@ This course provides a comprehensive guide to Large Language Models (LLMs), cove
         2. Build a decoder with a masked self-attention mechanism.
         3. Train a basic neural machine translation (EN->DE) model.
     - **Additional Sources:**
+        - [Transformers from Scratch](https://e2eml.school/transformers.html)
         - [Transformer Basics Tutorial](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
         - [Sequence-to-Sequence Modeling](https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html)
     - **Papers:**
