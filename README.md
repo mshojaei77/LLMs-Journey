@@ -61,12 +61,9 @@ Here's an enhanced version of the module description, incorporating insights fro
     -   **Description:** LLMs are transformer-based models leveraging attention and next token prediction from massive text datasets to achieve in-context learning and perform new tasks based on prompts, with performance scaling with model and data size.
     -   **Additional Sources:**
         *   [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Focus on the *concept* of Transformers and "attention"). This resource provides a visual and simplified explanation of the Transformer architecture, which is fundamental to understanding LLMs.
-        *   [HuggingFace Tasks Guide](https://huggingface.co/docs/transformers/tasks) (See the range of LLM tasks). This guide showcases the wide variety of tasks that LLMs can perform.
-        *   [AI Safety Fundamentals](https://aisafetyfundamentals.com/) (Focus on LLM risks and limitations). This source is valuable for understanding potential risks and limitations associated with LLMs.
     -   **Papers:**
         *   [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762) (Abstract & Intro - understand why "Attention" was key). This paper is crucial for understanding the origins of the transformer architecture and the importance of the attention mechanism.
         *   [Language Models are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165) (Skim - focus on the idea of few-shot learning). This paper introduces the concept of in-context learning and demonstrates the few-shot capabilities of large language models.
-        *   [TruthfulQA: Measuring How Models Mimic Human Falsehoods (2021)](https://arxiv.org/abs/2109.07958) (Abstract & Examples - see how truthfulness is measured and model errors). This paper emphasizes that LLMs can mimic falsehoods and highlights the need for careful evaluation of their truthfulness.
 
 ---
 
