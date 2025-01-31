@@ -57,7 +57,6 @@ This course provides a comprehensive guide to Large Language Models (LLMs), cove
 
 - [ ] **Overview of LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
     - **Description:** Introduces the concept of Large Language Models, their scale, and their impact on Natural Language Processing.
-    - **Podcast:** [Building an LLM Twin: From Concept to Deployment](https://notebooklm.google.com/notebook/ad84858b-63a7-4ac8-8dc1-b8cc224b7df9/audio)
     - **Additional Sources:**
         - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
         - [Stanford NLP Deep Learning Guide](https://web.stanford.edu/~jurafsky/slp3/)
