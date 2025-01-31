@@ -23,9 +23,9 @@ This comprehensive curriculum combines theoretical understanding with practical 
 
 - [x] **Linear Algebra Fundamentals for LLMs**
 
-  - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing)
+  - **Tutorial**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing)
   
-  - Additional Resource: [Essence of Linear Algebra" series by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  - **Additional Resource**: [Essence of Linear Algebra" series by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 - [x] **Probability Foundations for LLMs**
    - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oFu5ZL0AUlxDU8xhygr-datwEnHS9JVN?usp=sharing) 
@@ -33,28 +33,53 @@ This comprehensive curriculum combines theoretical understanding with practical 
   
 
 - [x] **GPU Essentials for LLMs**
-   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S-LwgyO_bmS135nJmJxm1ZKVlpv9Acfv?usp=sharing) 
-   - Additional Resource: [Ultimate Guide to the Best NVIDIA GPUs for Running Large Language Models" from Spheron Network](https://blog.spheron.network/ultimate-guide-to-the-best-nvidia-gpus-for-running-large-language-models)
+   - **Tutorial**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S-LwgyO_bmS135nJmJxm1ZKVlpv9Acfv?usp=sharing) 
+   - **Additional Resource**: [Ultimate Guide to the Best NVIDIA GPUs for Running Large Language Models" from Spheron Network](https://blog.spheron.network/ultimate-guide-to-the-best-nvidia-gpus-for-running-large-language-models)
 
 
 ---
+## Module 1: Tokenization  
+**Objective:** Master tokenization and embedding techniques  
 
-## Module 1: Tokenization
-**Objective:** Master text tokenization and embedding techniques
+### [x] **Tokenization Exploration**  
+   - **Tutorial**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)  
+   - **Additional Sources**:  
+     - ["The Technical User's Introduction to LLM Tokenization" by Christopher Samiullah](https://christophergs.com/blog/understanding-llm-tokenization)
+     - [Byte Pair Encoding (BPE) Visual Guide](https://www.youtube.com/watch?v=HEikzVL-lZU) (Video Tutorial)   
+     - [Tokenizers: How Machines Read](https://lena-voita.github.io/nlp_course/tokenization.html) (Interactive Guide)  
+   - **Papers**:  
+     - [Neural Machine Translation of Rare Words with Subword Units (2016)](https://arxiv.org/abs/1508.07909) *(Original BPE Paper)*  
+     - [Subword Regularization (2018)](https://arxiv.org/abs/1804.10959) *(Unigram Tokenization)*  
 
-- [x] **Tokenization Exploration**  
-   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb) 
-   - Additional Sources: ["The Technical User's Introduction to LLM Tokenization" by Christopher Samiullah](https://christophergs.com/blog/understanding-llm-tokenization)
-  
-- [x]  **Hugging Face Tokenizers**  
-   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)
-   - Additional Sources: [official Hugging Face documentation ](https://huggingface.co/docs/transformers/en/main_classes/tokenizer)
-   - 
-- [x] **Custom Tokenizer Training**  
-   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) 
-   - Additional Sources: [Let's build the GPT Tokenizer video](https://www.youtube.com/watch?v=zduSFxRajkE)
-   - Paper: [Getting the most out of your tokenizer for pre-training and domain adaptation](https://arxiv.org/html/2402.01035v2)
-     
+### [x] **Hugging Face Tokenizers**  
+   - **Tutorial**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)  
+   - **Additional Sources**:
+     - [Advanced Tokenization Strategies](https://www.youtube.com/watch?v=VFp38yj8h3A) (Hugging Face Video Guide)  
+     - [Hugging Face Tokenizers Documentation](https://huggingface.co/docs/transformers/main_classes/tokenizer)  
+     - [Tokenization for Multilingual Models](https://huggingface.co/course/chapter6/2?fw=pt)  
+   - **Papers**:  
+     - [BERT: Pre-training of Deep Bidirectional Transformers (2019)](https://arxiv.org/abs/1810.04805) *(WordPiece in BERT)*  
+     - [How Good is Your Tokenizer? (2021)](https://aclanthology.org/2021.emnlp-main.571.pdf) *(Tokenizer Evaluation)*  
+
+### [x] **Custom Tokenizer Training**  
+   - **Tutorial**:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing)  
+   - **Additional Sources**:
+   - - [Train a Tokenizer for Code](https://www.youtube.com/watch?v=zduSFxRajkE) *(Andrej Karpathy’s "Let’s Build the GPT Tokenizer")*  
+     - [Domain-Specific Tokenizers with SentencePiece](https://github.com/google/sentencepiece/blob/master/README.md)  
+     - [Tokenizer Best Practices](https://huggingface.co/docs/tokenizers/quicktour#training-a-new-tokenizer-from-an-old-one)  
+   - **Papers**:  
+     - [Getting the Most Out of Your Tokenizer (2024)](https://arxiv.org/html/2402.01035v2)  
+     - [TokenMonster: Efficient Vocabulary-Sensitive Tokenization (2023)](https://arxiv.org/abs/2310.08946)  
+
+### [] **Embedding Techniques**
+   - **Tutorial**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/course/en/chapter2/4b_embeddings.ipynb)  
+   - **Additional Sources**:  
+     - [Embeddings Explained Visually](https://jalammar.github.io/illustrated-word2vec/)  
+     - [Positional Encoding in Transformers](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)  
+   - **Papers**:  
+     - [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762) *(Positional Embeddings)*  
+     - [Sentence-BERT: Sentence Embeddings (2019)](https://arxiv.org/abs/1908.10084)  
+
 ---
 
 ## Module 2: Core LLM Architectures
