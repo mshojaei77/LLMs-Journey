@@ -18,17 +18,16 @@ This comprehensive curriculum combines theoretical understanding with practical 
 
 ---
 
-## Module 0: Mathematical Foundations
-**Objective:** Build essential mathematical literacy for LLM development
+## Module 0: Foundations
+**Objective:** Build essential foundations for LLM development
 
-1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Matrix Calculus for Attention**  
-   Implement batch matrix multiplication with broadcasting using NumPy. Profile memory usage for different tensor shapes.
+1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing) **Linear Algebra Fundamentals for LLMs**  
 
-2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Probability Foundations**  
-   Analyze log probability distributions in language model outputs using PyTorch. Compare sampling strategies.
+2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oFu5ZL0AUlxDU8xhygr-datwEnHS9JVN?usp=sharing) **Probability Foundations for LLMs**  
+  
 
-3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Hardware-Aware Algebra**  
-   Benchmark matrix operations on CPU/GPU using CUDA/CuPy. Analyze FLOP efficiency.
+3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S-LwgyO_bmS135nJmJxm1ZKVlpv9Acfv?usp=sharing) **GPU Essentials for LLMs**  
+
 
 ---
 
