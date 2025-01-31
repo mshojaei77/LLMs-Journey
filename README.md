@@ -37,7 +37,7 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 1: Tokenization  
 **Objective:** Master tokenization and embedding techniques  
 
-### [x] **Tokenization Exploration** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)  
+- [x] **Tokenization Exploration** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)  
    - **Additional Sources**:  
      - ["The Technical User's Introduction to LLM Tokenization" by Christopher Samiullah](https://christophergs.com/blog/understanding-llm-tokenization)
      - [Byte Pair Encoding (BPE) Visual Guide](https://www.youtube.com/watch?v=HEikzVL-lZU) (Video Tutorial)   
@@ -46,7 +46,7 @@ This comprehensive curriculum combines theoretical understanding with practical 
      - [Neural Machine Translation of Rare Words with Subword Units (2016)](https://arxiv.org/abs/1508.07909) *(Original BPE Paper)*  
      - [Subword Regularization (2018)](https://arxiv.org/abs/1804.10959) *(Unigram Tokenization)*  
 
-### [x] **Hugging Face Tokenizers** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)  
+- [x] **Hugging Face Tokenizers** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)  
    - **Additional Sources**:
      - [Advanced Tokenization Strategies](https://www.youtube.com/watch?v=VFp38yj8h3A) (Hugging Face Video Guide)  
      - [Hugging Face Tokenizers Documentation](https://huggingface.co/docs/transformers/main_classes/tokenizer)  
@@ -55,7 +55,7 @@ This comprehensive curriculum combines theoretical understanding with practical 
      - [BERT: Pre-training of Deep Bidirectional Transformers (2019)](https://arxiv.org/abs/1810.04805) *(WordPiece in BERT)*  
      - [How Good is Your Tokenizer? (2021)](https://aclanthology.org/2021.emnlp-main.571.pdf) *(Tokenizer Evaluation)*  
 
-### [x] **Custom Tokenizer Training** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing)  
+- [x] **Custom Tokenizer Training** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing)  
    - **Additional Sources**:
    - - [Train a Tokenizer for Code](https://www.youtube.com/watch?v=zduSFxRajkE) *(Andrej Karpathy’s "Let’s Build the GPT Tokenizer")*  
      - [Domain-Specific Tokenizers with SentencePiece](https://github.com/google/sentencepiece/blob/master/README.md)  
@@ -64,7 +64,7 @@ This comprehensive curriculum combines theoretical understanding with practical 
      - [Getting the Most Out of Your Tokenizer (2024)](https://arxiv.org/html/2402.01035v2)  
      - [TokenMonster: Efficient Vocabulary-Sensitive Tokenization (2023)](https://arxiv.org/abs/2310.08946)  
 
-### [] **Embedding Techniques** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)  
+- [ ] **Embedding Techniques** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)  
    - **Additional Sources**:  
      - [Embeddings Explained Visually](https://jalammar.github.io/illustrated-word2vec/)  
      - [Positional Encoding in Transformers](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)  
