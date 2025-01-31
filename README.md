@@ -21,12 +21,20 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 0: Foundations
 **Objective:** Build essential foundations for LLM development
 
-1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing) **Linear Algebra Fundamentals for LLMs**  
+1. **Linear Algebra Fundamentals for LLMs**
 
-2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oFu5ZL0AUlxDU8xhygr-datwEnHS9JVN?usp=sharing) **Probability Foundations for LLMs**  
+  - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing)
+  
+  - Additional Resource: [Essence of Linear Algebra" series by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
+3. **Probability Foundations for LLMs**
+   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oFu5ZL0AUlxDU8xhygr-datwEnHS9JVN?usp=sharing) 
+   - Additional Resource: [An Intuitive Guide to How LLMs Work" by J. Lowin](https://www.jlowin.dev/blog/an-intuitive-guide-to-how-llms-work) 
   
 
-3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S-LwgyO_bmS135nJmJxm1ZKVlpv9Acfv?usp=sharing) **GPU Essentials for LLMs**  
+5. **GPU Essentials for LLMs**
+   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S-LwgyO_bmS135nJmJxm1ZKVlpv9Acfv?usp=sharing) 
+   - Additional Resource: [Ultimate Guide to the Best NVIDIA GPUs for Running Large Language Models" from Spheron Network](https://blog.spheron.network/ultimate-guide-to-the-best-nvidia-gpus-for-running-large-language-models)
 
 
 ---
