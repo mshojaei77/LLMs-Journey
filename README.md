@@ -21,42 +21,40 @@ This comprehensive curriculum combines theoretical understanding with practical 
 ## Module 0: Foundations
 **Objective:** Build essential foundations for LLM development
 
-1. **Linear Algebra Fundamentals for LLMs**
+- [x] **Linear Algebra Fundamentals for LLMs**
 
   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nCNL7Ro5vOPWS5yaqTMpz2B056TyjsHy?usp=sharing)
   
   - Additional Resource: [Essence of Linear Algebra" series by 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-3. **Probability Foundations for LLMs**
+- [x] **Probability Foundations for LLMs**
    - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oFu5ZL0AUlxDU8xhygr-datwEnHS9JVN?usp=sharing) 
    - Additional Resource: [An Intuitive Guide to How LLMs Work" by J. Lowin](https://www.jlowin.dev/blog/an-intuitive-guide-to-how-llms-work) 
   
 
-5. **GPU Essentials for LLMs**
+- [x] **GPU Essentials for LLMs**
    - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S-LwgyO_bmS135nJmJxm1ZKVlpv9Acfv?usp=sharing) 
    - Additional Resource: [Ultimate Guide to the Best NVIDIA GPUs for Running Large Language Models" from Spheron Network](https://blog.spheron.network/ultimate-guide-to-the-best-nvidia-gpus-for-running-large-language-models)
 
 
 ---
 
-## Module 1: Text Processing & Tokenization
-**Objective:** Master text preprocessing and embedding techniques
+## Module 1: Tokenization
+**Objective:** Master text tokenization and embedding techniques
 
-- [x] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb) **Tokenization Exploration**  
-  Compare whitespace, NLTK, SpaCy, and BPE techniques
+- [x] **Tokenization Exploration**  
+   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb) 
+   - Additional Sources: ["The Technical User's Introduction to LLM Tokenization" by Christopher Samiullah](https://christophergs.com/blog/understanding-llm-tokenization)
   
-- [x] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb) **Hugging Face Tokenizers**  
-  Prepare text data using HF tokenizers
-
-- [x] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) **Custom Tokenizer Training**  
-  Train BPE/WordPiece/Unigram tokenizers
-
-- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Embedding Visualization**  
-  Train Word2Vec/GloVe/FastText embeddings and visualize with t-SNE
-
-- [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Multilingual Pipeline**  
-  Process data in 3+ languages with comparative analysis
-
+- [x]  **Hugging Face Tokenizers**  
+   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)
+   - Additional Sources: [official Hugging Face documentation ](https://huggingface.co/docs/transformers/en/main_classes/tokenizer)
+   - 
+- [x] **Custom Tokenizer Training**  
+   - Tutorial: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) 
+   - Additional Sources: [Let's build the GPT Tokenizer video](https://www.youtube.com/watch?v=zduSFxRajkE)
+   - Paper: [Getting the most out of your tokenizer for pre-training and domain adaptation](https://arxiv.org/html/2402.01035v2)
+     
 ---
 
 ## Module 2: Core LLM Architectures
