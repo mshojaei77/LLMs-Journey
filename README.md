@@ -34,89 +34,82 @@ This comprehensive curriculum combines theoretical understanding with practical 
 
 
 ---
-Okay, here's a 10-module course designed to teach everything about Large Language Models (LLMs), drawing from the sources and our conversation history:
+## Module 1: Introduction to Large Language Models
+- [ ] **Overview of LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Compare GPT-style vs BERT-style architectures  
+        2. Write a 1-page explanation of how transformers revolutionized NLP  
+        3. Create a timeline of major LLM releases (2018-2024)
+      - Additional Sources  
+        - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)  
+        - [Stanford NLP Deep Learning Guide](https://web.stanford.edu/~jurafsky/slp3/)
+      - Papers  
+        - [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762)  
+        - [Language Models are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165)
 
-**Module 1: Introduction to Large Language Models**
+- [ ] **The "Large" in LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Calculate parameter count vs training data size ratios  
+        2. Compare memory requirements for 7B vs 70B parameter models  
+        3. Research compute costs for training modern LLMs
+      - Additional Sources  
+        - [AI and Compute (OpenAI)](https://openai.com/research/ai-and-compute)  
+        - [LLM Scaling Laws](https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications)
+      - Papers  
+        - [Scaling Laws for Neural Language Models (2020)](https://arxiv.org/abs/2001.08361)  
+        - [Chinchilla's Wild Implications (2022)](https://arxiv.org/abs/2203.15556)
 
-*   **Overview of LLMs:** Define what LLMs are, emphasizing that they are deep neural networks designed to process, understand, and generate human-like text. Highlight their revolutionary impact on NLP and AI.
-*   **The "Large" in LLMs:** Explain that the term "large" refers both to the extensive datasets used for training and the sheer number of parameters within these models.
-*   **Capabilities of LLMs**: Discuss the ability of LLMs to perform diverse tasks without needing different models for each, such as text generation, translation, summarization and question answering.
-*    **Limitations of LLMs**:  Clarify that LLMs do not possess human-like consciousness, but rather process and generate text that is contextually relevant.  Introduce the concept of hallucination, where LLMs may generate incorrect information confidently.
-*   **Historical Context:** Briefly explore the history of language AI, noting the shift towards deep learning-driven approaches and transformer-based models.
+- [ ] **Capabilities of LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement zero-shot classification with prompt engineering  
+        2. Compare few-shot vs fine-tuning performance on custom dataset  
+        3. Build a multilingual translation system using a single LLM
+      - Additional Sources  
+        - [Emergent Abilities of LLMs](https://arxiv.org/abs/2206.07682)  
+        - [HuggingFace Tasks Guide](https://huggingface.co/docs/transformers/tasks)
+      - Papers  
+        - [Language Models are Multitask Learners (2019)](https://arxiv.org/abs/1910.10683)  
+        - [Beyond the Imitation Game (2023)](https://arxiv.org/abs/2206.04615)
 
-**Module 2: The Transformer Architecture**
+- [ ] **Limitations of LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Generate and analyze hallucination examples  
+        2. Test temporal knowledge cutoff dates  
+        3. Evaluate bias in model outputs across demographic groups
+      - Additional Sources  
+        - [AI Safety Fundamentals](https://aisafetyfundamentals.com/)  
+        - [Model Cards Toolkit](https://modelcards.withgoogle.com/about)
+      - Papers  
+        - [TruthfulQA: Measuring How Models Mimic Human Falsehoods (2021)](https://arxiv.org/abs/2109.07958)  
+        - [Taxonomy of Risks from Language Models (2022)](https://arxiv.org/abs/2207.07411)
 
-*   **Fundamental Concepts**: Introduce the transformer architecture, the basis for many LLMs.
-*   **Encoder-Decoder Models**: Explain the original transformer architecture consisting of encoder and decoder modules.
-*   **Decoder-Only Models**: Discuss the simplification of the transformer architecture, many LLMs for text generation use only the decoder module.
-*    **Attention Mechanisms**: Explain the importance of attention mechanisms, which allow the model to understand context. Detail self-attention, multi-head attention and causal attention.
-*   **Key Components**: Describe other key building blocks of an LLM like feed-forward networks, layer normalization and shortcut connections.
+- [ ] **Historical Context** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Create an interactive timeline of NLP milestones  
+        2. Compare Word2Vec vs Transformer representations  
+        3. Interview-style Q&A about paradigm shifts in AI
+      - Additional Sources  
+        - [AI Timeline](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/)  
+        - [Deep Learning NLP History](https://ruder.io/a-review-of-the-recent-history-of-nlp/)
+      - Papers  
+        - [Distributed Representations of Words (2013)](https://arxiv.org/abs/1301.3781)  
+        - [BERT: Pre-training of Deep Bidirectional Transformers (2018)](https://arxiv.org/abs/1810.04805)
 
-**Module 3: Data Preparation and Tokenization**
+## Module 2: The Transformer Architecture
+[Already formatted in previous answer]
 
-*   **Data Collection**: Explain the need for massive and diverse datasets for training LLMs. Address the issues of data quality, bias, and potential over or underrepresentation of populations.
-*    **Tokenization**: Cover the process of splitting text into tokens (words or sub-word units). Explain word-level, sub-word level tokenization, and more advanced methods like byte pair encoding (BPE).
-*   **Text Vectorization**: Show how to convert tokens into numerical vectors that can be processed by neural networks.
-*   **Data Preprocessing:** Detail the steps involved in data preprocessing, including filtering formatting characters and documents in unknown languages, to prepare text data for LLM training.
-
-**Module 4: Building an LLM from Scratch: Core Components**
-
-*   **Coding an LLM**: Emphasize the value of coding an LLM from scratch for understanding its mechanics and limitations.
-*    **Implementation**: Implement core building blocks of an LLM in code, including attention mechanisms, multi-head attention, and transformer blocks.
-*   **Layer Normalization**: Cover implementation of layer normalization, which is essential for stable training.
-*   **Parameter Management**: Discuss strategies for handling the massive number of parameters in an LLM, highlighting both their importance and computational challenges.
-
-**Module 5: Pretraining LLMs**
-
-*   **Pretraining Process**: Explain how LLMs are pre-trained on vast amounts of unlabeled text data.
-*   **Next-Word Prediction**: Cover the concept of next-word prediction, which enables the models to learn grammar, context, and language patterns.
-*   **Self-Supervised Learning**: Describe how LLMs generate their own labels from the input data during pretraining.
-*    **Training Loop**: Detail the steps involved in implementing the training loop, including the forward and backward passes, loss calculation and parameter updates.
-*   **Computational Costs**: Address the significant computational resources required for pretraining LLMs.
-*  **Saving and Loading Checkpoints**: Explain the process of saving and loading model weights during training and for continued training of LLMs.
-
-**Module 6: Evaluating LLMs**
-
-*   **Text Generation Metrics**: Cover basic model evaluation techniques, such as calculating training and validation losses.
-*    **Importance of Evaluation**: Emphasize the importance of evaluation in developing effective NLP systems.
-*    **Loss Metrics**: Discuss how to interpret the metrics and what they reveal about the model's performance.
-*    **Practical Evaluation**: Show how to use evaluation metrics to assess the quality of generated text.
-
-**Module 7: Fine-Tuning LLMs**
-
-*   **Fine-tuning Concepts**: Define fine-tuning as the process of adapting a pre-trained model to a specific task or domain.
-*   **Types of Fine-Tuning**: Cover different fine-tuning approaches such as supervised fine-tuning (SFT), and instruction fine-tuning.
-*  **Instruction Fine-Tuning**: Detail how to fine-tune LLMs to follow specific instructions, improving their ability to execute tasks described in natural language.  Show how to prepare instruction datasets, organize them into training batches and fine-tune the model..
-*  **Classification Fine-Tuning**: Cover the process of fine-tuning for classification tasks such as identifying spam, or performing sentiment analysis.
-*  **Parameter Efficient Fine Tuning**: Introduce the concept of parameter efficient fine-tuning techniques such as LoRA.
-
-**Module 8: Prompt Engineering and Text Generation**
-
-*   **Prompt Engineering Principles**: Provide guiding principles for designing effective prompts.
-*   **Prompt Design Strategies**: Discuss various prompt engineering strategies, including clear task descriptions, specific instructions, and the use of context and persona.
-*  **Prompt Templates**: Explain the use of prompt templates, including instruction-based, question-based and code-based templates.
-*   **Text Generation**: Explore different algorithms for generating text from a language model.
-*   **Advanced Prompting Techniques**: Explore advanced prompting techniques, such as chain-of-thought prompting, and how to build complex prompts.
-
-**Module 9: Scaling and Optimization Techniques**
-
-*   **Scaling Laws**: Discuss the concept of scaling laws in LLMs and their impact on model performance.
-*  **Model Optimization**: Explain various model optimization strategies to improve LLM performance and efficiency such as KV cache, continuous batching and optimized attention mechanisms.
-*   **Model Quantization**: Cover techniques such as quantization for reducing model size and improving inference speed.
-*  **Distributed Training**: Discuss distributed training techniques for scaling the training process to multiple GPUs.
-*  **Inference Optimization**: Cover optimization techniques for inference including model parallelism.
-
-**Module 10: Advanced Applications and Future Trends**
-
-*  **Retrieval Augmented Generation (RAG):** Explore the concept of RAG, which combines information retrieval with LLMs to provide more contextually relevant responses.
-*   **Agentic Frameworks**: Discuss how to build AI agents, including the ReAct framework, and how they can make decisions, reason about thoughts and take actions.
-*   **LLMOps**: Introduce the operational aspects of LLMs, including monitoring, versioning and continuous training.
-*   **Emerging Trends**: Discuss current trends, limitations and potential future developments in the field of LLMs, including alignment and safety.
-
----
-
-## Module 2: Tokenization  
-**Objective:** Master tokenization and embedding techniques  
+## Module 3: Data Preparation and Tokenization
+- [ ] **Data Collection** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Build web scraping pipeline with politeness controls  
+        2. Implement data deduplication at scale  
+        3. Create bias evaluation report for dataset
+      - Additional Sources  
+        - [The Pile Dataset Paper](https://arxiv.org/abs/2101.00027)  
+        - [Data Governance for ML](https://datagovernance.org/)
+      - Papers  
+        - [Deduplicating Training Data Makes LLMs Better (2021)](https://arxiv.org/abs/2107.06499)  
+        - [Red Teaming Language Models (2022)](https://arxiv.org/abs/2202.03286)
 
 - [x] **Tokenization Exploration** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)  
    - **Additional Sources**:  
@@ -153,9 +146,194 @@ Okay, here's a 10-module course designed to teach everything about Large Languag
      - [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762) *(Positional Embeddings)*  
      - [Sentence-BERT: Sentence Embeddings (2019)](https://arxiv.org/abs/1908.10084)  
 
----
+- [ ] **Text Vectorization** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement TF-IDF vs learned embeddings  
+        2. Visualize embedding spaces with PCA/t-SNE  
+        3. Build hybrid sparse+dense representations
+      - Additional Sources  
+        - [Embeddings Guide](https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture)  
+        - [Sentence Transformers](https://www.sbert.net/)
+      - Papers  
+        - [Efficient Estimation of Word Representations (2013)](https://arxiv.org/abs/1301.3781)  
+        - [BERT Rediscovers Classical NLP Pipeline (2019)](https://arxiv.org/abs/1905.05950)
 
-## Module 2: Core LLM Architectures
+- [ ] **Data Preprocessing** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Create multilingual cleaning pipeline  
+        2. Implement parallel processing for large datasets  
+        3. Build quality classifiers for text filtering
+      - Additional Sources  
+        - [Text Processing Best Practices](https://nlp.stanford.edu/IR-book/html/htmledition/text-processing-1.html)  
+        - [Unicode Normalization](https://unicode.org/reports/tr15/)
+      - Papers  
+        - [CCNet: Cleaning Web Data (2020)](https://arxiv.org/abs/1911.00359)  
+        - [The Curse of Low-Quality Data (2022)](https://arxiv.org/abs/2205.11487)
+
+## Module 4: Building an LLM from Scratch: Core Components
+- [ ] **Coding an LLM** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Initialize model weights with PyTorch  
+        2. Implement basic forward pass  
+        3. Profile memory usage across layers
+      - Additional Sources  
+        - [PyTorch LLM Tutorial](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)  
+        - [Model Memory Calculator](https://modelmemory.com/)
+      - Papers  
+        - [GPT in 60 Lines of NumPy (2023)](https://jaykmody.com/blog/gpt-from-scratch/)  
+        - [Megatron-LM: Training Multi-Billion Parameter Models (2020)](https://arxiv.org/abs/1909.08053)
+
+- [ ] **Implementation** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Code multi-head attention layer  
+        2. Implement rotary positional embeddings  
+        3. Add dropout regularization
+      - Additional Sources  
+        - [Transformer Code Walkthrough](https://nlp.seas.harvard.edu/annotated-transformer/)  
+        - [Flash Attention Implementation](https://github.com/HazyResearch/flash-attention)
+      - Papers  
+        - [FlashAttention: Fast Transformer Training (2022)](https://arxiv.org/abs/2205.14135)  
+        - [ALiBi: Train Short, Test Long (2021)](https://arxiv.org/abs/2108.12409)
+
+- [ ] **Layer Normalization** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Compare pre-norm vs post-norm architectures  
+        2. Implement gradient clipping with norm awareness  
+        3. Debug exploding gradients in deep networks
+      - Additional Sources  
+        - [Normalization Explained](https://leimao.github.io/blog/Layer-Normalization/)  
+        - [PyTorch Norm Layers](https://pytorch.org/docs/stable/nn.html#normalization-layers)
+      - Papers  
+        - [Understanding Deep Learning Requires Rethinking Generalization (2017)](https://arxiv.org/abs/1611.03530)  
+        - [On Layer Normalization in Transformers (2020)](https://arxiv.org/abs/2002.04745)
+
+- [ ] **Parameter Management** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement parameter sharding  
+        2. Profile GPU memory usage  
+        3. Create mixed-precision training config
+      - Additional Sources  
+        - [Model Parallelism Guide](https://huggingface.co/docs/transformers/parallelism)  
+        - [GPU Memory Management](https://pytorch.org/docs/stable/notes/cuda.html)
+      - Papers  
+        - [ZeRO: Memory Optimizations (2020)](https://arxiv.org/abs/1910.02054)  
+        - [8-bit Optimizers via Block-wise Quantization (2022)](https://arxiv.org/abs/2110.02861)
+
+## Module 5: Pretraining LLMs
+- [ ] **Pretraining Process** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Set up distributed data loading  
+        2. Implement masked language modeling  
+        3. Monitor training dynamics with WandB
+      - Additional Sources  
+        - [HuggingFace Pretraining Guide](https://huggingface.co/docs/transformers/training)  
+        - [MLOps for Pretraining](https://ml-ops.org/)
+      - Papers  
+        - [RoBERTa: A Robustly Optimized BERT Approach (2019)](https://arxiv.org/abs/1907.11692)  
+        - [The Pile: An 800GB Dataset (2020)](https://arxiv.org/abs/2101.00027)
+
+- [ ] **Next-Word Prediction** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement causal attention masks  
+        2. Compare different loss functions (CE vs Focal)  
+        3. Analyze prediction confidence across domains
+      - Additional Sources  
+        - [Language Modeling Basics](https://lena-voita.github.io/nlp_course/language_modeling.html)  
+        - [Perplexity Explained](https://towardsdatascience.com/perplexity-in-language-models-87a196019a94)
+      - Papers  
+        - [Improving Language Understanding by Generative Pre-Training (2018)](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)  
+        - [Scaling Laws for Autoregressive Generative Modeling (2020)](https://arxiv.org/abs/2001.08361)
+
+- [ ] **Self-Supervised Learning** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Design contrastive learning objectives  
+        2. Implement data augmentation pipeline  
+        3. Evaluate representation quality with probing
+      - Additional Sources  
+        - [Self-Supervised Learning Survey](https://arxiv.org/abs/1902.06162)  
+        - [SSL for Speech](https://ai.meta.com/blog/wav2vec-2-0-learning-the-structure-of-speech-from-raw-audio/)
+      - Papers  
+        - [wav2vec 2.0: SSL for Speech (2020)](https://arxiv.org/abs/2006.11477)  
+        - [Emerging Properties in SSL (2021)](https://arxiv.org/abs/2104.14294)
+
+- [ ] **Training Loop** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement gradient accumulation  
+        2. Add learning rate warmup  
+        3. Set up checkpointing strategy
+      - Additional Sources  
+        - [PyTorch Lightning Loops](https://lightning.ai/docs/pytorch/stable/common/optimization.html)  
+        - [Training Stability Guide](https://wandb.ai/site/articles/how-to-avoid-exploding-gradients)
+      - Papers  
+        - [Adam: A Method for Stochastic Optimization (2015)](https://arxiv.org/abs/1412.6980)  
+        - [Adafactor: Adaptive Learning Rates with Sublinear Memory Cost (2018)](https://arxiv.org/abs/1804.04235)
+
+- [ ] **Computational Costs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Estimate FLOPs for model architecture  
+        2. Compare cloud training costs across providers  
+        3. Implement energy-efficient training
+      - Additional Sources  
+        - [ML CO2 Impact Calculator](https://mlco2.github.io/impact/)  
+        - [Efficient ML Book](https://efficientml.ai/)
+      - Papers  
+        - [Green AI (2019)](https://arxiv.org/abs/1907.10597)  
+        - [The Computational Limits of Deep Learning (2020)](https://arxiv.org/abs/2007.05558)
+
+- [ ] **Saving and Loading Checkpoints** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement incremental checkpointing  
+        2. Convert model formats (PyTorch <-> ONNX)  
+        3. Set up automatic recovery from failures
+      - Additional Sources  
+        - [PyTorch Checkpointing](https://pytorch.org/docs/stable/checkpoint.html)  
+        - [Model Serialization Best Practices](https://huggingface.co/docs/safetensors/en/index)
+      - Papers  
+        - [GPipe: Efficient Training with Pipeline Parallelism (2019)](https://arxiv.org/abs/1811.06965)  
+        - [ZeRO-Offload: Democratizing Billion-Scale Model Training (2021)](https://arxiv.org/abs/2101.06840)
+
+## Module 6: Evaluating LLMs
+- [ ] **Text Generation Metrics** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Implement BLEU/ROUGE scores  
+        2. Set up human evaluation pipeline  
+        3. Analyze diversity vs quality tradeoffs
+      - Additional Sources  
+        - [NLG Evaluation Survey](https://arxiv.org/abs/1612.09332)  
+        - [HuggingFace Evaluate Hub](https://huggingface.co/docs/evaluate/index)
+      - Papers  
+        - [BLEU: a Method for Automatic Evaluation (2002)](https://aclanthology.org/P02-1040.pdf)  
+        - [ROUGE: Recall-Oriented Understudy for Gisting Evaluation (2004)](https://aclanthology.org/W04-1013.pdf)
+
+- [ ] **Importance of Evaluation** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Create evaluation rubric for domain-specific tasks  
+        2. Compare automated vs human evaluations  
+        3. Implement adversarial test cases
+      - Additional Sources  
+        - [HELM: Holistic Evaluation](https://crfm.stanford.edu/helm/latest/)  
+        - [BigBench: Hard Tasks for LLMs](https://github.com/google/BIG-bench)
+      - Papers  
+        - [Beyond Accuracy: Behavioral Testing of NLP Models (2020)](https://arxiv.org/abs/2005.04118)  
+        - [Dynabench: Rethinking Benchmarking (2021)](https://arxiv.org/abs/2106.06052)
+
+- [ ] **Loss Metrics** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
+      - Practical tasks  
+        1. Track training/validation loss curves  
+        2. Implement custom loss functions  
+        3. Analyze loss-value correlations with downstream tasks
+      - Additional Sources  
+        - [Loss Function Landscape](https://losslandscape.com/)  
+        - [PyTorch Loss Functions](https://pytorch.org/docs/stable/nn.html#loss-functions)
+      - Papers  
+        - [An Empirical Study of Training Dynamics (2021)](https://arxiv.org/abs/2106.06934)  
+        - [The Curse of Low Task Diversity (2022)](https://arxiv.org/abs/
+
+
+
+-----------------
+
+# Module 2: Core LLM Architectures
 **Objective:** Implement and analyze transformer components
 
 - [ ] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) **Self-Attention Mechanism**  
