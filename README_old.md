@@ -1,290 +1,90 @@
-# Large Language Models (LLMs) with Modern NLP 
+# Practical Tasks to Learn LLMs from Scratch
+
+Large language models (LLMs) are revolutionizing the field of artificial intelligence, enabling remarkable advancements in natural language processing and beyond. This guide outlines a comprehensive, hands-on learning path for anyone interested in diving deep into the world of LLMs, from foundational concepts to cutting-edge techniques.
+
+**This journey is structured into modules, each focusing on a specific aspect of LLMs, and includes practical tasks designed to solidify your understanding through implementation and experimentation.**
+
+## Module I: Working with Text Data
+
+- [x] **Tokenization Exploration:** Learn about tokenization in Natural Language Processing (NLP) and explore various tokenization techniques including whitespace, NLTK, SpaCy and Byte Pair Encoding. [**Open In Colab**](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb)
+- [x] **Hugging Face tokenizers:** Demonstrate how to use Hugging Face tokenizers to prepare text data for NLP models. [**Open In Colab**](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb)
+- [x] **Training a new tokenizer from an old one:**  [Open In Colab](https://colab.research.google.com/drive/1452WFn66MZzYylTNcL6hV5Zd45sskzs7?usp=sharing)
+- [x] **Custom Tokenizer Training:** Train custom tokenizers on custom text dataset with three different tokenizer models (BPE, WordPiece, and Unigram) [**Open In Colab**](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing)
+- [x] **Tokenization in Large Language Models:** Build a Byte Pair Encoding (BPE) tokenizer from scratch, similar to the one used in OpenAI's GPT models base on Andrej Karpathy's [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE) video.  [**Open In Colab**](https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing)
+- [ ] **N-gram Language Model Implementation:** Build a bigram language model using a text dataset (e.g., Project Gutenberg). Use the model to generate a short text sequence.
+- [ ] **Word Embedding Training and Visualization:** Train word embeddings using Word2Vec, GloVe, and FastText on a text corpus (e.g., Wikipedia). Visualize the embeddings using t-SNE and explore word similarities and analogies.
+- [ ] **Pre-trained Embedding Exploration:** Explore the properties of pre-trained word embeddings (e.g., GloVe) by performing word similarity and analogy tasks.
+- [ ] **Neural Language Model Implementation:** Implement a simple neural language model using an RNN in PyTorch. Train it on a text dataset and evaluate its perplexity.
+- [ ] **Masked Language Model Training:** Implement a masked language model training loop in PyTorch using a transformer encoder.
+
+## Module II: LLM Architectures
+
+- [ ] **Self-Attention Implementation:** Implement a basic self-attention mechanism in PyTorch. Visualize the attention weights to understand how the model attends to different parts of the input sequence.
+- [ ] **Multi-Head Attention Comparison:** Implement multi-head attention and compare its performance with single-head attention on a sequence-to-sequence task (e.g., machine translation).
+- [ ] **Transformer Encoder Implementation:** Implement a transformer encoder with positional encoding and feed-forward networks in PyTorch. Analyze the output representations.
+- [ ] **Layer Normalization Experiment:** Explore different layer normalization techniques (LayerNorm, RMSNorm) in a transformer model. Compare their impact on training stability and performance.
+
+## Module V: Pre-training Large Language Models
+- [ ] **Data Collection:** Identify Data Sources, Gather Data, Ensure Data Diversity
+- [ ] **Data Preprocessing:** Clean Data, Normalize Text, Tokenization
+- [ ] **Simple Language Model Pre-training:** Pre-train a small language model on a text dataset (e.g., a subset of Wikipedia) using PyTorch. Evaluate its performance using perplexity.
+- [ ] **Hyperparameter Optimization for Pre-training:** Experiment with different hyperparameters (learning rate, batch size) to optimize the pre-training performance of a small language model.
+- [ ] **FLOPS Analysis:** Analyze the FLOPS (floating-point operations per second) of different pre-trained language models and compare their computational costs.
+
+## Module VI: Fine-tuning LLMs 
+
+- [ ] **GPT Fine-tuning for Text Generation:** Fine-tune a pre-trained GPT model for text generation using Hugging Face Transformers. Generate different text formats (e.g., stories, poems) using the fine-tuned model.
+- [ ] **BERT Fine-tuning for Text Classification:** Fine-tune a pre-trained BERT model for text classification (e.g., sentiment analysis) using Hugging Face Transformers. Evaluate its performance on a benchmark dataset.
+- [ ] **T5 Fine-tuning for Summarization:** Fine-tune a pre-trained T5 model for text summarization using Hugging Face Transformers. Evaluate the quality of the generated summaries using ROUGE scores.
+- [ ] **Hugging Face Model Hub Exploration:** Explore and experiment with different pre-trained models from the Hugging Face Model Hub for tasks like question answering and translation.
+- [ ] **LLM Fine-tuning for Text Classification:** Fine-tune a pre-trained LLM for text classification (e.g., topic classification) using a labeled dataset. Evaluate its performance using accuracy, precision, recall, and F1-score.
+- [ ] **IMDB Movie Review Fine-tuning:** Fine-tune different pre-trained LLMs on the IMDB movie reviews dataset for sentiment analysis. Compare their performance and analyze the results.
+- [ ] **Data Imbalance Handling:** Implement techniques for handling data imbalance (oversampling, undersampling) during fine-tuning of an LLM for a classification task with an imbalanced dataset.
+- [ ] **Instruction Fine-tuning:** Fine-tune an LLM using an instruction dataset (e.g., Alpaca) and evaluate its performance on following instructions using appropriate metrics.
+- [ ] **LoRA Implementation:** Implement LoRA for fine-tuning a pre-trained LLM on a downstream task. Compare its performance and efficiency with standard fine-tuning.
+- [ ] **PEFT Techniques Comparison:** Implement and compare different PEFT techniques (LoRA, Adapters) on a specific task. Analyze their impact on memory footprint, training time, and performance.
+- [ ] **Preference Dataset Creation:** Build a simple preference dataset for evaluating LLM outputs on a specific task (e.g., summarization). Collect human preferences for different model outputs.
+
+## Module VIII: Optimizing LLM Training
+
+- [ ] **Initialization and Optimizer Experiment:** Experiment with different initialization techniques (e.g., Xavier, Kaiming) and optimizers (Adam, AdamW) for training a small LLM. Analyze their impact on convergence speed and performance.
+- [ ] **Learning Rate Scheduler Comparison:** Implement and compare different learning rate schedulers (cosine annealing, step decay) during LLM training. Analyze their impact on model performance.
+- [ ] **Gradient Clipping and Accumulation Implementation:** Implement gradient clipping and accumulation in PyTorch during LLM training. Observe their effect on training stability and memory usage.
+- [ ] **Mixed Precision Training with AMP:** Implement mixed precision training using PyTorch's automatic mixed precision (AMP) feature. Measure the speedup compared to full precision training.
+- [ ] **Distributed Training with DDP:** Implement distributed training for a small LLM using PyTorch DDP (DistributedDataParallel) across multiple GPUs. Analyze the speedup and scaling efficiency.
+- [ ] **Batch Size Experiment:** Experiment with different batch sizes during LLM training. Observe their impact on training time, memory usage, and model performance.
+
+## Module IX: LLM Inference and Optimization
+
+- [ ] **KV-Cache Implementation:** Implement KV-Cache for faster inference with a pre-trained LLM. Measure the speedup achieved by caching key-value pairs.
+- [ ] **Model Quantization:** Implement model quantization using post-training quantization and quantization-aware training. Compare the quantized model's size, memory footprint, and performance with the original model.
+- [ ] **Knowledge Distillation:** Implement knowledge distillation to train a smaller LLM from a larger pre-trained LLM. Evaluate the performance of the distilled model.
+- [ ] **Model Pruning:** Implement model pruning using magnitude-based pruning or movement pruning. Analyze the impact on model size, inference speed, and performance.
+
+## Module X: Deploying LLMs
+
+- [ ] **Local LLM Deployment:** Deploy a pre-trained LLM on a local server using Flask or FastAPI. Create a simple interface to interact with the model.
+- [ ] **Serverless LLM Deployment:** Deploy a pre-trained LLM as a serverless function using AWS Lambda or Google Cloud Functions. Create an API endpoint to access the model.
+- [ ] **Performance Monitoring:** Implement a system for monitoring LLM performance in a simulated production environment. Track metrics like latency, throughput, and error rate.
+- [ ] **Input Sanitization:** Implement input sanitization techniques to prevent prompt injection attacks on a deployed LLM.
+- [ ] **Output Monitoring:** Implement output monitoring techniques to detect potentially harmful or inappropriate outputs from a deployed LLM.
+
+
+## Module XI: Applications
+
+- [ ] **Chatbot Development:** Build a simple chatbot using a pre-trained LLM and a web framework like Gradio or Streamlit.
+- [ ] **Code Generation Assistant:** Implement a code generation assistant that can generate code snippets (e.g., Python, JavaScript) based on natural language descriptions.
+- [ ] **Text Summarization Engine:** Build a text summarization engine using a pre-trained LLM. Evaluate the quality of the generated summaries using ROUGE scores.
+- [ ] **Sentiment Analysis Implementation:** Implement a sentiment analysis system using both lexicon-based and machine learning approaches. Compare their performance on a sentiment analysis dataset.
+- [ ] **Named Entity Recognition with NLTK/spaCy:** Implement a named entity recognition system using NLTK or spaCy. Evaluate its performance on a named entity recognition dataset.
+- [ ] **Topic Modeling with LDA/NMF:** Implement a topic modeling system using LDA or NMF. Analyze the discovered topics from a collection of documents.
+- [ ] **Text-to-Image Generation:** Implement a text-to-image generation system using a pre-trained diffusion model (e.g., Stable Diffusion). Generate images from various text prompts.
+- [ ] **Video Understanding with Captions:** Implement a video understanding system that can generate captions or summaries for short videos using a pre-trained multimodal LLM.
+
+## Module XII: Advanced Topics and Future Directions
+
+- [ ] **CI/CD Pipeline for LLM Deployment:** Implement a CI/CD pipeline for automating the building, testing, and deployment of an LLM to a cloud platform (e.g., AWS, GCP).
+- [ ] **Experiment Tracking System:** Implement a system for tracking and managing LLM experiments using tools like MLflow or Weights & Biases.
+- [ ] **Capstone Project:** Build and deploy a real-world LLM application that addresses a specific problem or task. This could be anything from a specialized chatbot to a code generation tool tailored for a specific programming language.
 
-This repository provides a comprehensive guide for learning Natural Language Processing (NLP) from the ground up, progressing to the understanding and application of Large Language Models (LLMs). It focuses on practical skills needed for NLP and LLM-related roles in 2024 and beyond. We'll leverage Jupyter Notebooks for hands-on practice.
- 
-# Foundations of NLP
 
-#### Tokenization:
-Breaking down text into smaller, meaningful units called tokens.
-| Topic | Materials |
-|--|--|
-| Introduction to Tokenization, Byte Pair Encoding (BPE) | <a target="_blank" href="https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Hugging Face Tokenizers | <a target="_blank" href="https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Train a Tokenizer with Hugging Face Tokenizers | <a target="_blank" href="https://colab.research.google.com/drive/1tPIPqKL_pUrxTst-7X59-EyXVCK-z6Rm?usp=sharing"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-
-<sub>Sources: [Hugging Face Tokenizers Documentation](https://huggingface.co/docs/tokenizers/index), [ Everything About Tokenization](https://github.com/SumanthRH/tokenization), [Andrej Karpathy: Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE&t=1158s) </sub>
-
-#### Stemming and Lemmatization:
-* **Stemming:** Reducing words to their base or root form (e.g., "running" becomes "run"). This method simplifies the text but may not always yield valid words.
-* **Lemmatization:** Converting words to their base form using vocabulary analysis (e.g., "better" becomes "good"). Unlike stemming, lemmatization ensures that the resulting words are valid and contextually appropriate.
- 
-* <sub>Sources:  [Tokenization, Lemmatization, Stemming, and Sentence Segmentation](https://colab.research.google.com/drive/18ZnEnXKLQkkJoBXMZR2rspkWSm9EiDuZ), [Stanford: Stemming and lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html),[NLTK Stemming and Lemmatization Documentation](https://www.nltk.org/howto/stem.html)</sub>
-
-#### Stop Word Removal
-Eliminating common words that carry less meaning (e.g., "the", "a", "is") to reduce noise in the data.
-
-<sub>Sources: [NLTK Stop Words Documentation](https://www.nltk.org/book/ch02.html#stop-words-corpus)</sub>
-
-
-#### Punctuation Handling:
-Standardizing or removing punctuation to ensure consistency in the text data.
-  
-#### Normalization:
-Converting text to a standard format, such as lowercasing, removing extra spaces, and correcting misspellings, to improve the quality of the data.
-
-#### Text Augmentation:
-Techniques such as synonym replacement, random insertion, or back-translation to artificially expand the training dataset and improve model robustness.
-
-## 1.3 Feature Engineering
-
-* **Bag-of-Words (BoW):** Representing text as a collection of word frequencies.
-* **TF-IDF:** A statistical measure that reflects how important a word is to a document in a collection.
-* **N-grams:** Sequences of N consecutive words or characters.
-
-<sub>Sources: [Introduction to the Bag-of-Words (BoW) Model - PyImageSearch](https://pyimagesearch.com/2022/07/04/introduction-to-the-bag-of-words-bow-model/), [A Quick Introduction to Bag of Words and TF-IDF](https://dataknowsall.com/blog/bowtfidf.html), [N-grams Made Simple & How To Implement In Python (NLTK) - Spot Intelligence](https://spotintelligence.com/n-grams-made-simple-how-to-implement-in-python-nltk/), [NLP Basics: Tokens, N-Grams, and Bag-of-Words Models - Zilliz blog](https://zilliz.com/learn/introduction-to-natural-language-processing-tokens-ngrams-bag-of-words-models), [Scikit-learn: Text Feature Extraction](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)</sub>
-
-## 1.4 Word Embeddings
-
-* **Word2Vec:** Learns vector representations of words based on their co-occurrence patterns in text.
-* **GloVe:** Learns global vector representations of words by factoring a word-context co-occurrence matrix.
-* **FastText:** An extension of Word2Vec that considers subword information, improving representations for rare words.
-* **Contextual Embeddings:**
-    * **ELMo:** Learns contextualized word representations by considering the entire sentence.
-    * **BERT:** Uses a bidirectional transformer to generate deep contextualized word embeddings.
-
-<sub>Sources: [Jay Alammar - Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/), [Stanford NLP: N-gram Language Models](https://nlp.stanford.edu/fsnlp/lm.html), [Gensim Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html), [Stanford GloVe](https://nlp.stanford.edu/projects/glove/)</sub>
-
-# Chapter 2: Essential NLP Tasks
-
-## 2.1 Text Classification
-
-* **What is Text Classification?**
-* **Traditional Methods:**
-    * Naive Bayes
-    * SVM
-    * Logistic Regression
-* **Deep Learning Methods:**
-    * Recurrent Neural Networks (RNNs)
-    * Convolutional Neural Networks (CNNs)
-    * Transformers
-
-<sub>Sources: [Scikit-learn Text Classification](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html), [Hugging Face Text Classification](https://huggingface.co/docs/transformers/tasks/sequence_classification), [FastText](https://github.com/facebookresearch/fastText)</sub>
-
-
-## 2.2 Sentiment Analysis
-
-* **What is Sentiment Analysis?**
-* **Lexicon-Based Approach:** Analyzing text for positive and negative words.
-* **Machine Learning Approach:** Training models on labeled data to predict sentiment.
-* **Aspect-Based Sentiment Analysis:** Identifying sentiment towards specific aspects of an entity.
-
-<sub>Sources: [NLTK Sentiment Analysis](https://www.nltk.org/howto/sentiment.html), [TextBlob Sentiment Analysis](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis), [VADER Sentiment Analysis](https://github.com/cjhutto/vaderSentiment)</sub>
-
-
-## 2.3 Named Entity Recognition (NER)
-
-* **What is NER?**
-* **Rule-Based Systems:** Using patterns and rules to identify entities.
-* **Machine Learning-Based Systems:** Training models to recognize entities.
-* **Popular Tools:** NLTK, spaCy, Transformers
-
-<sub>Sources: [Hugging Face NER](https://huggingface.co/docs/transformers/tasks/token-classification), [NLTK NER](https://www.nltk.org/book/ch07.html), [spaCy NER](https://spacy.io/usage/linguistic-features#named-entities), [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE)</sub>
-
-
-## 2.4 Topic Modeling
-
-* **What is Topic Modeling?**
-* **Latent Dirichlet Allocation (LDA):** A probabilistic model for discovering latent topics in a collection of documents.
-* **Non-Negative Matrix Factorization (NMF):** A linear algebra technique for topic modeling.
-
-<sub>Sources: [Gensim Topic Modeling](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), [Scikit-learn NMF](https://scikit-learn.org/stable/modules/decomposition.html#non-negative-matrix-factorization-nmf-or-nnmf), [BigARTM](https://github.com/bigartm/bigartm)</sub>
-
-# Chapter 3: Deep Learning for NLP
-
-## 3.1 Neural Network Fundamentals
-
-* **Neural Network Basics:**
-    * Architecture of a neural network (layers, neurons, weights, biases).
-    * Activation functions (sigmoid, ReLU, tanh).
-* **Backpropagation:** The algorithm for training neural networks.
-* **Gradient Descent:** Optimizing the weights of a neural network.
-* **Vanishing Gradients:** Challenges in training deep neural networks for NLP.
-* **Exploding Gradients:** Challenges in training deep neural networks for NLP.
-
-<sub>Sources: [3Blue1Brown - Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk), [freeCodeCamp - Deep Learning Crash Course](https://www.youtube.com/watch?v=VyWAvY2CF9c)</sub>
-
-## 3.2 Deep Learning Frameworks
-
-* **PyTorch:**
-* **TensorFlow:**
-* **JAX:**
-* **Considerations for Choosing a Framework:**
-    * Ease of use
-    * Community Support
-    * Computational efficiency
-
-<sub>Sources: [PyTorch Tutorials](https://pytorch.org/tutorials/), [TensorFlow Tutorials](https://www.tensorflow.org/tutorials), [JAX Documentation](https://jax.readthedocs.io/en/latest/)</sub>
-
-## 3.3 Deep Learning Architectures for NLP
-
-* **Recurrent Neural Networks (RNNs):**
-    * Suitable for sequential data like text.
-    * Types: LSTMs, GRUs.
-* **Attention Mechanism:** Allows the network to focus on specific parts of the input sequence.
-* **Convolutional Neural Networks (CNNs) for Text:**
-    * Can capture local patterns in text.
-    * Used for text classification and other tasks.
-* **Sequence-to-Sequence Models:**
-    * Used for tasks like machine translation and text summarization.
-    * Encoder-decoder architecture.
-* **Transformers:** The dominant architecture for sequence-to-sequence tasks, based on attention mechanisms.
-
-<sub>Sources: [colah's blog: Understanding LSTMs](https://colah.github.io/posts/2015-08-Understanding-LSTMs/), [Andrej Karpathy: The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/), [Jay Alammar: The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), [Google AI Blog: Transformer Networks](https://ai.googleblog.com/2017/08/transformer-networks-state-of-art.html)</sub>
-
-# Chapter 4: Large Language Models (LLMs)
-
-## 4.1 The Transformer Architecture
-
-* **Attention Mechanism:**
-    * Self-attention
-    * Multi-head attention.
-    * **Scaled Dot-Product Attention:** The core attention mechanism used in Transformers.
-* **Residual Connections:** Help train very deep networks.
-* **Layer Normalization:** Improves training stability.
-* **Positional Encodings:** Encoding the order of words in a sequence.
-
-<sub>Sources: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)</sub>
-
-## 4.2 LLM Architectures
-
-* **Generative Pre-trained Transformer Models (GPT):** Autoregressive models, good at text generation.
-* **Bidirectional Encoder Representations from Transformers (BERT):** Bidirectional models, excel at understanding context.
-* **T5 (Text-to-Text Transfer Transformer):** A unified framework that treats all NLP tasks as text-to-text problems.
-* **BART (Bidirectional and Auto-Regressive Transformers):** Combines the strengths of BERT and GPT for both understanding and generation.
-
-<sub>Sources: [LLMDataHub](https://github.com/Zjh-819/LLMDataHub)</sub>
-
-## 4.3 LLM Training
-
-* **Pre-training:**
-    * **Masked Language Modeling (MLM):** Predicting masked words in a sentence (used in BERT).
-    * **Causal Language Modeling (CLM):** Predicting the next word in a sequence (used in GPT).
-* **Post-training:**
-    * **Domain Adaptation:** Adapting a pre-trained LLM to a specific domain or industry.
-    * **Task-Specific Fine-Tuning:** Fine-tuning a pre-trained LLM on a specific downstream task with labeled data.
-* **Fine-tuning:**
-    * **Supervised Fine-Tuning (SFT):** Training on labeled data for a specific task.
-* **Adapting LLMs:**
-    * **Parameter-Efficient Fine-Tuning (PEFT):** Updating only a small subset of model parameters to reduce computational cost. Methods include:
-        * **LoRA (Low-Rank Adaptation)**
-        * **Adapters**
-    * **Reinforcement Learning from Human Feedback (RLHF):** Using human feedback to train reward models and improve LLM alignment with human preferences.
-
-<sub>Sources: [Fine-Tune Your Own Llama 2 Model](https://mlabonne.github.io/blog/posts/Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.html), [Hugging Face: Parameter-Efficient Fine-Tuning](https://huggingface.co/blog/peft), [LoRA Insights](https://lightning.ai/pages/community/lora-insights/), [Distilabel](https://github.com/argilla-io/distilabel), [An Introduction to Training LLMs using RLHF](https://wandb.ai/ayush-thakur/Intro-RLAIF/reports/An-Introduction-to-Training-LLMs-Using-Reinforcement-Learning-From-Human-Feedback-RLHF---VmlldzozMzYyNjcy)</sub>
-
-## 4.4 LLM Evaluation
-
-* **Evaluation Benchmarks:**
-* **Evaluation Metrics:**
-* **Prompt Engineering:**
-    * **Zero-Shot Prompting:** Getting the model to perform a task without any task-specific training examples.
-    * **Few-Shot Prompting:** Providing a few examples in the prompt to guide the model.
-    * **Chain-of-Thought Prompting:** Encouraging the model to break down reasoning into steps.
-    * **ReAct (Reason + Act):** Combining reasoning and action in prompts.
-
-<sub>Sources: [Prompt Engineering Guide](https://www.promptingguide.ai/), [Lilian Weng: Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/), [Chain-of-Thoughts Papers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers)</sub>
-
-## 4.5 LLM Deployment
-
-* **Deployment Strategies:**
-    * **Local Servers:** Deploying LLMs on local machines for development and testing.
-    * **Cloud Deployment:** Using cloud platforms like AWS, GCP, and Azure for scalable LLM deployment.
-    * **Serverless Functions:** Deploying LLM inference as serverless functions for cost-effectiveness.
-    * **Edge Deployment:** Running LLMs on edge devices like smartphones and IoT devices.
-
-<sub>Sources: [LM Studio](https://lmstudio.ai/), [Ollama](https://ollama.ai/), [SkyPilot](https://github.com/skypilot-org/skypilot), [Hugging Face Inference API](https://huggingface.co/inference-api)</sub>
-
-# Chapter 5: Multimodal Learning
-
-## 5.1 Multimodal LLMs
-
-* **Learning from Multiple Modalities:** LLMs that can process and generate both text and other modalities, such as images, videos, and audio.
-* **CLIP (Contrastive Language-Image Pretraining):** A model that learns joint representations of text and images.
-* **ViT (Vision Transformer):** Applying the Transformer architecture to image data.
-* **Other Multimodal Models:** Explore other architectures like LLaVA, MiniCPM-V, and GPT-SoVITS.
-
-<sub>Sources: [OpenAI CLIP](https://openai.com/research/clip), [Google AI Blog: ViT](https://ai.googleblog.com/2020/10/an-image-is-worth-16x16-words.html)</sub>
-
-## 5.2 Vision-Language Tasks
-
-* **Image Captioning:** Generating descriptions for images.
-* **Visual Question Answering (VQA):** Answering questions about images.
-* **Visual Reasoning:** Performing logical reasoning based on visual input.
-
-<sub>Sources: [Hugging Face: Vision-Language Tasks](https://huggingface.co/docs/transformers/tasks/vision-language-modeling)</sub>
-
-## 5.3 Multimodal Applications
-
-* **Text-to-Image Generation:** Generating images from text descriptions.
-* **Video Understanding:** Analyzing and understanding video content.
-* **Emerging Trends:**
-    * **Neuro-Symbolic AI:** Combining neural networks with symbolic reasoning.
-    * **LLMs for Robotics:** Using LLMs to control and interact with robots.
-
-<sub>Sources: [Stability AI: Stable Diffusion](https://stability.ai/stable-image), [OpenAI DALL-E 2](https://openai.com/dall-e-2), [Hugging Face: Video Understanding](https://huggingface.co/docs/transformers/tasks/video-classification)</sub>
-
-# Chapter 6: Deployment and Productionizing LLMs
-
-## 6.1 Deployment Strategies
-
-* **Local Servers:** Deploying LLMs on local machines for development and testing.
-* **Cloud Deployment:** Using cloud platforms like AWS, GCP, and Azure for scalable LLM deployment.
-* **Serverless Functions:** Deploying LLM inference as serverless functions for cost-effectiveness.
-* **Edge Deployment:** Running LLMs on edge devices like smartphones and IoT devices.
-
-<sub>Sources: [LM Studio](https://lmstudio.ai/), [Ollama](https://ollama.ai/), [SkyPilot](https://github.com/skypilot-org/skypilot), [Hugging Face Inference API](https://huggingface.co/inference-api)</sub>
-
-## 6.2 Inference Optimization
-
-* **Quantization:** Reducing the precision of model weights and activations to reduce memory footprint and speed up inference.
-* **Flash Attention:** Optimizing the attention mechanism for faster and more efficient computation.
-* **Knowledge Distillation:** Training smaller student models to mimic the behavior of larger teacher models.
-* **Pruning:** Removing less important connections in the neural network.
-* **Speculative Decoding:** Predicting future tokens during inference to speed up generation.
-
-<sub>Sources: [Introduction to Quantization](https://mlabonne.github.io/blog/posts/Introduction_to_Weight_Quantization.html), [Flash-Attention](https://github.com/Dao-AILab/flash-attention)</sub>
-
-## 6.3 Building with LLMs
-
-* **APIs:** Using pre-trained LLMs through APIs provided by OpenAI, Google, and others.
-* **Web Frameworks:** Creating web applications that interact with LLMs using frameworks like Gradio and Streamlit.
-* **User Interfaces:** Building graphical user interfaces for LLM applications.
-* **Chatbots:** Building conversational interfaces powered by LLMs.
-
-<sub>Sources: [OpenAI API](https://platform.openai.com/), [Google AI Platform](https://cloud.google.com/ai-platform/), [Gradio](https://www.gradio.app/), [Streamlit](https://docs.streamlit.io/)</sub>
-
-## 6.4 MLOps for LLMs
-
-* **CI/CD:** Continuous integration and continuous delivery pipelines for LLM development.
-* **Monitoring:** Tracking LLM performance and detecting issues in production.
-* **Model Management:** Managing different versions of LLM models and their deployments.
-* **Experiment Tracking:** Tracking experiments, hyperparameters, and results during LLM development.
-* **Data and Model Pipelines:** Building pipelines for data preprocessing, training, and deployment.
-
-<sub>Sources: [CometLLM](https://github.com/comet-ml/comet-llm), [MLflow](https://mlflow.org/)</sub>
-
-## 6.5 LLM Security
-
-* **Prompt Hacking:** Techniques to manipulate LLM behavior through malicious prompts.
-    * **Prompt Injection**
-    * **Prompt Leaking**
-    * **Jailbreaking**
-* **Backdoors:** Introducing vulnerabilities in LLMs during training. Methods include:
-    * **Data Poisoning**
-    * **Trigger Backdoors**
-* **Defensive Measures:** Protecting LLMs from attacks and ensuring responsible use. Methods include:
-    * **Red Teaming**
-    * **Input Sanitization**
-    * **Output Monitoring**
-
-<sub>Sources: [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/), [Prompt Injection Primer](https://github.com/jthack/PIPE)</sub>
