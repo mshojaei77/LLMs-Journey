@@ -9,6 +9,7 @@ Large Language Models (LLMs) are built upon the principles of machine learning, 
 Linear algebra provides the mathematical framework for representing and manipulating data, especially in machine learning where data is often structured as vectors and matrices.
 
 ### 1.1 Vectors and Matrices
+![image](https://github.com/user-attachments/assets/9752cd0b-4dca-4106-9d63-c8357e0cab6d)
 
 *   **Vectors:** Think of a vector as a list of numbers. In machine learning, vectors often represent features of data points. For example, a word embedding is represented as a vector.
     *   **Basic Operations:**
