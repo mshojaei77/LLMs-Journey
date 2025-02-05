@@ -89,5 +89,3 @@ Probability theory provides the framework for modeling and reasoning about uncer
 ## Conclusion
 
 This chapter provided a foundational overview of Linear Algebra, Calculus, and Probability Theory.  These mathematical tools are essential for understanding the concepts and algorithms behind Large Language Models. While this introduction is brief, it should equip you with the necessary background to delve deeper into the technical aspects of LLMs and machine learning in the subsequent chapters and labs.  We encourage you to revisit these concepts and explore them in more detail as you progress through the course.  Further study in these areas will significantly enhance your understanding and ability to work with LLMs.
-
-[**Next Chapter: Natural Language Processing: Theoretical and Algorithmic Underpinnings**](M1_S2_Ch1_NLP_Intro.md)
