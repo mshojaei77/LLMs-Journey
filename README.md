@@ -51,20 +51,48 @@ This course provides a comprehensive guide to Large Language Models (LLMs), cove
   - **Additional Resource**: [Ultimate Guide to the Best NVIDIA GPUs for Running Large Language Models" from Spheron Network](https://blog.spheron.network/ultimate-guide-to-the-best-nvidia-gpus-for-running-large-language-models)
 
 ---
-Here's an enhanced version of the module description, incorporating insights from the provided sources:
-
 ## Module 1: Introduction to Large Language Models
 
-**Objective:** Gain a rapid understanding of what LLMs are, their practical uses, and critical limitations through hands-on experience. This module will provide a foundational understanding of LLMs, their underlying architecture, and their capabilities, while also emphasizing responsible use.
+**Objective:** Gain a rapid understanding of what LLMs are. This module will provide a foundational understanding of LLMs.
 
-- [ ] **Understanding LLMs** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19k6DRX3h2_s1J7VwQl3fJKx-q5jrd7a_?usp=sharing)
-    -   **Description:** LLMs are transformer-based models leveraging attention and next token prediction from massive text datasets to achieve in-context learning and perform new tasks based on prompts, with performance scaling with model and data size.
+- [x] **LLMs Demystified: What are Large Language Models?** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19k6DRX3h2_s1J7VwQl3fJKx-q5jrd7a_?usp=sharing)
+    -   **Description:** This notebook provides an overview of Large Language Models, explaining their basic concepts and capabilities in an accessible way for beginners.
     -   **Additional Sources:**
-        *   [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Focus on the *concept* of Transformers and "attention"). This resource provides a visual and simplified explanation of the Transformer architecture, which is fundamental to understanding LLMs.
-    -   **Papers:**
-        *   [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762) (Abstract & Intro - understand why "Attention" was key). This paper is crucial for understanding the origins of the transformer architecture and the importance of the attention mechanism.
-        *   [Language Models are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165) (Skim - focus on the idea of few-shot learning). This paper introduces the concept of in-context learning and demonstrates the few-shot capabilities of large language models.
+        *   [Intro to Large Language Models(Andrej Karpathy)](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+    -   **Arxiv Paper:**
+        *   [A Survey of Large Language Models - Zhao et al. (2023)](https://arxiv.org/abs/2303.18223)
 
+- [x] **Predicting the Next Word: Building a Bigram Language Model** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)
+    -   **Description:**  Learn the simplest form of language modeling: predicting the next word based on just the previous word using counts and probabilities.
+    -   **Additional Sources:**
+        *   [Language Modeling - Stanford NLP Course (Lecture 3)](https://web.stanford.edu/class/cs124/lec/languagemodeling.pdf)
+        *   [N-Gram Language Modeling - GeeksforGeeks](https://www.geeksforgeeks.org/n-gram-language-modeling/)
+    -   **Arxiv Paper:**
+        *   [An Empirical Study of Smoothing Techniques for Language Modeling - Chen & Goodman (1999)](https://aclanthology.org/P99-1017.pdf)
+
+- [x] **Machine Learning from Scratch: Backpropagation with Micrograd** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)
+    -   **Description:**  Dive into the fundamentals of machine learning by building a tiny neural network and understanding backpropagation from scratch using Micrograd.
+    -   **Additional Sources:**
+        *   [Micrograd - Andrej Karpathy's GitHub](https://github.com/karpathy/micrograd)
+        *   [But what is backpropagation really? - 3Blue1Brown (Video)](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+    -   **Arxiv Paper:**
+        *   [Learning representations by back-propagating errors - Rumelhart, Hinton, & Williams (1986)](https://www.nature.com/articles/323533a0)
+
+- [x] **Smarter Predictions: N-gram Models with Neural Networks (MLP, matmul, GELU)** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)
+    -   **Description:**  Extend the simple bigram model to an N-gram model using a multi-layer perceptron, implementing key neural network operations like matrix multiplication (matmul) and GELU activation.
+    -   **Additional Sources:**
+        *   [Neural Network Architectures - The DeepLearningBook (Chapter 6)](https://www.deeplearningbook.org/contents/mlp.html)
+        *   [GELU (Gaussian Error Linear Unit) Activation Function - Activations AI](https://activations.ai/functions/gelu/)
+    -   **Arxiv Paper:**
+        *   [Gaussian Error Linear Units (GELUs) - Hendrycks & Gimpel (2016)](https://arxiv.org/abs/1606.08415)
+
+- [x] **The Power of Attention:  Focusing on What Matters in Language** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_COLAB_LINK_HERE)
+    -   **Description:**  Uncover the core of Transformer models by implementing the attention mechanism, understanding softmax for probability distribution, and positional encoding for sequence order.
+    -   **Additional Sources:**
+        *   [The Illustrated Transformer - Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
+        *   [Attention? Attention! - Lilian Weng's Blog](https://lilianweng.github.io/posts/2018-06-24-attention/)
+    -   **Arxiv Paper:**
+        *   [Attention is All You Need - Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762)
 ---
 
 ## Module 2: Transformer Architecture Details
