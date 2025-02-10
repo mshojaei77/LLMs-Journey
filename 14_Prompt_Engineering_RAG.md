@@ -1,0 +1,117 @@
+# Module 14: Prompt Engineering & RAG
+
+### Prompt Engineering Techniques
+- **Description**: Master the art of crafting effective prompts to guide LLM behavior.
+- **Concepts Covered**: `prompt engineering`, `prompt design`, `few-shot learning`
+- **Learning Resources**:
+  - [Prompt Engineering Guide](https://www.promptingguide.ai/)
+  - [Best Practices for Prompt Engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+- **Tools**:
+  - [OpenAI Playground](https://platform.openai.com/playground)
+  - [Hugging Face Spaces](https://huggingface.co/spaces)
+
+### Context Engineering & Control
+- **Description**: Learn to manipulate context and control mechanisms for precise LLM outputs.
+- **Concepts Covered**: `context engineering`, `control codes`, `conditional generation`
+- **Learning Resources**:
+  - [Controlling Text Generation](https://huggingface.co/blog/how-to-generate)
+  - [CTRL: A Conditional Transformer Language Model](https://arxiv.org/abs/1909.05858)
+- **Tools**:
+    - [Hugging Face Transformers](https://huggingface.co/docs/transformers)
+
+### Retrieval-Augmented Generation (RAG)
+- **Description**: Combine LLMs with external knowledge retrieval for enhanced, factual responses.
+- **Concepts Covered**: `RAG`, `retrieval`, `knowledge augmentation`, `vector databases`, `citation detection`, `span classification`, `real-time relevance scoring`, `source verification`
+- **Learning Resources**:
+  - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+  - [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/)
+  - [Build RAG with Milvus and Ollama](https://milvus.io/docs/build_RAG_with_milvus_and_ollama.md#Build-RAG-with-Milvus-and-Ollama) - Step-by-step tutorial for cloud-free RAG pipeline
+  - [HNSW for Vector Search Tutorial](https://www.youtube.com/watch?v=QvKMwLjdK-s) - Comprehensive explanation and Python implementation using Faiss
+  - [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406) - Comprehensive comparison of RAG and fine-tuning approaches with agricultural case study
+  - [Top Down Design of RAG Systems: Part 1 — User and Query Profiling](https://medium.com/@manaranjanp/top-down-design-of-rag-systems-part-1-user-and-query-profiling-184651586854) - Comprehensive guide on user-centric RAG system design
+  - [Agentic RAG Tutorial](https://www.youtube.com/watch?v=2Fu_GgS-Q4s) - Step-by-step guide comparing traditional vs agentic RAG using CrewAI and Weaviate
+  - [Advanced RAG Techniques E-book](https://weaviate.io/ebooks/advanced-rag-techniques) - Comprehensive guide covering optimization techniques across the entire RAG pipeline:
+    - Indexing optimization (data pre-processing, chunking strategies)
+    - Pre-retrieval optimization (query transformation, decomposition, routing)
+    - Retrieval optimization (metadata filtering, outlier handling, hybrid search)
+    - Post-retrieval optimization (re-ranking, context processing, prompt engineering)
+  - [Local Citation Detection System](https://twitter.com/MaziyarPanahi/status/1750672543417962766) - Tutorial on building Claude-like citation features using local LLMs
+  - [Span Classification for Document Relevance](https://twitter.com/MaziyarPanahi/status/1750672543417962766) - Real-time citation detection using BERT-based models
+
+- **Tools**:
+  - [Chipper](https://github.com/TilmanGriesel/chipper) - Open-source end-to-end RAG application builder with offline support
+  - [FAISS](https://github.com/facebookresearch/faiss)
+  - [Pinecone](https://www.pinecone.io/)
+  - [Weaviate](https://weaviate.io/)
+  - [Milvus](https://milvus.io/) - High-performance vector database for RAG and multimodal search
+  - [Ollama](https://ollama.ai/) - Local large language models for RAG
+  - [Qdrant](https://qdrant.tech/) - AI-native vector database and semantic search engine
+  - [Phida](https://github.com/phidatahq/phida) - Framework for building agentic RAG systems
+  - [Upstash](http://upstash.com) - Serverless vector database with free tier
+  - Citation Detection Stack:
+    - Gradio - Interface development
+    - HuggingFace DistilBERT - Lightweight span classification
+    - Arcee AI Virtuoso-Small - Local LLM processing
+    - ModernBERT - Question answering and span detection
+
+- **Key Features**:
+  - Real-time data collection from multiple social platforms
+  - Cross-platform correlation and analysis
+  - Automated profile discovery and verification
+  - Historical data retrieval and archiving
+  - Sentiment analysis and trend monitoring
+  - Location-based intelligence gathering
+  - Network relationship mapping
+  - Real-time citation detection
+  - Source relevancy evaluation
+  - Multiple citation handling per sentence
+  - Accuracy-based citation filtering
+  - Local deployment capabilities
+- **Security Considerations**:
+  - Implement rate limiting and API compliance
+  - Respect platform terms of service and privacy policies
+  - Handle sensitive data with appropriate security measures
+  - Monitor and log data access patterns
+  - Regular security audits of data collection processes
+
+### External Data Sources for AI Agents
+- **Description**: Integrate diverse external data sources to enhance AI agent capabilities with real-time and historical information.
+- **Concepts Covered**: `social media data`, `OSINT integration`, `data aggregation`, `cross-platform analysis`, `real-time monitoring`
+- **Learning Resources**:
+  - [OSINT Framework](https://osintframework.com/) - Comprehensive collection of OSINT tools and resources
+  - [Social Media Intelligence Guide](https://www.bellingcat.com/resources/how-tos/2019/12/10/social-media-intelligence-guide/) - Bellingcat's guide to social media investigation
+  - [OSINT Techniques](https://www.osinttechniques.com/) - Collection of tools and techniques for gathering intelligence
+- **Tools**:
+  - Social Media Platforms:
+    - Facebook Tools:
+      - [CrowdTangle Link Checker](https://apps.crowdtangle.com/chrome-extension) - Track social media post engagement
+      - [Who Posted What](https://whopostedwhat.com/) - Facebook keyword search for specific dates
+      - [Facebook Graph Searcher](https://intelx.io/tools?tab=facebook) - Advanced Facebook search capabilities
+    - Twitter Tools:
+      - [TweetDeck](https://tweetdeck.twitter.com/) - Advanced Twitter monitoring and analysis
+      - [Social Bearing](https://socialbearing.com/) - Twitter analytics and insights
+      - [Foller.me](https://foller.me/) - Twitter analytics and profile information
+    - Instagram Tools:
+      - [Osintgram](https://github.com/Datalux/Osintgram) - Instagram OSINT tool
+      - [InstaScraper](https://github.com/instaloader/instaloader) - Download Instagram photos and metadata
+    - LinkedIn Tools:
+      - [RocketReach](https://rocketreach.co/) - Professional contact information database
+      - [LinkedInt](https://github.com/vysecurity/LinkedInt) - LinkedIn intelligence gathering
+  - Messaging Platforms:
+    - [Telegram Tools](https://github.com/paulpierre/informer) - Telegram channel and group analysis
+    - [Discord OSINT](https://github.com/husseinmuhaisen/DiscordOSINT) - Discord server and user research
+    - [WhatsApp Monitor](https://github.com/ErikTschierschke/WhatsappMonitor) - WhatsApp activity tracking
+  - Integration Tools:
+    - [Social Analyzer](https://github.com/qeeqbox/social-analyzer) - API and Web App for analyzing & finding profiles
+    - [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username
+    - [Alfred OSINT](https://github.com/Alfredredbird/alfred) - Multi-platform social media discovery tool
+  - Data Aggregation:
+    - [Intelligence X](https://intelx.io/) - Search engine for OSINT data
+    - [Social Searcher](https://www.social-searcher.com/) - Social media search engine
+    - [OSINT Combine](https://www.osintcombine.com/) - Multiple OSINT tools and integrations
+  - Web Data Collection:
+    - [Bright Data](https://brightdata.com/) - Enterprise-grade platform offering:
+      - Proxy networks for data collection
+      - AI-powered web scrapers
+      - Pre-built business datasets
+      - Compliant web data extraction
