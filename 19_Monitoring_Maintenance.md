@@ -36,11 +36,11 @@
   - Evaluate alternative providers for cost optimization
 
 - **Learning Resources**:
-  - [OpenAI Token Pricing](https://openai.com/pricing)
-  - [Google AI Studio Pricing](https://ai.google.dev/pricing)
-  - [DeepSeek API Pricing](https://platform.deepseek.ai/pricing)
+  - [![OpenAI Token Pricing](https://badgen.net/badge/API Provider/OpenAI Token Pricing/blue)](https://openai.com/pricing)
+  - [![Google AI Studio Pricing](https://badgen.net/badge/API Provider/Google AI Studio Pricing/blue)](https://ai.google.dev/pricing)
+  - [![DeepSeek API Pricing](https://badgen.net/badge/API Provider/DeepSeek API Pricing/blue)](https://platform.deepseek.ai/pricing)
 
 - **Tools**:
-  - [OpenAI Usage Dashboard](https://platform.openai.com/usage)
-  - [Token Counter Tools](https://platform.openai.com/tokenizer)
-  - [Batch Processing APIs](https://platform.openai.com/docs/api-reference/files)
+  - [![OpenAI Usage Dashboard](https://badgen.net/badge/Website/OpenAI Usage Dashboard/blue)](https://platform.openai.com/usage)
+  - [![Token Counter Tools](https://badgen.net/badge/Website/Token Counter Tools/blue)](https://platform.openai.com/tokenizer)
+  - [![Batch Processing APIs](https://badgen.net/badge/Docs/Batch Processing APIs/green)](https://platform.openai.com/docs/api-reference/files)

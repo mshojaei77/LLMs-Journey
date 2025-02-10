@@ -11,8 +11,8 @@
   - High-dimensional space operations
   - Vector space transformations in ML
 - **Learning Resources**:
-  - [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-  - [Khan Academy Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+  - [![3Blue1Brown: Essence of Linear Algebra](https://badgen.net/badge/Video/Essence%20of%20Linear%20Algebra/blue)](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  - [![Khan Academy Linear Algebra](https://badgen.net/badge/Course/Linear%20Algebra/green)](https://www.khanacademy.org/math/linear-algebra)
   - [![Video: GPU Architecture](https://badgen.net/badge/Video/GPU%20Architecture/red)](https://www.youtube.com/watch?v=h9Z4oGN89MU&t=10s)
 
 ### Calculus 
@@ -27,15 +27,15 @@
   - Multivariable calculus for high-dimensional spaces
   - Function behavior in higher dimensions
 - **Learning Resources**:
-  - [3Blue1Brown: Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
-  - [Khan Academy Calculus](https://www.khanacademy.org/math/calculus-1)
+  - [![3Blue1Brown: Essence of Calculus](https://badgen.net/badge/Video/Essence%20of%20Calculus/blue)](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+  - [![Khan Academy Calculus](https://badgen.net/badge/Course/Calculus/green)](https://www.khanacademy.org/math/calculus-1)
 
 ### Multivariate Calculus
 - **Description**: Explore calculus concepts extended to multiple dimensions, crucial for deep learning.
 - **Concepts Covered**: `partial derivatives`, `gradient`, `directional derivatives`, `Jacobian matrix`, `Hessian matrix`, `gradient descent`
 - **Learning Resources**:
-  - [MIT OCW: Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
-  - [Khan Academy Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)
+  - [![MIT OCW: Multivariable Calculus](https://badgen.net/badge/Course/Multivariable%20Calculus/orange)](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
+  - [![Khan Academy Multivariable Calculus](https://badgen.net/badge/Course/Multivariable%20Calculus/green)](https://www.khanacademy.org/math/multivariable-calculus)
 
 ### Probability & Statistics 
 - **Description**: Framework for drawing conclusions from data and discovering patterns.
@@ -46,5 +46,5 @@
   - Scientific reasoning frameworks
   - Statistical inference in ML
 - **Learning Resources**:
-  - [Khan Academy Probability](https://www.khanacademy.org/math/statistics-probability)
-  - [Probability for Machine Learning](https://probml.github.io/pml-book/)
+  - [![Khan Academy Probability](https://badgen.net/badge/Course/Probability%20%26%20Statistics/green)](https://www.khanacademy.org/math/statistics-probability)
+  - [![Probability for Machine Learning](https://badgen.net/badge/Book/Probability%20for%20ML/purple)](https://probml.github.io/pml-book/)

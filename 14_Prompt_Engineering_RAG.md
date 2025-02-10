@@ -4,50 +4,50 @@
 - **Description**: Master the art of crafting effective prompts to guide LLM behavior.
 - **Concepts Covered**: `prompt engineering`, `prompt design`, `few-shot learning`
 - **Learning Resources**:
-  - [Prompt Engineering Guide](https://www.promptingguide.ai/)
-  - [Best Practices for Prompt Engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+  - [![Prompt Engineering Guide](https://badgen.net/badge/Docs/Prompt%20Engineering%20Guide/blue)](https://www.promptingguide.ai/)
+  - [![Best Practices for Prompt Engineering](https://badgen.net/badge/Docs/Best%20Practices/green)](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
 - **Tools**:
-  - [OpenAI Playground](https://platform.openai.com/playground)
-  - [Hugging Face Spaces](https://huggingface.co/spaces)
+  - [![OpenAI Playground](https://badgen.net/badge/Website/OpenAI%20Playground/blue)](https://platform.openai.com/playground)
+  - [![Hugging Face Spaces](https://badgen.net/badge/Hugging%20Face%20Model/Hugging%20Face%20Spaces/yellow)](https://huggingface.co/spaces)
 
 ### Context Engineering & Control
 - **Description**: Learn to manipulate context and control mechanisms for precise LLM outputs.
 - **Concepts Covered**: `context engineering`, `control codes`, `conditional generation`
 - **Learning Resources**:
-  - [Controlling Text Generation](https://huggingface.co/blog/how-to-generate)
-  - [CTRL: A Conditional Transformer Language Model](https://arxiv.org/abs/1909.05858)
+  - [![Controlling Text Generation](https://badgen.net/badge/Blog/Controlling%20Text%20Generation/cyan)](https://huggingface.co/blog/how-to-generate)
+  - [![CTRL: A Conditional Transformer Language Model](https://badgen.net/badge/Paper/CTRL%20Model/purple)](https://arxiv.org/abs/1909.05858)
 - **Tools**:
-    - [Hugging Face Transformers](https://huggingface.co/docs/transformers)
+    - [![Hugging Face Transformers](https://badgen.net/badge/Framework/Transformers/green)](https://huggingface.co/docs/transformers)
 
 ### Retrieval-Augmented Generation (RAG)
 - **Description**: Combine LLMs with external knowledge retrieval for enhanced, factual responses.
 - **Concepts Covered**: `RAG`, `retrieval`, `knowledge augmentation`, `vector databases`, `citation detection`, `span classification`, `real-time relevance scoring`, `source verification`
 - **Learning Resources**:
-  - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
-  - [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/)
-  - [Build RAG with Milvus and Ollama](https://milvus.io/docs/build_RAG_with_milvus_and_ollama.md#Build-RAG-with-Milvus-and-Ollama) - Step-by-step tutorial for cloud-free RAG pipeline
-  - [HNSW for Vector Search Tutorial](https://www.youtube.com/watch?v=QvKMwLjdK-s) - Comprehensive explanation and Python implementation using Faiss
-  - [RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture](https://arxiv.org/abs/2401.08406) - Comprehensive comparison of RAG and fine-tuning approaches with agricultural case study
-  - [Top Down Design of RAG Systems: Part 1 — User and Query Profiling](https://medium.com/@manaranjanp/top-down-design-of-rag-systems-part-1-user-and-query-profiling-184651586854) - Comprehensive guide on user-centric RAG system design
-  - [Agentic RAG Tutorial](https://www.youtube.com/watch?v=2Fu_GgS-Q4s) - Step-by-step guide comparing traditional vs agentic RAG using CrewAI and Weaviate
-  - [Advanced RAG Techniques E-book](https://weaviate.io/ebooks/advanced-rag-techniques) - Comprehensive guide covering optimization techniques across the entire RAG pipeline:
+  - [![RAG Paper](https://badgen.net/badge/Paper/RAG/purple)](https://arxiv.org/abs/2005.11401)
+  - [![LangChain RAG Tutorial](https://badgen.net/badge/Docs/LangChain%20RAG%20Tutorial/green)](https://python.langchain.com/docs/use_cases/question_answering/)
+  - [![Build RAG with Milvus and Ollama](https://badgen.net/badge/Tutorial/Milvus%20%2B%20Ollama/blue)](https://milvus.io/docs/build_RAG_with_milvus_and_ollama.md#Build-RAG-with-Milvus-and-Ollama) - Step-by-step tutorial for cloud-free RAG pipeline
+  - [![HNSW for Vector Search Tutorial](https://badgen.net/badge/Video/HNSW%20Tutorial/red)](https://www.youtube.com/watch?v=QvKMwLjdK-s) - Comprehensive explanation and Python implementation using Faiss
+  - [![RAG vs Fine-tuning](https://badgen.net/badge/Paper/RAG%20vs%20Fine--tuning/purple)](https://arxiv.org/abs/2401.08406) - Comprehensive comparison of RAG and fine-tuning approaches with agricultural case study
+  - [![Top Down Design of RAG Systems](https://badgen.net/badge/Blog/Top%20Down%20RAG%20Design/cyan)](https://medium.com/@manaranjanp/top-down-design-of-rag-systems-part-1-user-and-query-profiling-184651586854) - Comprehensive guide on user-centric RAG system design
+  - [![Agentic RAG Tutorial](https://badgen.net/badge/Video/Agentic%20RAG%20Tutorial/red)](https://www.youtube.com/watch?v=2Fu_GgS-Q4s) - Step-by-step guide comparing traditional vs agentic RAG using CrewAI and Weaviate
+  - [![Advanced RAG Techniques E-book](https://badgen.net/badge/Docs/Advanced%20RAG%20Techniques/green)](https://weaviate.io/ebooks/advanced-rag-techniques) - Comprehensive guide covering optimization techniques across the entire RAG pipeline:
     - Indexing optimization (data pre-processing, chunking strategies)
     - Pre-retrieval optimization (query transformation, decomposition, routing)
     - Retrieval optimization (metadata filtering, outlier handling, hybrid search)
     - Post-retrieval optimization (re-ranking, context processing, prompt engineering)
-  - [Local Citation Detection System](https://twitter.com/MaziyarPanahi/status/1750672543417962766) - Tutorial on building Claude-like citation features using local LLMs
-  - [Span Classification for Document Relevance](https://twitter.com/MaziyarPanahi/status/1750672543417962766) - Real-time citation detection using BERT-based models
+  - [![Local Citation Detection System](https://badgen.net/badge/Tutorial/Local%20Citation%20Detection/blue)](https://twitter.com/MaziyarPanahi/status/1750672543417962766) - Tutorial on building Claude-like citation features using local LLMs
+  - [![Span Classification for Document Relevance](https://badgen.net/badge/Tutorial/Span%20Classification/blue)](https://twitter.com/MaziyarPanahi/status/1750672543417962766) - Real-time citation detection using BERT-based models
 
 - **Tools**:
-  - [Chipper](https://github.com/TilmanGriesel/chipper) - Open-source end-to-end RAG application builder with offline support
-  - [FAISS](https://github.com/facebookresearch/faiss)
-  - [Pinecone](https://www.pinecone.io/)
-  - [Weaviate](https://weaviate.io/)
-  - [Milvus](https://milvus.io/) - High-performance vector database for RAG and multimodal search
-  - [Ollama](https://ollama.ai/) - Local large language models for RAG
-  - [Qdrant](https://qdrant.tech/) - AI-native vector database and semantic search engine
-  - [Phida](https://github.com/phidatahq/phida) - Framework for building agentic RAG systems
-  - [Upstash](http://upstash.com) - Serverless vector database with free tier
+  - [![Chipper](https://badgen.net/badge/Github%20Repository/Chipper/gray)](https://github.com/TilmanGriesel/chipper) - Open-source end-to-end RAG application builder with offline support
+  - [![FAISS](https://badgen.net/badge/Framework/FAISS/green)](https://github.com/facebookresearch/faiss)
+  - [![Pinecone](https://badgen.net/badge/API%20Provider/Pinecone/blue)](https://www.pinecone.io/)
+  - [![Weaviate](https://badgen.net/badge/API%20Provider/Weaviate/blue)](https://weaviate.io/)
+  - [![Milvus](https://badgen.net/badge/Database/Milvus/blue)](https://milvus.io/) - High-performance vector database for RAG and multimodal search
+  - [![Ollama](https://badgen.net/badge/Framework/Ollama/green)](https://ollama.ai/) - Local large language models for RAG
+  - [![Qdrant](https://badgen.net/badge/Database/Qdrant/blue)](https://qdrant.tech/) - AI-native vector database and semantic search engine
+  - [![Phida](https://badgen.net/badge/Framework/Phida/green)](https://github.com/phidatahq/phida) - Framework for building agentic RAG systems
+  - [![Upstash](https://badgen.net/badge/Database/Upstash/blue)](http://upstash.com) - Serverless vector database with free tier
   - Citation Detection Stack:
     - Gradio - Interface development
     - HuggingFace DistilBERT - Lightweight span classification
@@ -78,39 +78,39 @@
 - **Description**: Integrate diverse external data sources to enhance AI agent capabilities with real-time and historical information.
 - **Concepts Covered**: `social media data`, `OSINT integration`, `data aggregation`, `cross-platform analysis`, `real-time monitoring`
 - **Learning Resources**:
-  - [OSINT Framework](https://osintframework.com/) - Comprehensive collection of OSINT tools and resources
-  - [Social Media Intelligence Guide](https://www.bellingcat.com/resources/how-tos/2019/12/10/social-media-intelligence-guide/) - Bellingcat's guide to social media investigation
-  - [OSINT Techniques](https://www.osinttechniques.com/) - Collection of tools and techniques for gathering intelligence
+  - [![OSINT Framework](https://badgen.net/badge/Docs/OSINT%20Framework/green)](https://osintframework.com/) - Comprehensive collection of OSINT tools and resources
+  - [![Social Media Intelligence Guide](https://badgen.net/badge/Docs/Social%20Media%20Guide/green)](https://www.bellingcat.com/resources/how-tos/2019/12/10/social-media-intelligence-guide/) - Bellingcat's guide to social media investigation
+  - [![OSINT Techniques](https://badgen.net/badge/Docs/OSINT%20Techniques/green)](https://www.osinttechniques.com/) - Collection of tools and techniques for gathering intelligence
 - **Tools**:
   - Social Media Platforms:
     - Facebook Tools:
-      - [CrowdTangle Link Checker](https://apps.crowdtangle.com/chrome-extension) - Track social media post engagement
-      - [Who Posted What](https://whopostedwhat.com/) - Facebook keyword search for specific dates
-      - [Facebook Graph Searcher](https://intelx.io/tools?tab=facebook) - Advanced Facebook search capabilities
+      - [![CrowdTangle Link Checker](https://badgen.net/badge/Tool/CrowdTangle/blue)](https://apps.crowdtangle.com/chrome-extension) - Track social media post engagement
+      - [![Who Posted What](https://badgen.net/badge/Tool/Who%20Posted%20What/blue)](https://whopostedwhat.com/) - Facebook keyword search for specific dates
+      - [![Facebook Graph Searcher](https://badgen.net/badge/Tool/Facebook%20Graph/blue)](https://intelx.io/tools?tab=facebook) - Advanced Facebook search capabilities
     - Twitter Tools:
-      - [TweetDeck](https://tweetdeck.twitter.com/) - Advanced Twitter monitoring and analysis
-      - [Social Bearing](https://socialbearing.com/) - Twitter analytics and insights
-      - [Foller.me](https://foller.me/) - Twitter analytics and profile information
+      - [![TweetDeck](https://badgen.net/badge/Tool/TweetDeck/blue)](https://tweetdeck.twitter.com/) - Advanced Twitter monitoring and analysis
+      - [![Social Bearing](https://badgen.net/badge/Tool/Social%20Bearing/blue)](https://socialbearing.com/) - Twitter analytics and insights
+      - [![Foller.me](https://badgen.net/badge/Tool/Foller.me/blue)](https://foller.me/) - Twitter analytics and profile information
     - Instagram Tools:
-      - [Osintgram](https://github.com/Datalux/Osintgram) - Instagram OSINT tool
-      - [InstaScraper](https://github.com/instaloader/instaloader) - Download Instagram photos and metadata
+      - [![Osintgram](https://badgen.net/badge/Github%20Repository/Osintgram/gray)](https://github.com/Datalux/Osintgram) - Instagram OSINT tool
+      - [![InstaScraper](https://badgen.net/badge/Github%20Repository/InstaScraper/gray)](https://github.com/instaloader/instaloader) - Download Instagram photos and metadata
     - LinkedIn Tools:
-      - [RocketReach](https://rocketreach.co/) - Professional contact information database
-      - [LinkedInt](https://github.com/vysecurity/LinkedInt) - LinkedIn intelligence gathering
+      - [![RocketReach](https://badgen.net/badge/Tool/RocketReach/blue)](https://rocketreach.co/) - Professional contact information database
+      - [![LinkedInt](https://badgen.net/badge/Github%20Repository/LinkedInt/gray)](https://github.com/vysecurity/LinkedInt) - LinkedIn intelligence gathering
   - Messaging Platforms:
-    - [Telegram Tools](https://github.com/paulpierre/informer) - Telegram channel and group analysis
-    - [Discord OSINT](https://github.com/husseinmuhaisen/DiscordOSINT) - Discord server and user research
-    - [WhatsApp Monitor](https://github.com/ErikTschierschke/WhatsappMonitor) - WhatsApp activity tracking
+    - [![Telegram Tools](https://badgen.net/badge/Github%20Repository/Telegram%20Tools/gray)](https://github.com/paulpierre/informer) - Telegram channel and group analysis
+    - [![Discord OSINT](https://badgen.net/badge/Github%20Repository/Discord%20OSINT/gray)](https://github.com/husseinmuhaisen/DiscordOSINT) - Discord server and user research
+    - [![WhatsApp Monitor](https://badgen.net/badge/Github%20Repository/WhatsApp%20Monitor/gray)](https://github.com/ErikTschierschke/WhatsappMonitor) - WhatsApp activity tracking
   - Integration Tools:
-    - [Social Analyzer](https://github.com/qeeqbox/social-analyzer) - API and Web App for analyzing & finding profiles
-    - [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username
-    - [Alfred OSINT](https://github.com/Alfredredbird/alfred) - Multi-platform social media discovery tool
+    - [![Social Analyzer](https://badgen.net/badge/Github%20Repository/Social%20Analyzer/gray)](https://github.com/qeeqbox/social-analyzer) - API and Web App for analyzing & finding profiles
+    - [![Sherlock](https://badgen.net/badge/Github%20Repository/Sherlock/gray)](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username
+    - [![Alfred OSINT](https://badgen.net/badge/Github%20Repository/Alfred%20OSINT/gray)](https://github.com/Alfredredbird/alfred) - Multi-platform social media discovery tool
   - Data Aggregation:
-    - [Intelligence X](https://intelx.io/) - Search engine for OSINT data
-    - [Social Searcher](https://www.social-searcher.com/) - Social media search engine
-    - [OSINT Combine](https://www.osintcombine.com/) - Multiple OSINT tools and integrations
+    - [![Intelligence X](https://badgen.net/badge/Tool/Intelligence%20X/blue)](https://intelx.io/) - Search engine for OSINT data
+    - [![Social Searcher](https://badgen.net/badge/Tool/Social%20Searcher/blue)](https://www.social-searcher.com/) - Social media search engine
+    - [![OSINT Combine](https://badgen.net/badge/Tool/OSINT%20Combine/blue)](https://www.osintcombine.com/) - Multiple OSINT tools and integrations
   - Web Data Collection:
-    - [Bright Data](https://brightdata.com/) - Enterprise-grade platform offering:
+    - [![Bright Data](https://badgen.net/badge/API%20Provider/Bright%20Data/blue)](https://brightdata.com/) - Enterprise-grade platform offering:
       - Proxy networks for data collection
       - AI-powered web scrapers
       - Pre-built business datasets
