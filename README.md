@@ -1,16 +1,16 @@
-# LLM Engineering: From Foundations to Production 🚀 🤖 🧠
+# LLM Engineering: From Foundations to Production
 
 [![Roadmap Badge](https://img.shields.io/badge/Roadmap-Complete-brightgreen)](https://img.shields.io/badge/Roadmap-Complete-brightgreen)
 [![Stars](https://img.shields.io/github/stars/mshojaei77/LLMs-Journey?style=social)](https://github.com/yourusername/llm-engineering)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-A comprehensive roadmap for mastering Large Language Models (LLMs) – from core mathematics and computing principles to production deployment, advanced applications, and emerging research trends. 🎯
+A comprehensive roadmap for mastering Large Language Models (LLMs) – from core mathematics and computing principles to production deployment, advanced applications, and emerging research trends.
 
-## Overview 📋
+## Overview
 This curriculum provides a structured learning path for becoming proficient in LLM Engineering. Each module builds upon previous knowledge, taking you from fundamental concepts to advanced applications and production deployment.
 
-## Table of Contents 📚
+## Table of Contents 
 - [Module 1: Mathematical Foundations](1_Mathematical_Foundations.md) 🧮
 - [Module 2: Neural Networks & Deep Learning Basics](2_Neural_Networks_Deep_Learning_Basics.md) 🔄
 - [Module 3: NLP Fundamentals](3_NLP_Fundamentals.md) 📝
@@ -33,23 +33,23 @@ This curriculum provides a structured learning path for becoming proficient in L
 - [Module 20: Scaling & Enterprise Integration](20_Scaling_Enterprise_Integration.md) 🏢
 - [Module 21: Future Directions](21_Future_Directions.md) 🔮
 
-## Course Structure 📖
+## Course Structure
 Each module contains:
-- 📚 Detailed theoretical explanations
-- 💻 Practical examples and code samples
-- ✍️ Hands-on exercises and projects
-- 🔗 Curated learning resources
-- 💡 Best practices and industry insights
+- Detailed theoretical explanations
+- Practical examples and code samples
+- Hands-on exercises and projects
+- Curated learning resources
+- Best practices and industry insights
 
-## How to Use This Repository 🎓
-1. 👣 Follow the modules sequentially
-2. ✅ Complete all exercises and projects
-3. 🔍 Refer to provided resources for deeper understanding
-4. 💬 Join discussions and contribute to the community
+## How to Use This Repository
+1. Follow the modules sequentially
+2. Complete all exercises and projects
+3. Refer to provided resources for deeper understanding
+4. Join discussions and contribute to the community
 
-## Acknowledgments 🙏
+## Acknowledgments
 Special thanks to all contributors and the AI/ML community for their valuable insights and feedback.
 
 ---
 
-Happy learning and building innovative AI systems! 🎉 🌟 ✨
+Happy learning and building innovative AI systems!
