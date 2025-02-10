@@ -42,12 +42,6 @@ Each module contains:
 3. Refer to provided resources for deeper understanding
 4. Join discussions and contribute to the community
 
-## Contributing
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
-
 ## Acknowledgments
 Special thanks to all contributors and the AI/ML community for their valuable insights and feedback.
 
