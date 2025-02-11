@@ -1,12 +1,8 @@
 # Module 3: NLP Fundamentals
 
-![image](https://github.com/user-attachments/assets/a64a3a2a-c65f-4dba-8338-4ff048636d45)
-
-## Overview
 This module covers essential Natural Language Processing concepts and techniques, focusing on text processing, word representations, and language modeling fundamentals crucial for understanding LLMs.
 
-## Core Topics
-### 1. Tokenization Strategies
+## 1. Tokenization Strategies
 
 Learn various tokenization methods to convert text into model-readable tokens.
 
@@ -36,7 +32,8 @@ Learn various tokenization methods to convert text into model-readable tokens.
 | [![BPE Implementation](https://badgen.net/badge/Colab%20Notebook/BPE%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink1) | Build a basic Byte Pair Encoding tokenizer from scratch |
 | [![Custom Tokenizer](https://badgen.net/badge/Colab%20Notebook/Custom%20Tokenizer/orange)](https://colab.research.google.com/drive/yournotebooklink2) | Create and train a domain-specific tokenizer |
 
-### 2. Word Embeddings & Contextual Representations
+
+## 2. Word Embeddings & Contextual Representations
 
 Learn techniques for representing words as vectors to capture semantic and syntactic relationships.
 
@@ -66,7 +63,8 @@ Learn techniques for representing words as vectors to capture semantic and synta
 | [![Word2Vec Implementation](https://badgen.net/badge/Colab%20Notebook/Word2Vec%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink3) | Implement Word2Vec from scratch |
 | [![GloVe Implementation](https://badgen.net/badge/Colab%20Notebook/GloVe%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink4) | Implement GloVe from scratch |
 
-### 3. Language Modeling Basics
+
+## 3. Language Modeling Basics
 
 Understand fundamental concepts of statistical language modeling and sequence prediction.
 

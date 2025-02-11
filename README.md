@@ -1,9 +1,8 @@
-# LLM Engineering: From Foundations to Production
+# LLMs: From Foundations to Production
 
 [![Roadmap Badge](https://img.shields.io/badge/Roadmap-Complete-brightgreen)](https://img.shields.io/badge/Roadmap-Complete-brightgreen)
 [![Stars](https://img.shields.io/github/stars/mshojaei77/LLMs-Journey?style=social)](https://github.com/yourusername/llm-engineering)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A comprehensive roadmap for mastering Large Language Models (LLMs) – from core mathematics and computing principles to production deployment, advanced applications, and emerging research trends.
 
