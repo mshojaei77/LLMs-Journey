@@ -1,4 +1,4 @@
-# Module 13: MLOps for LLMs (LLMOps)
+# Module 13: Large Language Model Operations (LLMOps)
 
 ### Model Registry & Deployment Pipelines
 - **Description**: Streamline model management with registries and automated deployment workflows.

@@ -1,4 +1,4 @@
-# Module 10: Evaluation & Testing
+# Module 10: Evaluation
 
 ### Evaluation Metrics for LLMs
 - **Description**: Measure LLM performance using standard metrics.

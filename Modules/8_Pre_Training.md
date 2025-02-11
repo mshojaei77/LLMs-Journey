@@ -1,4 +1,4 @@
-# Module 8: LLM Training Fundamentals
+# Module 8: Pretraining Fundamentals
 
 ### Pretraining Objectives & Loss Functions
 - **Description**: Understand the objectives and loss functions used to pretrain large language models.

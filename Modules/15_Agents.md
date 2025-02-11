@@ -121,3 +121,79 @@
 | [![Social Media Integration](https://badgen.net/badge/Notebook/Social%20Media%20Integration/orange)](notebooks/social_media_integration.ipynb) | Connecting agents to social platforms |
 | [![OSINT Collection](https://badgen.net/badge/Notebook/OSINT%20Collection/orange)](notebooks/osint_collection.ipynb) | Building data collection pipelines |
 | [![Cross-Platform Analysis](https://badgen.net/badge/Notebook/Cross-Platform%20Analysis/orange)](notebooks/cross_platform_analysis.ipynb) | Implementing multi-source data analysis |
+
+
+
+### Intelligent Agents & Tool Integration
+- **Description**: Build agents that integrate LLMs with external tools and APIs for automation.
+- **Concepts Covered**: `intelligent agents`, `automation`, `tool integration`, `API interaction`
+
+#### Learning Sources
+| Essential | Optional |
+|-----------|----------|
+| [![LangChain Agents Guide](https://badgen.net/badge/Docs/LangChain_Agents_Guide/green)](https://python.langchain.com/docs/modules/agents/) | [![Agent-Based Modeling](https://badgen.net/badge/Website/Agent-Based_Modeling/blue)](https://www.jasss.org/16/2/5.html) |
+
+#### Tools & Frameworks
+| Core | Additional |
+|-----------|----------|
+| [![LangChain](https://badgen.net/badge/Github%20Repository/LangChain/cyan)](https://github.com/hwchase17/langchain) | [![AutoGPT](https://badgen.net/badge/Github%20Repository/AutoGPT/cyan)](https://github.com/Significant-Gravitas/Auto-GPT) |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![Basic Agent](https://badgen.net/badge/Notebook/Basic%20Agent/orange)](notebooks/basic_agent.ipynb) | Creating a simple LLM-powered agent |
+| [![Tool Integration](https://badgen.net/badge/Notebook/Tool%20Integration/orange)](notebooks/tool_integration.ipynb) | Connecting agents with external tools |
+| [![Complex Workflows](https://badgen.net/badge/Notebook/Complex%20Workflows/orange)](notebooks/complex_workflows.ipynb) | Building multi-step agent workflows |
+
+### Custom LLM Applications
+- **Description**: Develop tailored LLM solutions for specific business or research needs.
+- **Concepts Covered**: `custom applications`, `domain adaptation`, `specialized models`, `AI agents`, `RAG implementations`, `scalable solutions`
+
+#### Learning Sources
+| Essential | Optional |
+|-----------|----------|
+| [![Building Custom LLMs](https://badgen.net/badge/Tutorial/Building_Custom_LLMs/blue)](https://www.deeplearning.ai/short-courses/building-applications-with-vector-databases/) | [![Domain-Specific Language Models](https://badgen.net/badge/Paper/Domain-Specific_Language_Models/purple)](https://arxiv.org/abs/2004.06547) |
+| [![Reflex LLM Examples](https://badgen.net/badge/Github%20Repository/Reflex_LLM_Examples/cyan)](https://github.com/reflex-dev/reflex-llm-examples) | |
+
+#### Tools & Frameworks
+| Core | Additional |
+|-----------|----------|
+| [![Hugging Face Transformers](https://badgen.net/badge/Hugging%20Face%20Model/Hugging_Face_Transformers/yellow)](https://huggingface.co/) | [![OpenSesame](https://badgen.net/badge/Website/OpenSesame/blue)](https://opensesame.dev/) |
+| [![Custom Datasets](https://badgen.net/badge/Hugging%20Face%20Dataset/Custom_Datasets/yellow)](https://huggingface.co/docs/datasets/loading) | [![Readwise](https://badgen.net/badge/Website/Readwise/blue)](https://readwise.io/) |
+| [![Reflex](https://badgen.net/badge/Github%20Repository/Reflex/cyan)](https://github.com/reflex-dev/reflex) | |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![Domain Adaptation](https://badgen.net/badge/Notebook/Domain%20Adaptation/orange)](notebooks/domain_adaptation.ipynb) | Fine-tuning LLMs for specific domains |
+| [![Custom Application](https://badgen.net/badge/Notebook/Custom%20Application/orange)](notebooks/custom_application.ipynb) | Building a specialized LLM application |
+| [![RAG Implementation](https://badgen.net/badge/Notebook/RAG%20Implementation/orange)](notebooks/rag_implementation.ipynb) | Implementing retrieval-augmented generation |
+
+### Document Processing and Structured Data Extraction
+
+#### Learning Sources
+| Essential | Optional |
+|-----------|----------|
+| [![PDF Q&A with DeepSeek Tutorial](https://badgen.net/badge/Tutorial/PDF_Q&A_with_DeepSeek_Tutorial/blue)](https://youtube.com/watch?v=M6vZ6b75p9k&list=PLp01ObP3udmq2quR-RfrX4zNut_t_kNot) | [![Gemini PDF to Data Tutorial](https://badgen.net/badge/Tutorial/Gemini_PDF_to_Data_Tutorial/blue)](https://www.philschmid.de/gemini-pdf-to-data) |
+| [![Gemini 2.0 File API Documentation](https://badgen.net/badge/Docs/Gemini_2.0_File_API_Documentation/green)](https://ai.google.dev/docs/file_api) | [![Pydantic Documentation](https://badgen.net/badge/Docs/Pydantic_Documentation/green)](https://docs.pydantic.dev/) |
+
+#### Tools & Frameworks
+| Core | Additional |
+|-----------|----------|
+| [![PDF Dino](https://badgen.net/badge/Website/PDF_Dino/blue)](https://pdfdino.com) | [![Parsr](https://badgen.net/badge/Github%20Repository/Parsr/cyan)](https://github.com/axa-group/Parsr) |
+| [![Google Generative AI SDK](https://badgen.net/badge/Github%20Repository/Google_Generative_AI_SDK/cyan)](https://github.com/google/generative-ai-python) | [![PyPDF2](https://badgen.net/badge/Github%20Repository/PyPDF2/cyan)](https://pypdf2.readthedocs.io/) |
+| [![Pydantic](https://badgen.net/badge/Github%20Repository/Pydantic/cyan)](https://github.com/pydantic/pydantic) | |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![PDF Processing](https://badgen.net/badge/Notebook/PDF%20Processing/orange)](notebooks/pdf_processing.ipynb) | Setting up PDF extraction pipeline |
+| [![Data Structuring](https://badgen.net/badge/Notebook/Data%20Structuring/orange)](notebooks/data_structuring.ipynb) | Implementing structured data extraction |
+| [![Token Management](https://badgen.net/badge/Notebook/Token%20Management/orange)](notebooks/token_management.ipynb) | Managing API tokens and file sizes |
+
+### AI Research Assistant Development
+
+#### Learning Sources
+| Essential | Optional |
+|-----------|----------|
+| [![Deep Research Agent Implementation](https://badgen.net/badge/Github%20Repository/Deep_Research_Agent_Implementation/cyan)](https://github.com/dzhng/deep-research) | |

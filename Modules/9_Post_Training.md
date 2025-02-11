@@ -1,4 +1,4 @@
-# Module 9: Advanced Training Techniques
+# Module 9: Post Training Techniques
 
 ### Fine-tuning & Parameter-Efficient Techniques
 - **Description**: Core concepts and efficient approaches for fine-tuning language models

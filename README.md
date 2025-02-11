@@ -11,27 +11,27 @@ A comprehensive roadmap for mastering Large Language Models (LLMs) – from core
 This curriculum provides a structured learning path for becoming proficient in LLM Engineering. Each module builds upon previous knowledge, taking you from fundamental concepts to advanced applications and production deployment.
 
 ## Table of Contents 
-- [Module 1: Mathematical Foundations](Modules/1_Mathematical_Foundations.md) 🧮
-- [Module 2: Neural Networks & Deep Learning Basics](Modules/2_Neural_Networks_Deep_Learning_Basics.md) 🔄
-- [Module 3: NLP Fundamentals](Modules/3_NLP_Fundamentals.md) 📝
-- [Module 4: Transformer Architecture Deep Dive](Modules/4_Transformer_Architecture_Deep_Dive.md) 🔍
-- [Module 5: Modern LLM Architectures](Modules/5_Modern_LLM_Architectures.md) 🏗️
-- [Module 6: Data Processing](Modules/6_Data_Processing.md) 🔤
-- [Module 7: Training Infrastructure](Modules/7_Training_Infrastructure.md) 💻
-- [Module 8: LLM Training Fundamentals](Modules/8_LLM_Training_Fundamentals.md) 📊
-- [Module 9: Advanced Training Techniques](Modules/9_Advanced_Training_Techniques.md) 🔬
-- [Module 10: Evaluation & Testing](Modules/10_Evaluation_Testing.md) ✅
-- [Module 11: Model Optimization for Inference](Modules/11_Model_Optimization_Inference.md) ⚡
-- [Module 12: Production Infrastructure](Modules/12_Production_Infrastructure.md) 🏭
-- [Module 13: MLOps for LLMs](Modules/13_MLOps_LLMs.md) 🛠️
-- [Module 14: Prompt Engineering & RAG](Modules/14_Prompt_Engineering_RAG.md) 💭
-- [Module 15: Function Calling and AI Agents](Modules/15_Function_Calling_AI_Agents.md) 🤖
-- [Module 16: Safety & Security](Modules/16_Safety_Security.md) 🔒
-- [Module 17: Advanced Applications](Modules/17_Advanced_Applications.md) 🚀
-- [Module 18: Performance Optimization](Modules/18_Performance_Optimization.md) ⚡
-- [Module 19: Monitoring & Maintenance](Modules/19_Monitoring_Maintenance.md) 📈
-- [Module 20: Scaling & Enterprise Integration](Modules/20_Scaling_Enterprise_Integration.md) 🏢
-- [Module 21: Future Directions](Modules/21_Future_Directions.md) 🔮
+- [Module 1: Mathematical Foundations](Modules/1_Math_Foundations.md) 🧮
+- [Module 2: Neural Networks & Deep Learning Fundamentals](Modules/2_Neural_Networks.md) 🔄
+- [Module 3: Natural Language Processing Fundamentals](Modules/3_NLP_Basics.md) 📝
+- [Module 4: Understanding Transformer Architectures](Modules/4_Transformers.md) 🔍
+- [Module 5: Modern Large Language Model Architectures](Modules/5_LLM_Architectures.md) 🏗️
+- [Module 6: Data Processing & Preparation Pipeline](Modules/6_Data_Processing.md) 🔤
+- [Module 7: Training Infrastructure](Modules/7_Training_Infra.md) 💻
+- [Module 8: Pre-Training Large Language Models](Modules/8_Pre_Training.md) 📊
+- [Module 9: Post-Training Techniques & Fine-Tuning](Modules/9_Post_Training.md) 🔬
+- [Module 10: Model Evaluation & Testing](Modules/10_Evaluation.md) ✅
+- [Module 11: Model Optimization for Inference](Modules/11_Optimization.md) ⚡
+- [Module 12: Production Infrastructure & Deployment](Modules/12_Production.md) 🏭
+- [Module 13: LLMOps & Model Management](Modules/13_LLMOps.md) 🛠️
+- [Module 14: Prompt Engineering & Retrieval Augmented Generation](Modules/14_RAG.md) 💭
+- [Module 15: Function Calling & AI Agents](Modules/15_Agents.md) 🤖
+- [Module 16: AI Safety & Security Considerations](Modules/16_Safety.md) 🔒
+- [Module 17: Working with Multimodal Language Models](Modules/17_Multimodal.md) 🚀
+- [Module 18: Model Performance & Optimization](Modules/18_Performance.md) ⚡
+- [Module 19: Production Monitoring & Maintenance](Modules/19_Maintenance.md) 📈
+- [Module 20: Enterprise Integration & Best Practices](Modules/20_Enterprise.md) 🏢
+- [Module 21: Future Trends & Research Directions](Modules/21_Future.md) 🔮
 
 ## Course Structure
 Each module contains:
