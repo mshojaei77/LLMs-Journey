@@ -14,6 +14,16 @@ Learn various tokenization methods to convert text into model-readable tokens.
 - Domain-specific Tokenization
 - Vocabulary Optimization
 
+### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![BPE Implementation](https://badgen.net/badge/Colab%20Notebook/BPE%20Implementation/orange)](https://colab.research.google.com/drive/1RwrtINbHTPBSRIoW8Zn9BRabxXguRRf0?usp=sharing) | Build a basic Byte Pair Encoding tokenizer from scratch |
+| [![Hugging Face Tokenizers](https://badgen.net/badge/Colab%20Notebook/HF%20Tokenizers/orange)](https://colab.research.google.com/drive/1mcFgQ9PX1TFyEAsFOnoS1ozeSz3vM6A1?usp=sharing) | Learn to use Hugging Face tokenizers for text preparation |
+| [![Custom Tokenizer](https://badgen.net/badge/Colab%20Notebook/Custom%20Tokenizer/orange)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) | Create and train a domain-specific tokenizer |
+| [![New Tokenizer Training](https://badgen.net/badge/Colab%20Notebook/New%20Tokenizer%20Training/orange)](https://colab.research.google.com/drive/1452WFn66MZzYylTNcL6hV5Zd45sskzs7?usp=sharing) | Learn to train a new tokenizer from an existing one |
+| [![GPT Tokenizer](https://badgen.net/badge/Colab%20Notebook/GPT%20Tokenizer/orange)](https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing) | Build a BPE tokenizer from scratch based on GPT models |
+| [![Tokenizer Comparison](https://badgen.net/badge/Colab%20Notebook/Tokenizer%20Comparison/orange)](https://colab.research.google.com/drive/1wVSCBGFm7KjJy-KugYGYETpncWsPgx5N?usp=sharing) | Compare custom tokenizers with state-of-the-art competitors |
+
 ### Essential Learning Sources
 
 | Source | Description |
@@ -36,73 +46,77 @@ Learn various tokenization methods to convert text into model-readable tokens.
 | Playground | [![TikTokenizer](https://badgen.net/badge/Playground/TikTokenizer/blue)](https://tiktokenizer.vercel.app/) [![Hugging Face Tokenizer](https://badgen.net/badge/Playground/HF%20Tokenizer/blue)](https://huggingface.co/spaces/Xenova/the-tokenizer-playground) [![OpenAI Tokenizer](https://badgen.net/badge/Playground/OpenAI%20Tokenizer/blue)](https://platform.openai.com/tokenizer) [![Tokenizer Arena](https://badgen.net/badge/Playground/Tokenizer%20Arena/blue)](https://huggingface.co/spaces/Cognitive-Lab/Tokenizer_Arena) | Interactive visualization and experimentation |
 | Library | [![Hugging Face Tokenizers](https://badgen.net/badge/Library/HF%20Tokenizers/green)](https://github.com/huggingface/tokenizers) [![SentencePiece](https://badgen.net/badge/Library/SentencePiece/green)](https://github.com/google/sentencepiece) [![Tiktoken](https://badgen.net/badge/Library/Tiktoken/green)](https://github.com/openai/tiktoken) [![spaCy](https://badgen.net/badge/Library/spaCy/green)](https://spacy.io/) [![Mistral Tokenizer](https://badgen.net/badge/Library/Mistral%20Tokenizer/green)](https://docs.mistral.ai/guides/tokenization/) | Production-ready tokenization implementation |
 
-### Guided Practice
-| Notebook | Description |
-|----------|-------------|
-| [![BPE Implementation](https://badgen.net/badge/Colab%20Notebook/BPE%20Implementation/orange)](https://colab.research.google.com/drive/1RwrtINbHTPBSRIoW8Zn9BRabxXguRRf0?usp=sharing) | Build a basic Byte Pair Encoding tokenizer from scratch |
-| [![Hugging Face Tokenizers](https://badgen.net/badge/Colab%20Notebook/HF%20Tokenizers/orange)](https://colab.research.google.com/drive/1mcFgQ9PX1TFyEAsFOnoS1ozeSz3vM6A1?usp=sharing) | Learn to use Hugging Face tokenizers for text preparation |
-| [![Custom Tokenizer](https://badgen.net/badge/Colab%20Notebook/Custom%20Tokenizer/orange)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) | Create and train a domain-specific tokenizer |
-| [![New Tokenizer Training](https://badgen.net/badge/Colab%20Notebook/New%20Tokenizer%20Training/orange)](https://colab.research.google.com/drive/1452WFn66MZzYylTNcL6hV5Zd45sskzs7?usp=sharing) | Learn to train a new tokenizer from an existing one |
-| [![GPT Tokenizer](https://badgen.net/badge/Colab%20Notebook/GPT%20Tokenizer/orange)](https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing) | Build a BPE tokenizer from scratch based on GPT models |
-| [![Tokenizer Comparison](https://badgen.net/badge/Colab%20Notebook/Tokenizer%20Comparison/orange)](https://colab.research.google.com/drive/1wVSCBGFm7KjJy-KugYGYETpncWsPgx5N?usp=sharing) | Compare custom tokenizers with state-of-the-art competitors |
 
+## 2. Word Embeddings & Contextual Representations: Capturing Meaning in Vectors
 
-## 2. Word Embeddings & Contextual Representations
-
-Learn techniques for representing words as vectors to capture semantic and syntactic relationships.
+Word embeddings are fundamental to Natural Language Processing, serving as dense vector representations of words that capture semantic and syntactic relationships.  Initially, techniques focused on static word embeddings, where each word had a fixed representation regardless of context. However, the field has significantly evolved, leading to more sophisticated methods that generate contextualized representations, adapting to the surrounding text to capture nuanced meanings.
 
 **Key Concepts**
-- Word Embeddings
-- Word2Vec Models
-- GloVe Embeddings
-- Contextual Embeddings
-- Vector Representations
-- Semantic Similarity
-- Sparse Representations
-- Cosine Similarity
-- Word Embedding Models
+
+To understand the landscape of word embeddings, it's helpful to categorize them and understand the core ideas:
+
+- **Static Word Embeddings:**
+    - **Word Embeddings:** The general concept of representing words as vectors.
+    - **Word2Vec Models (Skip-gram & CBOW):**  Early models that learn embeddings by predicting context words (Skip-gram) or a word from its context (CBOW).
+    - **GloVe Embeddings (Global Vectors for Word Representation):** Embeddings learned from global word co-occurrence statistics, capturing broader context.
+    - **Sparse Representations:**  Traditional one-hot encoding, which is high-dimensional and doesn't capture semantic similarity, contrasted with dense embeddings.
+    - **Cosine Similarity:** A common metric to measure the semantic similarity between word vectors.
+
+- **Contextual Word Embeddings:**
+    - **Contextual Embeddings:** Word representations that vary based on the context in which they appear, capturing polysemy and nuanced meanings.
+    - **Transformer-based Models (BERT, etc.):**  Models leveraging Transformer architectures and attention mechanisms to generate context-aware embeddings.
+    - **Vector Representations:**  The output of embedding models, which are numerical vectors representing words or text.
+    - **Semantic Similarity:**  Measuring how alike the meaning of words or phrases are, often enhanced by contextual embeddings.
+    - **Word Embedding Models:**  Algorithms and architectures designed to create word embeddings.
+
+- **Advanced Concepts:**
+    - **Subword Information (FastText):**  Utilizing character n-grams to handle rare words and out-of-vocabulary terms, improving embeddings for morphologically rich languages.
+    - **Multilingual and Cross-lingual Embeddings (Multilingual BERT):**  Embeddings designed to work across multiple languages, facilitating cross-lingual NLP tasks.
+    - **Domain-Specific Embeddings:**  Tailoring embeddings to specific domains to capture specialized vocabulary and semantic relationships.
+    - **Bias Detection and Mitigation:**  Addressing and reducing biases present in word embeddings to ensure fairness and equity in NLP applications.
 
 ### Essential Learning Sources
 
 | Source | Description |
 |--------|-------------|
-| [![CS224N Lecture 1 - Intro & Word Vectors](https://badgen.net/badge/Video/CS224N%20Lecture%201%20-%20Intro%20&%20Word%20Vectors/red)](https://www.youtube.com/watch?v=rmVRLeJRkl4) | Comprehensive introduction to word vectors, covering distributional semantics, word embeddings, Word2Vec algorithm and optimization techniques |
-| [![Word Embeddings Lecture](https://badgen.net/badge/Lecture/Word%20Embeddings%20Social%20Science/orange)](https://lse-me314.github.io/lecturenotes/ME314_day12.pdf) | Comprehensive lecture covering word embeddings fundamentals, estimation, applications, bias analysis, and social science use cases |
-| [![Illustrated Word2Vec](https://badgen.net/badge/Blog/Illustrated%20Word2Vec/pink)](https://jalammar.github.io/illustrated-word2vec/) | Visual guide to understanding Word2Vec embeddings |
-| [![Vector Space Models](https://badgen.net/badge/Blog/Vector%20Space%20Models/pink)](https://ruder.io/word-embeddings-1/) | Sebastian Ruder's comprehensive blog on word embedding models |
-| [![Word Embeddings Guide](https://badgen.net/badge/Tutorial/Word%20Embeddings%20Guide/blue)](https://www.tensorflow.org/text/guide/word_embeddings) | Comprehensive TensorFlow guide on implementing word embeddings |
-| [![Word2Vec Tutorial](https://badgen.net/badge/Tutorial/Word2Vec%20Tutorial/orange)](https://www.cs.toronto.edu/~lczhang/360/lec/w05/w2v.html) | Detailed tutorial on Word2Vec architecture and implementation |
-| [![Word2Vec Paper](https://badgen.net/badge/Paper/Word2Vec%20Original/purple)](https://arxiv.org/abs/1301.3781) | Original Word2Vec paper introducing skip-gram and CBOW models ||
-| [![GloVe Paper](https://badgen.net/badge/Paper/GloVe%20Original/purple)](https://nlp.stanford.edu/pubs/glove.pdf) | Original GloVe paper on global word vector representations |
-
+| [![Word Embeddings Deep Dive](https://badgen.net/badge/Blog/Word%20Embeddings%20Deep%20Dive/pink)](https://lilianweng.github.io/posts/2017-10-15-word-embedding/) | **Comprehensive Overview:** This blog post provides an in-depth exploration of various word embedding techniques, including both static and contextual methods, along with implementation details. |
+| [![CS224N Lecture 1 - Intro & Word Vectors](https://badgen.net/badge/Video/CS224N%20Lecture%201%20-%20Intro%20&%20Word%20Vectors/red)](https://www.youtube.com/watch?v=rmVRLeJRkl4) | **Foundational Knowledge:** Stanford's CS224N lecture offers a comprehensive introduction to word vectors, covering distributional semantics, Word2Vec algorithms (Skip-gram, CBOW), and optimization techniques. It's a great starting point for understanding the basics. |
+| [![Illustrated Word2Vec](https://badgen.net/badge/Blog/Illustrated%20Word2Vec/pink)](https://jalammar.github.io/illustrated-word2vec/) | **Visual Learning:** This blog post provides a visually intuitive guide to understanding the Word2Vec model, making it easier to grasp the underlying mechanisms. |
+| [![Contextual Embeddings](https://badgen.net/badge/Paper/Contextual%20Embeddings/purple)](https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec3-contextualized-word-embeddings.pdf) | **Deep Dive into Context:** Princeton's lecture notes delve into the concept of contextual embeddings, explaining their significance and applications in capturing dynamic word meanings. |
+| [![Training Sentence Transformers](https://badgen.net/badge/Blog/Training%20Sentence%20Transformers/pink)](https://huggingface.co/blog/train-sentence-transformers) | **Practical Guide to Modern Embeddings:** This blog post offers a practical guide to training and fine-tuning sentence embedding models using Sentence Transformers v3, showcasing a modern approach to embedding learning. |
+| [![BERT Paper](https://badgen.net/badge/Paper/BERT%20Paper/purple)](https://arxiv.org/abs/2204.03503) | **Revolutionizing Context:**  The original BERT paper is essential for understanding the architecture that significantly advanced contextual word embeddings. It introduces the Transformer-based approach and its impact on NLP. |
+| [![GloVe Paper](https://badgen.net/badge/Paper/GloVe%20Paper/purple)](https://www.semanticscholar.org/paper/67b692bbfd29c5a30cfd1046efd5f85eecd1ea86) | **Global Context Matters:** The GloVe paper details how global word-word co-occurrence statistics are leveraged to learn embeddings, providing a different perspective compared to Word2Vec's local context window. |
+| [![FastText Paper](https://badgen.net/badge/Paper/FastText%20Paper/purple)](https://www.semanticscholar.org/paper/d23e59abcae6ba653ba45dcc0ef975438890a3a4) | **Subword Embeddings:** The FastText paper introduces the concept of subword information in word embeddings, which is crucial for handling rare words and improving performance in morphologically rich languages. |
 
 ### Additional Learning Sources
 
 | Source | Description |
 |--------|-------------|
-| [![Word Embeddings Deep Dive](https://badgen.net/badge/Blog/Word%20Embeddings%20Deep%20Dive/pink)](https://lilianweng.github.io/posts/2017-10-15-word-embedding/) | Comprehensive blog post covering embedding techniques and implementations |
-| [![Contextual Embeddings](https://badgen.net/badge/Paper/Contextual%20Embeddings/purple)](https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec3-contextualized-word-embeddings.pdf) | Princeton's lecture on contextual embeddings and their applications |
-| [![GloVe Project](https://badgen.net/badge/Website/GloVe%20Project/blue)](https://nlp.stanford.edu/projects/glove/) | Stanford's GloVe project documentation and resources |
-| [![FastText Resources](https://badgen.net/badge/Website/FastText%20Resources/blue)](https://fasttext.cc/) | Official FastText documentation and pre-trained embeddings |
-| [![Instructor Embeddings](https://badgen.net/badge/Guide/Instructor%20Embeddings/blue)](https://huggingface.co/hkunlp/instructor-large) | Guide to task-specific embeddings with HuggingFace |
-| [![Gensim Tutorial](https://badgen.net/badge/Tutorial/Gensim%20Word2Vec/blue)](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html) | Tutorial on training word embeddings with Gensim |
-| [![FastText Guide](https://badgen.net/badge/Guide/FastText%20Embeddings/blue)](https://fasttext.cc/docs/en/crawl-vectors.html) | Guide to using FastText for document embeddings and classification |
-| [![Word2Vec Implementation](https://badgen.net/badge/Tutorial/Word2Vec%20NumPy/blue)](https://nathanrooy.github.io/posts/2018-03-22/word2vec-from-scratch-with-python-and-numpy/) | Tutorial on implementing Word2Vec with Python and NumPy |
-| [![Fruit Fly Word Embeddings](https://badgen.net/badge/Paper/Fruit%20Fly%20Embeddings/purple)](https://arxiv.org/abs/2101.06887) | Novel biologically-inspired sparse binary word embeddings based on fruit fly brain |
-| [![Probabilistic FastText](https://badgen.net/badge/Paper/Probabilistic%20FastText/purple)](https://arxiv.org/abs/1806.02901) | Multi-sense word embeddings combining subword structure with uncertainty modeling |
-| [![Word Embeddings Guide](https://badgen.net/badge/Guide/Word%20Embeddings%20Guide/blue)](https://www.turing.com/kb/guide-on-word-embeddings-in-nlp) | Comprehensive guide covering word embeddings from basics to advanced concepts |
+| [![Oddly Satisfying Deep Learning: Word Embeddings](https://badgen.net/badge/Book/Oddly%20Satisfying%20Deep%20Learning/blue)](https://pythonandml.github.io/dlbook/content/word_embeddings/traditional_word_embeddings.html) | **Intuitive Explanations:** This book chapter offers an intuitive introduction to word embeddings with visual aids and step-by-step code examples, making it accessible for beginners. |
+| [![Instructor Embeddings](https://badgen.net/badge/Guide/Instructor%20Embeddings/blue)](https://huggingface.co/hkunlp/instructor-large) | **Task-Specific Embeddings:** Learn about task-specific embeddings with HuggingFace's Instructor, demonstrating how embeddings can be tailored for specific NLP tasks. |
+| [![Custom LLM Embedding Training](https://badgen.net/badge/Tutorial/Custom%20LLM%20Embedding%20Training/blue)](https://dagshub.com/blog/how-to-train-a-custom-llm-embedding-model/) | **Hands-on Training:** A step-by-step guide on training custom LLM embedding models, providing practical insights into creating your own embeddings. |
+| [![Word2Vec Implementation](https://badgen.net/badge/Tutorial/Word2Vec%20NumPy/blue)](https://nathanrooy.github.io/posts/2018-03-22/word2vec-from-scratch-with-python-and-numpy/) | **Implementation from Scratch:**  A tutorial on implementing Word2Vec using Python and NumPy, ideal for understanding the inner workings of the algorithm. |
+| [![Fruit Fly Word Embeddings](https://badgen.net/badge/Paper/Fruit%20Fly%20Embeddings/purple)](https://arxiv.org/abs/2101.06887) | **Novel Approaches:** Explore biologically-inspired sparse binary word embeddings based on the fruit fly brain, showcasing innovative research in the field. |
+| [![Probabilistic FastText](https://badgen.net/badge/Paper/Probabilistic%20FastText/purple)](https://arxiv.org/abs/1806.02901) | **Advanced Techniques:**  Learn about multi-sense word embeddings that combine subword structure with uncertainty modeling, extending the capabilities of FastText. |
+| [![Word Embeddings Guide](https://badgen.net/badge/Guide/Word%20Embeddings%20Guide/blue)](https://www.turing.com/kb/guide-on-word-embeddings-in-nlp) | **Comprehensive Guide:** A broad guide covering word embeddings from basic concepts to advanced techniques, offering a wide-ranging overview. |
+| [![Multilingual BERT Paper](https://badgen.net/badge/Paper/Multilingual%20BERT%20Paper/purple)](https://www.semanticscholar.org/paper/0b0bc70b48aebe608d53a955990cb08f73de5a7d) | **Cross-Lingual Embeddings:**  The Multilingual BERT paper [2] introduces embeddings that work across different languages, enabling cross-lingual transfer learning and multilingual applications. |
+| [![Bias in Contextualized Word Embeddings](https://badgen.net/badge/Paper/Bias%20in%20Contextualized%20Embeddings/purple)](https://www.semanticscholar.org/paper/5ea2104a039921633f75a9f4b986b515ddbe96d7) | **Bias Awareness:** This paper [5] highlights the issue of bias in contextualized word embeddings, particularly ethnic bias in news corpora, raising awareness about fairness in NLP. |
 
 ### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
 | [![Gensim](https://badgen.net/badge/Framework/Gensim/green)](https://radimrehurek.com/gensim/) | [![FastText](https://badgen.net/badge/Framework/FastText/green)](https://fasttext.cc/) |
 | [![Transformers](https://badgen.net/badge/Framework/Transformers/green)](https://huggingface.co/transformers/) | [![TensorFlow Text](https://badgen.net/badge/Framework/TensorFlow%20Text/green)](https://www.tensorflow.org/text) |
+| [![Sentence Transformers](https://badgen.net/badge/Framework/Sentence%20Transformers/green)](https://www.sbert.net/) | [![spaCy](https://badgen.net/badge/Framework/spaCy/green)](https://spacy.io/) |
 
 ### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [![Word2Vec Implementation](https://badgen.net/badge/Colab%20Notebook/Word2Vec%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink3) | Implement Word2Vec from scratch |
-| [![GloVe Implementation](https://badgen.net/badge/Colab%20Notebook/GloVe%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink4) | Implement GloVe from scratch |
+| [![Word2Vec Implementation](https://badgen.net/badge/Colab%20Notebook/Word2Vec%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink3) | **Implement Word2Vec from scratch:**  Gain a deep understanding of Word2Vec by building it from the ground up. |
+| [![GloVe Implementation](https://badgen.net/badge/Colab%20Notebook/GloVe%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink4) | **Implement GloVe from scratch:**  Understand GloVe embeddings by implementing them yourself, focusing on global co-occurrence statistics. |
+| [![Sentence Transformer Fine-tuning](https://badgen.net/badge/Colab%20Notebook/Sentence%20Transformer%20Fine-tuning/orange)](https://colab.research.google.com/drive/yournotebooklink_sentence_transformers) | **Fine-tune Sentence Transformers:** Learn to fine-tune pre-trained Sentence Transformer models for specific tasks, leveraging contextual embeddings. *(Replace `yournotebooklink_sentence_transformers` with an actual notebook link)* |
+| [![BERT Embeddings Exploration](https://badgen.net/badge/Colab%20Notebook/BERT%20Embeddings%20Exploration/orange)](https://colab.research.google.com/drive/yournotebooklink_bert_exploration) | **Explore BERT Embeddings:**  Experiment with pre-trained BERT models to extract and analyze contextual word embeddings. *(Replace `yournotebooklink_bert_exploration` with an actual notebook link)* |
+
 
 
 ## 3. Language Modeling Basics
