@@ -16,7 +16,7 @@ This curriculum provides a structured learning path for becoming proficient in L
 - [Module 3: NLP Fundamentals](3_NLP_Fundamentals.md) 📝
 - [Module 4: Transformer Architecture Deep Dive](4_Transformer_Architecture_Deep_Dive.md) 🔍
 - [Module 5: Modern LLM Architectures](5_Modern_LLM_Architectures.md) 🏗️
-- [Module 6: Tokenization & Data Processing](6_Tokenization_Data_Processing.md) 🔤
+- [Module 6: Data Processing](6_Data_Processing.md) 🔤
 - [Module 7: Training Infrastructure](7_Training_Infrastructure.md) 💻
 - [Module 8: LLM Training Fundamentals](8_LLM_Training_Fundamentals.md) 📊
 - [Module 9: Advanced Training Techniques](9_Advanced_Training_Techniques.md) 🔬

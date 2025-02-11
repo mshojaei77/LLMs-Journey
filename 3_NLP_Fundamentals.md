@@ -1,35 +1,40 @@
 # Module 3: NLP Fundamentals
 
-![image](path_to_image)
+![image](https://github.com/user-attachments/assets/a64a3a2a-c65f-4dba-8338-4ff048636d45)
 
 ## Overview
 This module covers essential Natural Language Processing concepts and techniques, focusing on text processing, word representations, and language modeling fundamentals crucial for understanding LLMs.
 
 ## Core Topics
+### 1. Tokenization Strategies
 
-### 1. Text Processing & Cleaning
-
-Master fundamental techniques for preparing and normalizing raw text data for NLP tasks.
+Learn various tokenization methods to convert text into model-readable tokens.
 
 #### Key Concepts
-- Text Preprocessing
-- Data Cleaning
-- Normalization
-- Tokenization
-- Text Sanitization
-- Document Processing
+- Byte Pair Encoding (BPE)
+- WordPiece Tokenization
+- Unigram Tokenization
+- Custom Tokenizers
+- Domain-specific Tokenization
+- Vocabulary Optimization
 
 #### Learning Sources
-
 | Essential | Optional |
 |-----------|----------|
-| [![Stanford NLP: Text Processing](https://badgen.net/badge/Tutorial/Stanford%20NLP%3A%20Text%20Processing/blue)](https://nlp.stanford.edu/IR-book/html/htmledition/text-processing-1.html) | [![Text Processing Guide](https://badgen.net/badge/Tutorial/Text%20Processing%20Guide/blue)](https://example.com) |
+| [![Tokenization Fundamentals](https://badgen.net/badge/Course/Tokenization%20Fundamentals/orange)](https://huggingface.co/learn/nlp-course/chapter2/4) | [![SentencePiece Training Guide](https://badgen.net/badge/Docs/SentencePiece%20Training%20Guide/green)](https://github.com/google/sentencepiece#train-sentencepiece-model) |
+| [![Stanford CS224N: Subword Models](https://badgen.net/badge/Course/Stanford%20CS224N%20Subword%20Models/orange)](https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05-LM_RNN.pdf) | [![GPT-2 Implementation from Scratch](https://badgen.net/badge/Video/GPT-2%20Implementation%20from%20Scratch/red)](https://www.youtube.com/watch?v=kCc8FmEb1nY) |
 
 #### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
-| [![spaCy](https://badgen.net/badge/Framework/spaCy/green)](https://spacy.io/) | [![BeautifulSoup](https://badgen.net/badge/Framework/BeautifulSoup/green)](https://www.crummy.com/software/BeautifulSoup/) |
-| [![NLTK](https://badgen.net/badge/Framework/NLTK/green)](https://www.nltk.org/) | [![TextBlob](https://badgen.net/badge/Framework/TextBlob/green)](https://textblob.readthedocs.io/) |
+| [![Hugging Face Tokenizers](https://badgen.net/badge/Framework/Hugging%20Face%20Tokenizers/green)](https://huggingface.co/docs/tokenizers/index) | [![SmolGPT Implementation](https://badgen.net/badge/Github%20Repository/SmolGPT/cyan)](https://github.com/Om-Alve/smolGPT) |
+| [![SentencePiece](https://badgen.net/badge/Github%20Repository/SentencePiece/cyan)](https://github.com/google/sentencepiece) | [![llama2.c Repository](https://badgen.net/badge/Github%20Repository/llama2.c/cyan)](https://github.com/karpathy/llama2.c) |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![BPE Implementation](https://badgen.net/badge/Colab%20Notebook/BPE%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink1) | Build a basic Byte Pair Encoding tokenizer from scratch |
+| [![Custom Tokenizer](https://badgen.net/badge/Colab%20Notebook/Custom%20Tokenizer/orange)](https://colab.research.google.com/drive/yournotebooklink2) | Create and train a domain-specific tokenizer |
 
 ### 2. Word Embeddings & Contextual Representations
 
@@ -47,13 +52,19 @@ Learn techniques for representing words as vectors to capture semantic and synta
 
 | Essential | Optional |
 |-----------|----------|
-| [![Illustrated Word2Vec](https://badgen.net/badge/Blog/Illustrated%20Word2Vec/cyan)](https://jalammar.github.io/illustrated-word2vec/) | [![GloVe Project](https://badgen.net/badge/Website/GloVe%20Project/blue)](https://nlp.stanford.edu/projects/glove/) |
+| [![Illustrated Word2Vec](https://badgen.net/badge/Blog/Illustrated%20Word2Vec/pink)](https://jalammar.github.io/illustrated-word2vec/) | [![GloVe Project](https://badgen.net/badge/Website/GloVe%20Project/blue)](https://nlp.stanford.edu/projects/glove/) |
 
 #### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
 | [![Gensim](https://badgen.net/badge/Framework/Gensim/green)](https://radimrehurek.com/gensim/) | [![FastText](https://badgen.net/badge/Framework/FastText/green)](https://fasttext.cc/) |
 | [![Transformers](https://badgen.net/badge/Framework/Transformers/green)](https://huggingface.co/transformers/) | [![TensorFlow Text](https://badgen.net/badge/Framework/TensorFlow%20Text/green)](https://www.tensorflow.org/text) |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![Word2Vec Implementation](https://badgen.net/badge/Colab%20Notebook/Word2Vec%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink3) | Implement Word2Vec from scratch |
+| [![GloVe Implementation](https://badgen.net/badge/Colab%20Notebook/GloVe%20Implementation/orange)](https://colab.research.google.com/drive/yournotebooklink4) | Implement GloVe from scratch |
 
 ### 3. Language Modeling Basics
 
@@ -80,26 +91,8 @@ Understand fundamental concepts of statistical language modeling and sequence pr
 | [![KenLM](https://badgen.net/badge/Framework/KenLM/green)](https://kheafield.com/code/kenlm/) | [![SRILM](https://badgen.net/badge/Framework/SRILM/green)](http://www.speech.sri.com/projects/srilm/) |
 | [![PyTorch](https://badgen.net/badge/Framework/PyTorch/green)](https://pytorch.org/) | [![TensorFlow](https://badgen.net/badge/Framework/TensorFlow/green)](https://www.tensorflow.org/) |
 
-### 4. Advanced Language Models
-
-Explore modern approaches to language modeling and their applications.
-
-#### Key Concepts
-- Neural Language Models
-- Transformer Architecture
-- Attention Mechanisms
-- Pre-training Methods
-- Fine-tuning Strategies
-- Model Evaluation
-
-#### Learning Sources
-
-| Essential | Optional |
-|-----------|----------|
-| [![Pre-training, Generative Models Book](https://badgen.net/badge/Paper/Pre-training%2C%20Generative%20Models%20Book/purple)](https://arxiv.org/pdf/2501.09223) | [![Attention is All You Need](https://badgen.net/badge/Paper/Attention%20is%20All%20You%20Need/purple)](https://arxiv.org/abs/1706.03762) |
-
-#### Tools & Frameworks
-| Core | Additional |
-|-----------|----------|
-| [![Hugging Face](https://badgen.net/badge/Framework/Hugging%20Face/green)](https://huggingface.co/) | [![JAX](https://badgen.net/badge/Framework/JAX/green)](https://github.com/google/jax) |
-| [![PyTorch Lightning](https://badgen.net/badge/Framework/PyTorch%20Lightning/green)](https://www.pytorchlightning.ai/) | [![DeepSpeed](https://badgen.net/badge/Framework/DeepSpeed/green)](https://www.deepspeed.ai/) |
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![N-Gram Language Modeling](https://badgen.net/badge/Colab%20Notebook/N-Gram%20Language%20Modeling/orange)](https://colab.research.google.com/drive/yournotebooklink5) | Implement N-Gram Language Modeling |
+| [![Probabilistic Language Modeling](https://badgen.net/badge/Colab%20Notebook/Probabilistic%20Language%20Modeling/orange)](https://colab.research.google.com/drive/yournotebooklink6) | Implement Probabilistic Language Modeling |
