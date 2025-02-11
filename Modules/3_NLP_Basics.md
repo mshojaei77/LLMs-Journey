@@ -41,8 +41,8 @@ Learn various tokenization methods to convert text into model-readable tokens.
 ### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [![BPE Implementation](https://badgen.net/badge/Colab%20Notebook/BPE%20Implementation/orange)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Tokenization_BPE.ipynb) | Build a basic Byte Pair Encoding tokenizer from scratch |
-| [![Hugging Face Tokenizers](https://badgen.net/badge/Colab%20Notebook/HF%20Tokenizers/orange)](https://colab.research.google.com/github/mshojaei77/NLP-Journey/blob/main/ch1/Hugging_Face_Tokenizers.ipynb) | Learn to use Hugging Face tokenizers for text preparation |
+| [![BPE Implementation](https://badgen.net/badge/Colab%20Notebook/BPE%20Implementation/orange)](https://colab.research.google.com/drive/1RwrtINbHTPBSRIoW8Zn9BRabxXguRRf0?usp=sharing) | Build a basic Byte Pair Encoding tokenizer from scratch |
+| [![Hugging Face Tokenizers](https://badgen.net/badge/Colab%20Notebook/HF%20Tokenizers/orange)](https://colab.research.google.com/drive/1mcFgQ9PX1TFyEAsFOnoS1ozeSz3vM6A1?usp=sharing) | Learn to use Hugging Face tokenizers for text preparation |
 | [![Custom Tokenizer](https://badgen.net/badge/Colab%20Notebook/Custom%20Tokenizer/orange)](https://colab.research.google.com/drive/1uYFoxwCKwshkchBgQ4y4z9cDfKRlwZ-e?usp=sharing) | Create and train a domain-specific tokenizer |
 | [![New Tokenizer Training](https://badgen.net/badge/Colab%20Notebook/New%20Tokenizer%20Training/orange)](https://colab.research.google.com/drive/1452WFn66MZzYylTNcL6hV5Zd45sskzs7?usp=sharing) | Learn to train a new tokenizer from an existing one |
 | [![GPT Tokenizer](https://badgen.net/badge/Colab%20Notebook/GPT%20Tokenizer/orange)](https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing) | Build a BPE tokenizer from scratch based on GPT models |
