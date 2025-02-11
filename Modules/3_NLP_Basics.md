@@ -29,8 +29,6 @@ Learn various tokenization methods to convert text into model-readable tokens.
 | [![SentencePiece Training Guide](https://badgen.net/badge/Docs/SentencePiece%20Training%20Guide/green)](https://github.com/google/sentencepiece#train-sentencepiece-model) | A supplementary detailed guide on training custom SentencePiece models. |
 | [![Tokenizer Shrinking Guide](https://badgen.net/badge/Guide/Tokenizer%20Shrinking%20Techniques/blue)](https://github.com/stas00/ml-engineering/blob/master/transformers/make-tiny-models.md) | Comprehensive guide on various tokenizer shrinking techniques |
 
-
-
 ### Tools
 
 | Category | Tool | Description |
@@ -60,18 +58,39 @@ Learn techniques for representing words as vectors to capture semantic and synta
 - Contextual Embeddings
 - Vector Representations
 - Semantic Similarity
+- Sparse Representations
+- Cosine Similarity
+- Word Embedding Models
 
 ### Essential Learning Sources
 
 | Source | Description |
 |--------|-------------|
+| [![CS224N Lecture 1 - Intro & Word Vectors](https://badgen.net/badge/Video/CS224N%20Lecture%201%20-%20Intro%20&%20Word%20Vectors/red)](https://www.youtube.com/watch?v=rmVRLeJRkl4) | Comprehensive introduction to word vectors, covering distributional semantics, word embeddings, Word2Vec algorithm and optimization techniques |
+| [![Word Embeddings Lecture](https://badgen.net/badge/Lecture/Word%20Embeddings%20Social%20Science/orange)](https://lse-me314.github.io/lecturenotes/ME314_day12.pdf) | Comprehensive lecture covering word embeddings fundamentals, estimation, applications, bias analysis, and social science use cases |
 | [![Illustrated Word2Vec](https://badgen.net/badge/Blog/Illustrated%20Word2Vec/pink)](https://jalammar.github.io/illustrated-word2vec/) | Visual guide to understanding Word2Vec embeddings |
+| [![Vector Space Models](https://badgen.net/badge/Blog/Vector%20Space%20Models/pink)](https://ruder.io/word-embeddings-1/) | Sebastian Ruder's comprehensive blog on word embedding models |
+| [![Word Embeddings Guide](https://badgen.net/badge/Tutorial/Word%20Embeddings%20Guide/blue)](https://www.tensorflow.org/text/guide/word_embeddings) | Comprehensive TensorFlow guide on implementing word embeddings |
+| [![Word2Vec Tutorial](https://badgen.net/badge/Tutorial/Word2Vec%20Tutorial/orange)](https://www.cs.toronto.edu/~lczhang/360/lec/w05/w2v.html) | Detailed tutorial on Word2Vec architecture and implementation |
+| [![Word2Vec Paper](https://badgen.net/badge/Paper/Word2Vec%20Original/purple)](https://arxiv.org/abs/1301.3781) | Original Word2Vec paper introducing skip-gram and CBOW models ||
+| [![GloVe Paper](https://badgen.net/badge/Paper/GloVe%20Original/purple)](https://nlp.stanford.edu/pubs/glove.pdf) | Original GloVe paper on global word vector representations |
+
 
 ### Additional Learning Sources
 
 | Source | Description |
 |--------|-------------|
+| [![Word Embeddings Deep Dive](https://badgen.net/badge/Blog/Word%20Embeddings%20Deep%20Dive/pink)](https://lilianweng.github.io/posts/2017-10-15-word-embedding/) | Comprehensive blog post covering embedding techniques and implementations |
+| [![Contextual Embeddings](https://badgen.net/badge/Paper/Contextual%20Embeddings/purple)](https://www.cs.princeton.edu/courses/archive/spring20/cos598C/lectures/lec3-contextualized-word-embeddings.pdf) | Princeton's lecture on contextual embeddings and their applications |
 | [![GloVe Project](https://badgen.net/badge/Website/GloVe%20Project/blue)](https://nlp.stanford.edu/projects/glove/) | Stanford's GloVe project documentation and resources |
+| [![FastText Resources](https://badgen.net/badge/Website/FastText%20Resources/blue)](https://fasttext.cc/) | Official FastText documentation and pre-trained embeddings |
+| [![Instructor Embeddings](https://badgen.net/badge/Guide/Instructor%20Embeddings/blue)](https://huggingface.co/hkunlp/instructor-large) | Guide to task-specific embeddings with HuggingFace |
+| [![Gensim Tutorial](https://badgen.net/badge/Tutorial/Gensim%20Word2Vec/blue)](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html) | Tutorial on training word embeddings with Gensim |
+| [![FastText Guide](https://badgen.net/badge/Guide/FastText%20Embeddings/blue)](https://fasttext.cc/docs/en/crawl-vectors.html) | Guide to using FastText for document embeddings and classification |
+| [![Word2Vec Implementation](https://badgen.net/badge/Tutorial/Word2Vec%20NumPy/blue)](https://nathanrooy.github.io/posts/2018-03-22/word2vec-from-scratch-with-python-and-numpy/) | Tutorial on implementing Word2Vec with Python and NumPy |
+| [![Fruit Fly Word Embeddings](https://badgen.net/badge/Paper/Fruit%20Fly%20Embeddings/purple)](https://arxiv.org/abs/2101.06887) | Novel biologically-inspired sparse binary word embeddings based on fruit fly brain |
+| [![Probabilistic FastText](https://badgen.net/badge/Paper/Probabilistic%20FastText/purple)](https://arxiv.org/abs/1806.02901) | Multi-sense word embeddings combining subword structure with uncertainty modeling |
+| [![Word Embeddings Guide](https://badgen.net/badge/Guide/Word%20Embeddings%20Guide/blue)](https://www.turing.com/kb/guide-on-word-embeddings-in-nlp) | Comprehensive guide covering word embeddings from basics to advanced concepts |
 
 ### Tools & Frameworks
 | Core | Additional |
