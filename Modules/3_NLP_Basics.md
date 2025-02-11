@@ -18,9 +18,9 @@ Learn various tokenization methods to convert text into model-readable tokens.
 
 | Source | Description |
 |--------|-------------|
-| [![GPT Tokenizer Implementation from Scratch](https://badgen.net/badge/Video/GPT-2%20Implementation%20from%20Scratch/red)](https://www.youtube.com/watch?v=kCc8FmEb1nY) | An optional but valuable tutorial on implementing GPT tokenizer from andrej karpathy. |
-| [![Tokenization Fundamentals](https://badgen.net/badge/Course/Tokenization%20Fundamentals/orange)](https://huggingface.co/learn/nlp-course/chapter2/4) |Comprehensive course that covers tokenization basics, algorithms and best practices. |
-| [![Stanford CS224N: Subword Models](https://badgen.net/badge/Course/Stanford%20CS224N%20Subword%20Models/orange)](https://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes05-LM_RNN.pdf) | Academic material providing a deep-dive into subword tokenization theory and applications. |
+| [![GPT Tokenizer Implementation from Scratch](https://badgen.net/badge/Video/GPT-2%20Implementation%20from%20Scratch/red)](https://www.youtube.com/watch?v=zduSFxRajkE&t=4341s) | An optional but valuable tutorial on implementing GPT tokenizer from andrej karpathy. |
+| [![Tokenization Fundamentals](https://badgen.net/badge/Course/Tokenization%20Fundamentals/orange)](https://huggingface.co/learn/nlp-course/chapter2/4) | HuggingFace course that covers tokenization basics, algorithms and best practices. |
+| [![Stanford's CoreNLP: Tokenization](https://badgen.net/badge/Course/Stanford%20CS224N%20Subword%20Models/orange)](https://stanfordnlp.github.io/CoreNLP/tokenize.html) | Academic material providing a deep-dive into tokenization theory. |
 
 ### Additional Learning Sources
 
