@@ -17,9 +17,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| API Design Patterns | Implementing scalable API architectures |
-| Microservices | Building microservices-based LLM systems |
-| Load Testing | Testing API performance and scalability |
+| [![API Design Patterns](https://badgen.net/badge/Notebook/API%20Design%20Patterns/orange)](notebooks/api_design_patterns.ipynb) | Implementing scalable API architectures |
+| [![Microservices](https://badgen.net/badge/Notebook/Microservices/orange)](notebooks/microservices.ipynb) | Building microservices-based LLM systems |
+| [![Load Testing](https://badgen.net/badge/Notebook/Load%20Testing/orange)](notebooks/load_testing.ipynb) | Testing API performance and scalability |
 
 ### Authentication, Authorization & Compliance
 - **Description**: Incorporate security, authentication, and compliance standards into LLM systems.
@@ -38,9 +38,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Authentication Setup | Implementing OAuth and JWT authentication |
-| Access Control | Building role-based access control systems |
-| Compliance Checks | Setting up compliance monitoring and reporting |
+| [![Authentication Setup](https://badgen.net/badge/Notebook/Authentication%20Setup/orange)](notebooks/authentication_setup.ipynb) | Implementing OAuth and JWT authentication |
+| [![Access Control](https://badgen.net/badge/Notebook/Access%20Control/orange)](notebooks/access_control.ipynb) | Building role-based access control systems |
+| [![Compliance Checks](https://badgen.net/badge/Notebook/Compliance%20Checks/orange)](notebooks/compliance_checks.ipynb) | Setting up compliance monitoring and reporting |
 
 ### Cloud Integration & Distributed Systems
 - **Description**: Integrate LLM infrastructure with cloud platforms to ensure scalability and resilience.
@@ -59,6 +59,6 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Cloud Deployment | Setting up cloud-based LLM infrastructure |
-| Distributed Systems | Implementing distributed processing |
-| Resilience Testing | Testing system fault tolerance and recovery |
+| [![Cloud Deployment](https://badgen.net/badge/Notebook/Cloud%20Deployment/orange)](notebooks/cloud_deployment.ipynb) | Setting up cloud-based LLM infrastructure |
+| [![Distributed Systems](https://badgen.net/badge/Notebook/Distributed%20Systems/orange)](notebooks/distributed_systems.ipynb) | Implementing distributed processing |
+| [![Resilience Testing](https://badgen.net/badge/Notebook/Resilience%20Testing/orange)](notebooks/resilience_testing.ipynb) | Testing system fault tolerance and recovery |

@@ -19,9 +19,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| GPU Memory Hierarchy | Understanding different memory types and optimization |
-| Parallel Programming | Converting sequential to parallel algorithms |
-| CUDA Fundamentals | Basic CUDA programming and thread management |
+| [![GPU Memory Hierarchy](https://badgen.net/badge/Notebook/GPU%20Memory%20Hierarchy/orange)](notebooks/gpu_memory_hierarchy.ipynb) | Understanding different memory types and optimization |
+| [![Parallel Programming](https://badgen.net/badge/Notebook/Parallel%20Programming/orange)](notebooks/parallel_programming.ipynb) | Converting sequential to parallel algorithms |
+| [![CUDA Fundamentals](https://badgen.net/badge/Notebook/CUDA%20Fundamentals/orange)](notebooks/cuda_fundamentals.ipynb) | Basic CUDA programming and thread management |
 
 ### Latency Reduction Techniques
 - **Description**: Optimize LLM inference to minimize response times.
@@ -42,9 +42,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Latency Profiling | Identifying and measuring latency bottlenecks |
-| Optimization Techniques | Implementing common latency reduction methods |
-| Model Compression | Reducing model size while maintaining performance |
+| [![Latency Profiling](https://badgen.net/badge/Notebook/Latency%20Profiling/orange)](notebooks/latency_profiling.ipynb) | Identifying and measuring latency bottlenecks |
+| [![Optimization Techniques](https://badgen.net/badge/Notebook/Optimization%20Techniques/orange)](notebooks/optimization_techniques.ipynb) | Implementing common latency reduction methods |
+| [![Model Compression](https://badgen.net/badge/Notebook/Model%20Compression/orange)](notebooks/model_compression.ipynb) | Reducing model size while maintaining performance |
 
 ### Throughput Optimization Strategies
 - **Description**: Maximize the number of requests an LLM system can handle concurrently.
@@ -65,9 +65,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Batch Processing | Implementing efficient batch inference |
-| Concurrent Requests | Managing multiple simultaneous requests |
-| Load Testing | Measuring and optimizing system throughput |
+| [![Batch Processing](https://badgen.net/badge/Notebook/Batch%20Processing/orange)](notebooks/batch_processing.ipynb) | Implementing efficient batch inference |
+| [![Concurrent Requests](https://badgen.net/badge/Notebook/Concurrent%20Requests/orange)](notebooks/concurrent_requests.ipynb) | Managing multiple simultaneous requests |
+| [![Load Testing](https://badgen.net/badge/Notebook/Load%20Testing/orange)](notebooks/load_testing.ipynb) | Measuring and optimizing system throughput |
 
 ### Cost Optimization & Resource Management
 - **Description**: Minimize operational costs while maintaining performance.
@@ -88,6 +88,6 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Cost Analysis | Analyzing and optimizing cloud costs |
-| Resource Monitoring | Setting up resource usage tracking |
-| Scaling Strategies | Implementing cost-effective scaling policies |
+| [![Cost Analysis](https://badgen.net/badge/Notebook/Cost%20Analysis/orange)](notebooks/cost_analysis.ipynb) | Analyzing and optimizing cloud costs |
+| [![Resource Monitoring](https://badgen.net/badge/Notebook/Resource%20Monitoring/orange)](notebooks/resource_monitoring.ipynb) | Setting up resource usage tracking |
+| [![Scaling Strategies](https://badgen.net/badge/Notebook/Scaling%20Strategies/orange)](notebooks/scaling_strategies.ipynb) | Implementing cost-effective scaling policies |

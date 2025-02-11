@@ -18,9 +18,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Basic Prompting | Introduction to prompt engineering fundamentals |
-| Few-Shot Learning | Implementing few-shot learning techniques |
-| Advanced Patterns | Working with complex prompting patterns |
+| [![Basic Prompting](https://badgen.net/badge/Notebook/Basic%20Prompting/orange)](notebooks/basic_prompting.ipynb) | Introduction to prompt engineering fundamentals |
+| [![Few-Shot Learning](https://badgen.net/badge/Notebook/Few-Shot%20Learning/orange)](notebooks/few_shot_learning.ipynb) | Implementing few-shot learning techniques |
+| [![Advanced Patterns](https://badgen.net/badge/Notebook/Advanced%20Patterns/orange)](notebooks/advanced_patterns.ipynb) | Working with complex prompting patterns |
 
 ### Context Engineering & Control
 - **Description**: Learn to manipulate context and control mechanisms for precise LLM outputs.
@@ -40,9 +40,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Context Management | Managing and manipulating context windows |
-| Control Codes | Working with control codes and flags |
-| Conditional Generation | Implementing conditional text generation |
+| [![Context Management](https://badgen.net/badge/Notebook/Context%20Management/orange)](notebooks/context_management.ipynb) | Managing and manipulating context windows |
+| [![Control Codes](https://badgen.net/badge/Notebook/Control%20Codes/orange)](notebooks/control_codes.ipynb) | Working with control codes and flags |
+| [![Conditional Generation](https://badgen.net/badge/Notebook/Conditional%20Generation/orange)](notebooks/conditional_generation.ipynb) | Implementing conditional text generation |
 ### Retrieval-Augmented Generation (RAG)
 - **Description**: Combine LLMs with external knowledge retrieval for enhanced, factual responses.
 - **Concepts Covered**: `RAG`, `retrieval`, `knowledge augmentation`, `vector databases`, `citation detection`, `span classification`, `real-time relevance scoring`, `source verification`
@@ -68,8 +68,15 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Basic RAG Pipeline | Implementing a simple RAG system with vector search |
-| Citation Detection | Building a local citation detection system |
-| Advanced RAG | Optimizing RAG with pre/post processing techniques |
-| Real-time RAG | Implementing real-time data collection and processing |
+| [![Basic RAG Pipeline](https://badgen.net/badge/Notebook/Basic%20RAG%20Pipeline/orange)](notebooks/basic_rag_pipeline.ipynb) | Implementing a simple RAG system with vector search |
+| [![Citation Detection](https://badgen.net/badge/Notebook/Citation%20Detection/orange)](notebooks/citation_detection.ipynb) | Building a local citation detection system |
+| [![Advanced RAG](https://badgen.net/badge/Notebook/Advanced%20RAG/orange)](notebooks/advanced_rag.ipynb) | Optimizing RAG with pre/post processing techniques |
+| [![Real-time RAG](https://badgen.net/badge/Notebook/Real-time%20RAG/orange)](notebooks/realtime_rag.ipynb) | Implementing real-time data collection and processing |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![CoT Dataset Creation](https://badgen.net/badge/Notebook/CoT%20Dataset%20Creation/orange)](notebooks/cot_dataset_creation.ipynb) | Build chain-of-thought datasets from scratch |
+| [![Data Quality Assessment](https://badgen.net/badge/Notebook/Data%20Quality%20Assessment/orange)](notebooks/data_quality_assessment.ipynb) | Implement filtering and verification techniques |
+| [![Poetry Dataset Generation](https://badgen.net/badge/Notebook/Poetry%20Dataset%20Generation/orange)](notebooks/poetry_dataset_generation.ipynb) | Create specialized poetry training data |
 

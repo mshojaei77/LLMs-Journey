@@ -4,42 +4,42 @@
 #### Learning Sources
 | Essential | Optional |
 |-----------|----------|
-| [Common Crawl Documentation](https://commoncrawl.org/the-data/get-started/) | [Best Scraping Tools Directory](https://bestscrapingtools.com/web-crawling-tools/) |
-| [Distributed Web Scraping Guide](https://www.scrapingbee.com/blog/distributed-web-scraping/) | |
+| [![Common Crawl Documentation](https://badgen.net/badge/Docs/Common%20Crawl%20Documentation/green)](https://commoncrawl.org/the-data/get-started/) | [![Best Scraping Tools Directory](https://badgen.net/badge/Website/Best%20Scraping%20Tools%20Directory/blue)](https://bestscrapingtools.com/web-crawling-tools/) |
+| [![Distributed Web Scraping Guide](https://badgen.net/badge/Tutorial/Distributed%20Web%20Scraping%20Guide/blue)](https://www.scrapingbee.com/blog/distributed-web-scraping/) | |
 
 #### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
-| [Common Crawl](https://commoncrawl.org/) | [Internet Archive](https://archive.org/web/) |
-| [Scrapy](https://scrapy.org/) | [Colly](https://github.com/gocolly/colly) |
-| [Apache Kafka](https://kafka.apache.org/) | [Spider-rs](https://github.com/spider-rs/spider) |
-| [Apache Spark](https://spark.apache.org/) | [InstantAPI.ai](https://web.instantapi.ai) |
+| [![Common Crawl](https://badgen.net/badge/Framework/Common%20Crawl/green)](https://commoncrawl.org/) | [![Internet Archive](https://badgen.net/badge/Website/Internet%20Archive/blue)](https://archive.org/web/) |
+| [![Scrapy](https://badgen.net/badge/Framework/Scrapy/green)](https://scrapy.org/) | [![Colly](https://badgen.net/badge/Github%20Repository/Colly/cyan)](https://github.com/gocolly/colly) |
+| [![Apache Kafka](https://badgen.net/badge/Framework/Apache%20Kafka/green)](https://kafka.apache.org/) | [![Spider-rs](https://badgen.net/badge/Github%20Repository/Spider-rs/cyan)](https://github.com/spider-rs/spider) |
+| [![Apache Spark](https://badgen.net/badge/Framework/Apache%20Spark/green)](https://spark.apache.org/) | [![InstantAPI.ai](https://badgen.net/badge/API%20Provider/InstantAPI.ai/blue)](https://web.instantapi.ai) |
 
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Web Crawling Basics | Learn to build a basic web crawler using Scrapy |
-| Distributed Data Collection | Set up a distributed crawling system with Kafka |
-| Stream Processing Pipeline | Process real-time data streams with Spark |
+| [![Web Crawling Basics](https://badgen.net/badge/Notebook/Web%20Crawling%20Basics/orange)](notebooks/web_crawling_basics.ipynb) | Learn to build a basic web crawler using Scrapy |
+| [![Distributed Data Collection](https://badgen.net/badge/Notebook/Distributed%20Data%20Collection/orange)](notebooks/distributed_data_collection.ipynb) | Set up a distributed crawling system with Kafka |
+| [![Stream Processing Pipeline](https://badgen.net/badge/Notebook/Stream%20Processing%20Pipeline/orange)](notebooks/stream_processing_pipeline.ipynb) | Process real-time data streams with Spark |
 
 ### Data Cleaning & Preprocessing Pipelines
 #### Learning Sources
 | Essential | Optional |
 |-----------|----------|
-| [Data Cleaning with Python](https://www.kaggle.com/learn/data-cleaning) | |
-| [Text Preprocessing Techniques](https://towardsdatascience.com/8-steps-to-master-data-preparation-with-python-85555d45f54b) | |
+| [![Data Cleaning with Python](https://badgen.net/badge/Tutorial/Data%20Cleaning%20with%20Python/blue)](https://www.kaggle.com/learn/data-cleaning) | |
+| [![Text Preprocessing Techniques](https://badgen.net/badge/Blog/Text%20Preprocessing%20Techniques/pink)](https://towardsdatascience.com/8-steps-to-master-data-preparation-with-python-85555d45f54b) | |
 
 #### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
-| [spaCy](https://spacy.io/) | |
-| [NLTK](https://www.nltk.org/) | |
+| [![spaCy](https://badgen.net/badge/Framework/spaCy/green)](https://spacy.io/) | |
+| [![NLTK](https://badgen.net/badge/Framework/NLTK/green)](https://www.nltk.org/) | |
 
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Text Cleaning Pipeline | Build an end-to-end text cleaning pipeline |
-| Advanced Preprocessing | Implement advanced text preprocessing techniques |
+| [![Text Cleaning Pipeline](https://badgen.net/badge/Notebook/Text%20Cleaning%20Pipeline/orange)](notebooks/text_cleaning_pipeline.ipynb) | Build an end-to-end text cleaning pipeline |
+| [![Advanced Preprocessing](https://badgen.net/badge/Notebook/Advanced%20Preprocessing/orange)](notebooks/advanced_preprocessing.ipynb) | Implement advanced text preprocessing techniques |
 
 ### Pre-training Datasets
 - **Description**: Explore and utilize large-scale datasets suitable for pre-training language models, focusing on diverse, high-quality text corpora.
@@ -61,9 +61,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Dataset Creation Pipeline | Build an end-to-end dataset creation pipeline |
-| Data Quality Assessment | Implement filtering and quality metrics |
-| Deduplication Workshop | Practice text deduplication techniques |
+| [![Dataset Creation Pipeline](https://badgen.net/badge/Notebook/Dataset%20Creation%20Pipeline/orange)](notebooks/dataset_creation_pipeline.ipynb) | Build an end-to-end dataset creation pipeline |
+| [![Data Quality Assessment](https://badgen.net/badge/Notebook/Data%20Quality%20Assessment/orange)](notebooks/data_quality_assessment.ipynb) | Implement filtering and quality metrics |
+| [![Deduplication Workshop](https://badgen.net/badge/Notebook/Deduplication%20Workshop/orange)](notebooks/deduplication_workshop.ipynb) | Practice text deduplication techniques |
 
 #### Popular Datasets
 | Dataset | Description |

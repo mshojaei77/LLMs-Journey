@@ -24,11 +24,11 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Vision-Language Integration | Implementing basic vision-language tasks with DeepSeek-VL |
-| OCR Pipeline | Building an OCR system with Surya and DocTR |
-| Multimodal Search | Creating a multimodal search system using CLIP |
-| Handwritten Text Recognition | Implementing HTR-VT for handwritten text recognition |
-| Fine-tuning Vision Models | Fine-tuning Qwen2.5VL for custom tasks |
+| [![Vision-Language Integration](https://badgen.net/badge/Notebook/Vision-Language%20Integration/orange)](notebooks/vision_language_integration.ipynb) | Implementing basic vision-language tasks with DeepSeek-VL |
+| [![OCR Pipeline](https://badgen.net/badge/Notebook/OCR%20Pipeline/orange)](notebooks/ocr_pipeline.ipynb) | Building an OCR system with Surya and DocTR |
+| [![Multimodal Search](https://badgen.net/badge/Notebook/Multimodal%20Search/orange)](notebooks/multimodal_search.ipynb) | Creating a multimodal search system using CLIP |
+| [![Handwritten Text Recognition](https://badgen.net/badge/Notebook/Handwritten%20Text%20Recognition/orange)](notebooks/handwritten_text.ipynb) | Implementing HTR-VT for handwritten text recognition |
+| [![Fine-tuning Vision Models](https://badgen.net/badge/Notebook/Fine-tuning%20Vision%20Models/orange)](notebooks/vision_finetuning.ipynb) | Fine-tuning Qwen2.5VL for custom tasks |
 ### Code Generation & Code Repair
 - **Description**: Use LLMs for code generation, debugging, and automated repair.
 - **Concepts Covered**: `code generation`, `code repair`, `debugging`, `LLM`
@@ -46,9 +46,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Code Generation | Building a code generation pipeline |
-| Automated Repair | Implementing automated code repair |
-| Debugging Assistant | Creating an LLM-powered debugging tool |
+| [![Code Generation](https://badgen.net/badge/Notebook/Code%20Generation/orange)](notebooks/code_generation.ipynb) | Building a code generation pipeline |
+| [![Automated Repair](https://badgen.net/badge/Notebook/Automated%20Repair/orange)](notebooks/automated_repair.ipynb) | Implementing automated code repair |
+| [![Debugging Assistant](https://badgen.net/badge/Notebook/Debugging%20Assistant/orange)](notebooks/debugging_assistant.ipynb) | Creating an LLM-powered debugging tool |
 
 ### Intelligent Agents & Tool Integration
 - **Description**: Build agents that integrate LLMs with external tools and APIs for automation.
@@ -67,9 +67,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Basic Agent | Creating a simple LLM-powered agent |
-| Tool Integration | Connecting agents with external tools |
-| Complex Workflows | Building multi-step agent workflows |
+| [![Basic Agent](https://badgen.net/badge/Notebook/Basic%20Agent/orange)](notebooks/basic_agent.ipynb) | Creating a simple LLM-powered agent |
+| [![Tool Integration](https://badgen.net/badge/Notebook/Tool%20Integration/orange)](notebooks/tool_integration.ipynb) | Connecting agents with external tools |
+| [![Complex Workflows](https://badgen.net/badge/Notebook/Complex%20Workflows/orange)](notebooks/complex_workflows.ipynb) | Building multi-step agent workflows |
 
 ### Custom LLM Applications
 - **Description**: Develop tailored LLM solutions for specific business or research needs.
@@ -91,9 +91,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Domain Adaptation | Fine-tuning LLMs for specific domains |
-| Custom Application | Building a specialized LLM application |
-| RAG Implementation | Implementing retrieval-augmented generation |
+| [![Domain Adaptation](https://badgen.net/badge/Notebook/Domain%20Adaptation/orange)](notebooks/domain_adaptation.ipynb) | Fine-tuning LLMs for specific domains |
+| [![Custom Application](https://badgen.net/badge/Notebook/Custom%20Application/orange)](notebooks/custom_application.ipynb) | Building a specialized LLM application |
+| [![RAG Implementation](https://badgen.net/badge/Notebook/RAG%20Implementation/orange)](notebooks/rag_implementation.ipynb) | Implementing retrieval-augmented generation |
 
 ### Document Processing and Structured Data Extraction
 
@@ -113,9 +113,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| PDF Processing | Setting up PDF extraction pipeline |
-| Data Structuring | Implementing structured data extraction |
-| Token Management | Managing API tokens and file sizes |
+| [![PDF Processing](https://badgen.net/badge/Notebook/PDF%20Processing/orange)](notebooks/pdf_processing.ipynb) | Setting up PDF extraction pipeline |
+| [![Data Structuring](https://badgen.net/badge/Notebook/Data%20Structuring/orange)](notebooks/data_structuring.ipynb) | Implementing structured data extraction |
+| [![Token Management](https://badgen.net/badge/Notebook/Token%20Management/orange)](notebooks/token_management.ipynb) | Managing API tokens and file sizes |
 
 ### AI Research Assistant Development
 

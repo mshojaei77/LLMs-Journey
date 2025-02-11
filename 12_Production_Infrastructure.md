@@ -21,9 +21,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Local Model Setup | Setting up and deploying local LLMs |
-| High-Performance Serving | Implementing vLLM with PagedAttention |
-| Memory Optimization | Managing memory and caching strategies |
+| [![Local Model Setup](https://badgen.net/badge/Notebook/Local%20Model%20Setup/orange)](notebooks/local_model_setup.ipynb) | Setting up and deploying local LLMs |
+| [![High-Performance Serving](https://badgen.net/badge/Notebook/High-Performance%20Serving/orange)](notebooks/high_performance_serving.ipynb) | Implementing vLLM with PagedAttention |
+| [![Memory Optimization](https://badgen.net/badge/Notebook/Memory%20Optimization/orange)](notebooks/memory_optimization.ipynb) | Managing memory and caching strategies |
 
 ### Deployment Architectures for LLMs
 - **Description**: Explore various architectures for serving LLMs in production environments.
@@ -44,8 +44,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Docker Deployment | Containerizing LLMs with Docker |
-| Kubernetes Setup | Orchestrating LLM deployments |
+| [![Docker Deployment](https://badgen.net/badge/Notebook/Docker%20Deployment/orange)](notebooks/docker_deployment.ipynb) | Containerizing LLMs with Docker |
+| [![Kubernetes Setup](https://badgen.net/badge/Notebook/Kubernetes%20Setup/orange)](notebooks/kubernetes_setup.ipynb) | Orchestrating LLM deployments |
 
 ### Scaling & Load Balancing
 - **Description**: Design systems to scale LLM inference and handle high traffic.
@@ -66,8 +66,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Auto-scaling Setup | Implementing auto-scaling policies |
-| Load Balancer Config | Configuring load balancers |
+| [![Auto-scaling Setup](https://badgen.net/badge/Notebook/Auto-scaling%20Setup/orange)](notebooks/auto_scaling_setup.ipynb) | Implementing auto-scaling policies |
+| [![Load Balancer Config](https://badgen.net/badge/Notebook/Load%20Balancer%20Config/orange)](notebooks/load_balancer_config.ipynb) | Configuring load balancers |
 
 ### Monitoring & Logging for LLMs
 - **Description**: Implement robust monitoring and logging to maintain production model performance.
@@ -88,5 +88,5 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Monitoring Setup | Setting up monitoring dashboards |
-| Log Analysis | Analyzing LLM performance logs |
+| [![Monitoring Setup](https://badgen.net/badge/Notebook/Monitoring%20Setup/orange)](notebooks/monitoring_setup.ipynb) | Setting up monitoring dashboards |
+| [![Log Analysis](https://badgen.net/badge/Notebook/Log%20Analysis/orange)](notebooks/log_analysis.ipynb) | Analyzing LLM performance logs |

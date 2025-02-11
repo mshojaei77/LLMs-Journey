@@ -19,9 +19,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Function Calling Basics | Implementing basic function calling with OpenAI API |
-| Advanced Function Calls | Working with parallel function calls and JSON schemas |
-| Database Integration | Using function calling for database queries |
+| [![Function Calling Basics](https://badgen.net/badge/Notebook/Function%20Calling%20Basics/orange)](notebooks/function_calling_basics.ipynb) | Implementing basic function calling with OpenAI API |
+| [![Advanced Function Calls](https://badgen.net/badge/Notebook/Advanced%20Function%20Calls/orange)](notebooks/advanced_function_calls.ipynb) | Working with parallel function calls and JSON schemas |
+| [![Database Integration](https://badgen.net/badge/Notebook/Database%20Integration/orange)](notebooks/database_integration.ipynb) | Using function calling for database queries |
 
 ### AI Agents & Autonomous Systems
 - **Description**: Build autonomous AI agents and multi-agent systems that can plan and execute complex tasks.
@@ -46,9 +46,10 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Basic Agent Development | Creating simple autonomous agents with LangChain |
-| Multi-Agent Systems | Building collaborative agent systems |
-| Complex Workflows | Implementing multi-step agent workflows |
+| [![Basic Agent Development](https://badgen.net/badge/Notebook/Basic%20Agent%20Development/orange)](notebooks/basic_agent_dev.ipynb) | Creating simple autonomous agents with LangChain |
+| [![Multi-Agent Systems](https://badgen.net/badge/Notebook/Multi-Agent%20Systems/orange)](notebooks/multi_agent_systems.ipynb) | Building collaborative agent systems |
+| [![Complex Workflows](https://badgen.net/badge/Notebook/Complex%20Workflows/orange)](notebooks/complex_workflows.ipynb) | Implementing multi-step agent workflows |
+
 ### Agent Evaluation & External Tools Integration
 - **Description**: Implement evaluation frameworks and integrate external tools to enhance agent capabilities.
 - **Concepts Covered**: `LLM-as-judge`, `quality metrics`, `evaluation frameworks`, `API integration`, `tool libraries`, `web services`, `data sources`
@@ -70,9 +71,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Evaluation Setup | Setting up evaluation frameworks with LangSmith |
-| Tool Integration | Integrating external APIs and services |
-| Custom Tools | Building and deploying custom agent tools |
+| [![Evaluation Setup](https://badgen.net/badge/Notebook/Evaluation%20Setup/orange)](notebooks/evaluation_setup.ipynb) | Setting up evaluation frameworks with LangSmith |
+| [![Tool Integration](https://badgen.net/badge/Notebook/Tool%20Integration/orange)](notebooks/tool_integration.ipynb) | Integrating external APIs and services |
+| [![Custom Tools](https://badgen.net/badge/Notebook/Custom%20Tools/orange)](notebooks/custom_tools.ipynb) | Building and deploying custom agent tools |
 
 ### AI Agents in Different Domains
 - **Description**: Build AI agents for different domains, including medical, finance, and education.
@@ -93,9 +94,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Medical Agents | Building diagnostic and analysis agents |
-| Financial Agents | Implementing trading and analysis agents |
-| Educational Agents | Creating tutoring and assessment agents |
+| [![Medical Agents](https://badgen.net/badge/Notebook/Medical%20Agents/orange)](notebooks/medical_agents.ipynb) | Building diagnostic and analysis agents |
+| [![Financial Agents](https://badgen.net/badge/Notebook/Financial%20Agents/orange)](notebooks/financial_agents.ipynb) | Implementing trading and analysis agents |
+| [![Educational Agents](https://badgen.net/badge/Notebook/Educational%20Agents/orange)](notebooks/educational_agents.ipynb) | Creating tutoring and assessment agents |
 
 ### External Data Sources for AI Agents
 - **Description**: Integrate diverse external data sources to enhance AI agent capabilities with real-time and historical information.
@@ -117,6 +118,6 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Social Media Integration | Connecting agents to social platforms |
-| OSINT Collection | Building data collection pipelines |
-| Cross-Platform Analysis | Implementing multi-source data analysis |
+| [![Social Media Integration](https://badgen.net/badge/Notebook/Social%20Media%20Integration/orange)](notebooks/social_media_integration.ipynb) | Connecting agents to social platforms |
+| [![OSINT Collection](https://badgen.net/badge/Notebook/OSINT%20Collection/orange)](notebooks/osint_collection.ipynb) | Building data collection pipelines |
+| [![Cross-Platform Analysis](https://badgen.net/badge/Notebook/Cross-Platform%20Analysis/orange)](notebooks/cross_platform_analysis.ipynb) | Implementing multi-source data analysis |

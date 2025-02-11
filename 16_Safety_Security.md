@@ -21,9 +21,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Bias Detection | Implementing bias detection and mitigation |
-| Safety Mechanisms | Setting up content filtering and moderation |
-| Cultural Analysis | Analyzing cultural representation in model outputs |
+| [![Bias Detection](https://badgen.net/badge/Notebook/Bias%20Detection/orange)](notebooks/bias_detection.ipynb) | Implementing bias detection and mitigation |
+| [![Safety Mechanisms](https://badgen.net/badge/Notebook/Safety%20Mechanisms/orange)](notebooks/safety_mechanisms.ipynb) | Setting up content filtering and moderation |
+| [![Cultural Analysis](https://badgen.net/badge/Notebook/Cultural%20Analysis/orange)](notebooks/cultural_analysis.ipynb) | Analyzing cultural representation in model outputs |
 
 ### Privacy Protection & Data Security
 - **Description**: Implement techniques to protect user data and ensure privacy in LLM applications.
@@ -44,8 +44,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Privacy Implementation | Setting up differential privacy |
-| Data Anonymization | Implementing data anonymization techniques |
+| [![Privacy Implementation](https://badgen.net/badge/Notebook/Privacy%20Implementation/orange)](notebooks/privacy_implementation.ipynb) | Setting up differential privacy |
+| [![Data Anonymization](https://badgen.net/badge/Notebook/Data%20Anonymization/orange)](notebooks/data_anonymization.ipynb) | Implementing data anonymization techniques |
 
 ### Adversarial Attacks & Defenses
 - **Description**: Understand and defend against adversarial attacks on language models.
@@ -66,8 +66,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Attack Simulation | Testing common adversarial attacks |
-| Defense Implementation | Building robust defense mechanisms |
+| [![Attack Simulation](https://badgen.net/badge/Notebook/Attack%20Simulation/orange)](notebooks/attack_simulation.ipynb) | Testing common adversarial attacks |
+| [![Defense Implementation](https://badgen.net/badge/Notebook/Defense%20Implementation/orange)](notebooks/defense_implementation.ipynb) | Building robust defense mechanisms |
 
 ### Content Filtering & Moderation
 - **Description**: Implement content filtering and moderation to ensure safe and appropriate LLM outputs.
@@ -89,6 +89,6 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Content Filtering | Implementing content moderation systems |
-| Security Auditing | Testing and validating safety measures |
-| Bypass Prevention | Building robust safety mechanisms |
+| [![Content Filtering](https://badgen.net/badge/Notebook/Content%20Filtering/orange)](notebooks/content_filtering.ipynb) | Implementing content moderation systems |
+| [![Security Auditing](https://badgen.net/badge/Notebook/Security%20Auditing/orange)](notebooks/security_auditing.ipynb) | Testing and validating safety measures |
+| [![Bypass Prevention](https://badgen.net/badge/Notebook/Bypass%20Prevention/orange)](notebooks/bypass_prevention.ipynb) | Building robust safety mechanisms |

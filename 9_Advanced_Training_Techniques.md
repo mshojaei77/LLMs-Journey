@@ -45,6 +45,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
+| [![Knowledge Distillation Basics](https://badgen.net/badge/Notebook/Knowledge%20Distillation%20Basics/orange)](notebooks/knowledge_distillation_basics.ipynb) | Implement basic knowledge distillation |
+| [![Student Model Training](https://badgen.net/badge/Notebook/Student%20Model%20Training/orange)](notebooks/student_model_training.ipynb) | Train efficient student models |
 
 ### Model Merging
 - **Description**: Combine multiple fine-tuned models or merge model weights to create enhanced capabilities
@@ -65,6 +67,10 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
+| [![Model Merging Basics](https://badgen.net/badge/Notebook/Model%20Merging%20Basics/orange)](notebooks/model_merging_basics.ipynb) | Basic model merging techniques |
+| [![Weight Averaging](https://badgen.net/badge/Notebook/Weight%20Averaging/orange)](notebooks/weight_averaging.ipynb) | Implement weight averaging |
+| [![Model Fusion](https://badgen.net/badge/Notebook/Model%20Fusion/orange)](notebooks/model_fusion.ipynb) | Advanced model fusion techniques |
+
 ### Fine-tuning Datasets
 - **Description**: Curated datasets for instruction tuning, alignment, and specialized task adaptation of language models.
 - **Concepts Covered**: `instruction tuning`, `RLHF`, `task-specific data`, `data quality`, `prompt engineering`, `human feedback`
@@ -72,25 +78,25 @@
 #### Learning Sources
 | Essential | Optional |
 |-----------|----------|
-| [Anthropic's Constitutional AI](https://www.anthropic.com/research/constitutional) - Core principles of aligned fine-tuning | [Self-Instruct Paper](https://arxiv.org/abs/2212.10560) - Automated instruction generation |
-| [OpenAI's InstructGPT Paper](https://arxiv.org/abs/2203.02155) - Foundational RLHF approach | [UltraFeedback Paper](https://arxiv.org/abs/2310.01377) - Advanced feedback collection |
-| [DeepSeek-R1 Local Fine-tuning Guide](https://x.com/_avichawla/status/1884126766132011149) - Step-by-step local setup | |
+| [![Anthropic's Constitutional AI](https://badgen.net/badge/Website/Anthropic's%20Constitutional%20AI/blue)](https://www.anthropic.com/research/constitutional) - Core principles of aligned fine-tuning | [![Self-Instruct Paper](https://badgen.net/badge/Paper/Self-Instruct%20Paper/purple)](https://arxiv.org/abs/2212.10560) - Automated instruction generation |
+| [![OpenAI's InstructGPT Paper](https://badgen.net/badge/Paper/OpenAI's%20InstructGPT%20Paper/purple)](https://arxiv.org/abs/2203.02155) - Foundational RLHF approach | [![UltraFeedback Paper](https://badgen.net/badge/Paper/UltraFeedback%20Paper/purple)](https://arxiv.org/abs/2310.01377) - Advanced feedback collection |
+| [![DeepSeek-R1 Local Fine-tuning Guide](https://badgen.net/badge/Blog/DeepSeek-R1%20Local%20Fine-tuning%20Guide/pink)](https://x.com/_avichawla/status/1884126766132011149) - Step-by-step local setup | |
 
 #### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
-| [Self-Instruct](https://github.com/yizhongw/self-instruct) - Automated instruction generation | [LIDA](https://github.com/microsoft/LIDA) - Automatic dataset creation |
-| [Argilla](https://github.com/argilla-io/argilla) - Data annotation platform | [Stanford Alpaca Tools](https://github.com/tatsu-lab/stanford_alpaca) - Dataset generation |
+| [![Self-Instruct](https://badgen.net/badge/Github%20Repository/Self-Instruct/cyan)](https://github.com/yizhongw/self-instruct) - Automated instruction generation | [![LIDA](https://badgen.net/badge/Github%20Repository/LIDA/cyan)](https://github.com/microsoft/LIDA) - Automatic dataset creation |
+| [![Argilla](https://badgen.net/badge/Github%20Repository/Argilla/cyan)](https://github.com/argilla-io/argilla) - Data annotation platform | [![Stanford Alpaca Tools](https://badgen.net/badge/Github%20Repository/Stanford%20Alpaca%20Tools/cyan)](https://github.com/tatsu-lab/stanford_alpaca) - Dataset generation |
 
 #### Popular Datasets
 | Dataset | Description |
 |----------|-------------|
-| [Anthropic Constitutional AI Dataset](https://huggingface.co/datasets/anthropic/constitutional-ai) | Aligned instruction dataset with safety considerations |
-| [OpenAssistant Conversations](https://huggingface.co/datasets/OpenAssistant/oasst1) | High-quality conversational data |
-| [UltraChat](https://huggingface.co/datasets/HuggingFaceH4/ultrachat) | Large-scale chat interactions |
-| [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback) | Comprehensive model evaluation data |
-| [Synthia-Coder-v1.5-I](https://huggingface.co/datasets/migtissera/Synthia-Coder-v1.5-I) | 23.5K coding samples from Claude Opus |
-| [Synthetic Medical Conversations](https://huggingface.co/datasets/OnDeviceMedNotes/synthetic-medical-conversations-deepseek-v3) | Multilingual medical dialogues |
+| [![Anthropic Constitutional AI Dataset](https://badgen.net/badge/Hugging%20Face%20Dataset/Anthropic%20Constitutional%20AI%20Dataset/yellow)](https://huggingface.co/datasets/anthropic/constitutional-ai) | Aligned instruction dataset with safety considerations |
+| [![OpenAssistant Conversations](https://badgen.net/badge/Hugging%20Face%20Dataset/OpenAssistant%20Conversations/yellow)](https://huggingface.co/datasets/OpenAssistant/oasst1) | High-quality conversational data |
+| [![UltraChat](https://badgen.net/badge/Hugging%20Face%20Dataset/UltraChat/yellow)](https://huggingface.co/datasets/HuggingFaceH4/ultrachat) | Large-scale chat interactions |
+| [![UltraFeedback](https://badgen.net/badge/Hugging%20Face%20Dataset/UltraFeedback/yellow)](https://huggingface.co/datasets/openbmb/UltraFeedback) | Comprehensive model evaluation data |
+| [![Synthia-Coder-v1.5-I](https://badgen.net/badge/Hugging%20Face%20Dataset/Synthia-Coder-v1.5-I/yellow)](https://huggingface.co/datasets/migtissera/Synthia-Coder-v1.5-I) | 23.5K coding samples from Claude Opus |
+| [![Synthetic Medical Conversations](https://badgen.net/badge/Hugging%20Face%20Dataset/Synthetic%20Medical%20Conversations/yellow)](https://huggingface.co/datasets/OnDeviceMedNotes/synthetic-medical-conversations-deepseek-v3) | Multilingual medical dialogues |
 ### Knowledge Distillation
 - **Description**: Transfer expertise from large teacher models to smaller, efficient student models.
 - **Concepts Covered**: `knowledge distillation`, `teacher-student`, `model compression`
@@ -108,8 +114,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Knowledge Distillation Basics | Implement basic knowledge distillation |
-| Student Model Training | Train efficient student models |
+| [![Knowledge Distillation Basics](https://badgen.net/badge/Notebook/Knowledge%20Distillation%20Basics/orange)](notebooks/knowledge_distillation_basics.ipynb) | Implement basic knowledge distillation |
+| [![Student Model Training](https://badgen.net/badge/Notebook/Student%20Model%20Training/orange)](notebooks/student_model_training.ipynb) | Train efficient student models |
 
 ### Reasoning Models, Reinforcement Learning and Group Relative Policy Optimization (GRPO)
 - **Description**: Explore models that enhance reasoning capabilities through chain-of-thought and GRPO-based training, focusing on efficient preference learning and resource-constrained environments.
@@ -132,10 +138,10 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [GRPO Poetry Generation](https://colab.research.google.com/drive/1Ty0ovsrpw8i-zJvDhlSAtBIVw3EZfHK5?usp=sharing) | Implement GRPO for poetry generation |
-| [Qwen 0.5B GRPO Implementation](https://colab.research.google.com/drive/1bfhs1FMLW3FGa8ydvkOZyBNxLYOu0Hev?usp=sharing) | Train small models with GRPO |
-| [Phi-4 14B GRPO Training](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Phi_4_(14B)-GRPO.ipynb) | Scale GRPO to larger models |
-| [Llama 3.1 8B GRPO](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-GRPO.ipynb) | Advanced GRPO implementation |
+| [![GRPO Poetry Generation](https://badgen.net/badge/Colab%20Notebook/GRPO%20Poetry%20Generation/orange)](https://colab.research.google.com/drive/1Ty0ovsrpw8i-zJvDhlSAtBIVw3EZfHK5?usp=sharing) | Implement GRPO for poetry generation |
+| [![Qwen 0.5B GRPO Implementation](https://badgen.net/badge/Colab%20Notebook/Qwen%200.5B%20GRPO%20Implementation/orange)](https://colab.research.google.com/drive/1bfhs1FMLW3FGa8ydvkOZyBNxLYOu0Hev?usp=sharing) | Train small models with GRPO |
+| [![Phi-4 14B GRPO Training](https://badgen.net/badge/Colab%20Notebook/Phi-4%2014B%20GRPO%20Training/orange)](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Phi_4_(14B)-GRPO.ipynb) | Scale GRPO to larger models |
+| [![Llama 3.1 8B GRPO](https://badgen.net/badge/Colab%20Notebook/Llama%203.1%208B%20GRPO/orange)](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-GRPO.ipynb) | Advanced GRPO implementation |
 ### GRPO Datasets
 - **Description**: Curated datasets for training and evaluating GRPO-based models, with focus on reasoning, poetry, and domain-specific tasks.
 - **Concepts Covered**: `dataset curation`, `chain-of-thought patterns`, `reasoning verification`, `poetry generation`, `scientific problem-solving`, `data preprocessing`, `quality filtering`
@@ -154,9 +160,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| CoT Dataset Creation | Build chain-of-thought datasets from scratch |
-| Data Quality Assessment | Implement filtering and verification techniques |
-| Poetry Dataset Generation | Create specialized poetry training data |
+| [![CoT Dataset Creation](https://badgen.net/badge/Notebook/CoT%20Dataset%20Creation/orange)](notebooks/cot_dataset_creation.ipynb) | Build chain-of-thought datasets from scratch |
+| [![Data Quality Assessment](https://badgen.net/badge/Notebook/Data%20Quality%20Assessment/orange)](notebooks/data_quality_assessment.ipynb) | Implement filtering and verification techniques |
+| [![Poetry Dataset Generation](https://badgen.net/badge/Notebook/Poetry%20Dataset%20Generation/orange)](notebooks/poetry_dataset_generation.ipynb) | Create specialized poetry training data |
 
 #### Popular Datasets
 | Dataset | Description |

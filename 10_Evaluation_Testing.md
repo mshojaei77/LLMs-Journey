@@ -17,8 +17,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Metrics Implementation](notebooks/metrics_basics.ipynb) | Implement common evaluation metrics |
-| [Model Evaluation](notebooks/model_eval.ipynb) | Evaluate model performance |
+| [![Metrics Implementation](https://badgen.net/badge/Notebook/Metrics%20Implementation/orange)](notebooks/metrics_basics.ipynb) | Implement common evaluation metrics |
+| [![Model Evaluation](https://badgen.net/badge/Notebook/Model%20Evaluation/orange)](notebooks/model_eval.ipynb) | Evaluate model performance |
 
 ### Benchmark Datasets & Leaderboards
 - **Description**: Explore standardized benchmarks and leaderboards for evaluating LLM capabilities.
@@ -39,8 +39,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Benchmark Testing](notebooks/benchmark_testing.ipynb) | Run models through standard benchmarks |
-| [Custom Benchmarking](notebooks/custom_benchmarks.ipynb) | Create specialized benchmarks |
+| [![Benchmark Testing](https://badgen.net/badge/Notebook/Benchmark%20Testing/orange)](notebooks/benchmark_testing.ipynb) | Run models through standard benchmarks |
+| [![Custom Benchmarking](https://badgen.net/badge/Notebook/Custom%20Benchmarking/orange)](notebooks/custom_benchmarks.ipynb) | Create specialized benchmarks |
 
 ### Bias, Fairness & Ethical Evaluation
 - **Description**: Evaluate and mitigate biases in language models for equitable AI.
@@ -61,8 +61,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Bias Detection](notebooks/bias_detection.ipynb) | Identify model biases |
-| [Fairness Metrics](notebooks/fairness_metrics.ipynb) | Implement fairness evaluations |
+| [![Bias Detection](https://badgen.net/badge/Notebook/Bias%20Detection/orange)](notebooks/bias_detection.ipynb) | Identify model biases |
+| [![Fairness Metrics](https://badgen.net/badge/Notebook/Fairness%20Metrics/orange)](notebooks/fairness_metrics.ipynb) | Implement fairness evaluations |
 
 ### Custom Evaluation Frameworks
 - **Description**: Develop tailored evaluation pipelines for specialized tasks.
@@ -83,5 +83,5 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Custom Metrics](notebooks/custom_metrics.ipynb) | Build custom evaluation metrics |
-| [Evaluation Pipeline](notebooks/eval_pipeline.ipynb) | Create an evaluation pipeline |
+| [![Custom Metrics](https://badgen.net/badge/Notebook/Custom%20Metrics/orange)](notebooks/custom_metrics.ipynb) | Build custom evaluation metrics |
+| [![Evaluation Pipeline](https://badgen.net/badge/Notebook/Evaluation%20Pipeline/orange)](notebooks/eval_pipeline.ipynb) | Create an evaluation pipeline |

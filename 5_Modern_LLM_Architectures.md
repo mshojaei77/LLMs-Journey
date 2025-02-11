@@ -17,8 +17,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [BERT Implementation](notebooks/bert_basics.ipynb) | Build a basic BERT model |
-| [BERT Fine-tuning](notebooks/bert_finetune.ipynb) | Fine-tune BERT for classification |
+| [![BERT Implementation](https://badgen.net/badge/Notebook/BERT%20Implementation/orange)](notebooks/bert_basics.ipynb) | Build a basic BERT model |
+| [![BERT Fine-tuning](https://badgen.net/badge/Notebook/BERT%20Fine-tuning/orange)](notebooks/bert_finetune.ipynb) | Fine-tune BERT for classification |
 
 ### Decoder-Only Models (GPT)
 - **Description**: Learn about autoregressive models optimized for text generation.
@@ -37,8 +37,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [GPT Implementation](notebooks/gpt_basics.ipynb) | Build a basic GPT model |
-| [Text Generation](notebooks/text_generation.ipynb) | Generate text with GPT |
+| [![GPT Implementation](https://badgen.net/badge/Notebook/GPT%20Implementation/orange)](notebooks/gpt_basics.ipynb) | Build a basic GPT model |
+| [![Text Generation](https://badgen.net/badge/Notebook/Text%20Generation/orange)](notebooks/text_generation.ipynb) | Generate text with GPT |
 
 ### Encoder-Decoder Models (T5)
 - **Description**: Explore versatile models that combine encoder and decoder for sequence-to-sequence tasks.
@@ -57,8 +57,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [T5 Implementation](notebooks/t5_basics.ipynb) | Build a basic T5 model |
-| [Sequence Tasks](notebooks/seq2seq_tasks.ipynb) | Apply T5 to various sequence tasks |
+| [![T5 Implementation](https://badgen.net/badge/Notebook/T5%20Implementation/orange)](notebooks/t5_basics.ipynb) | Build a basic T5 model |
+| [![Sequence Tasks](https://badgen.net/badge/Notebook/Sequence%20Tasks/orange)](notebooks/seq2seq_tasks.ipynb) | Apply T5 to various sequence tasks |
+
 ### Mixture of Experts (MoE) Models
 - **Description**: Investigate models that scale efficiently by routing inputs to specialized expert networks.
 - **Concepts Covered**: `MoE`, `sparse models`, `expert networks`, `switch transformers`
@@ -77,8 +78,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [MoE Implementation](notebooks/moe_basics.ipynb) | Build a basic MoE model |
-| [Expert Routing](notebooks/expert_routing.ipynb) | Implement expert routing mechanisms |
+| [![MoE Implementation](https://badgen.net/badge/Notebook/MoE%20Implementation/orange)](notebooks/moe_basics.ipynb) | Build a basic MoE model |
+| [![Expert Routing](https://badgen.net/badge/Notebook/Expert%20Routing/orange)](notebooks/expert_routing.ipynb) | Implement expert routing mechanisms |
 
 ### LLM Reasoning & Cognitive Architectures
 - **Description**: Understand how LLMs perform different types of reasoning and their cognitive capabilities.
@@ -99,5 +100,5 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Chain-of-Thought Implementation](notebooks/cot_basics.ipynb) | Implement basic chain-of-thought reasoning |
-| [Multi-Step Reasoning](notebooks/multi_step_reasoning.ipynb) | Build complex reasoning chains |
+| [![Chain-of-Thought Implementation](https://badgen.net/badge/Notebook/Chain-of-Thought%20Implementation/orange)](notebooks/cot_basics.ipynb) | Implement basic chain-of-thought reasoning |
+| [![Multi-Step Reasoning](https://badgen.net/badge/Notebook/Multi-Step%20Reasoning/orange)](notebooks/multi_step_reasoning.ipynb) | Build complex reasoning chains |

@@ -19,8 +19,8 @@ Discover how attention enables models to focus on relevant parts of the input.
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Attention Basics](notebooks/attention_basics.ipynb) | Build a basic attention mechanism from scratch |
-| [Attention Visualization](notebooks/attention_viz.ipynb) | Visualize attention patterns in transformer models |
+| [![Attention Basics](https://badgen.net/badge/Notebook/Attention%20Basics/orange)](notebooks/attention_basics.ipynb) | Build a basic attention mechanism from scratch |
+| [![Attention Visualization](https://badgen.net/badge/Notebook/Attention%20Visualization/orange)](notebooks/attention_viz.ipynb) | Visualize attention patterns in transformer models |
 
 ### Self-Attention & Multi-Head Attention
 Understand how self-attention enables tokens to interact and how multiple attention heads capture different relationship patterns.
@@ -40,8 +40,8 @@ Understand how self-attention enables tokens to interact and how multiple attent
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Self-Attention Implementation](notebooks/self_attention.ipynb) | Build self-attention from scratch |
-| [Multi-Head Analysis](notebooks/multi_head.ipynb) | Analyze different attention heads |
+| [![Self-Attention Implementation](https://badgen.net/badge/Notebook/Self-Attention%20Implementation/orange)](notebooks/self_attention.ipynb) | Build self-attention from scratch |
+| [![Multi-Head Analysis](https://badgen.net/badge/Notebook/Multi-Head%20Analysis/orange)](notebooks/multi_head.ipynb) | Analyze different attention heads |
 
 ### Positional Encoding in Transformers
 Add sequential information to token embeddings through positional encodings.
@@ -61,8 +61,8 @@ Add sequential information to token embeddings through positional encodings.
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Positional Encoding Basics](notebooks/pos_encoding.ipynb) | Implement basic positional encodings |
-| [RoPE Implementation](notebooks/rope.ipynb) | Build rotary position embeddings |
+| [![Positional Encoding Basics](https://badgen.net/badge/Notebook/Positional%20Encoding%20Basics/orange)](notebooks/pos_encoding.ipynb) | Implement basic positional encodings |
+| [![RoPE Implementation](https://badgen.net/badge/Notebook/RoPE%20Implementation/orange)](notebooks/rope.ipynb) | Build rotary position embeddings |
 
 ### Layer Normalization & Residual Connections
 Enhance training stability through normalization techniques and skip connections.
@@ -82,5 +82,5 @@ Enhance training stability through normalization techniques and skip connections
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [LayerNorm Implementation](notebooks/layer_norm.ipynb) | Build layer normalization from scratch |
-| [ResNet Connections](notebooks/residual.ipynb) | Add residual connections to networks |
+| [![LayerNorm Implementation](https://badgen.net/badge/Notebook/LayerNorm%20Implementation/orange)](notebooks/layer_norm.ipynb) | Build layer normalization from scratch |
+| [![ResNet Connections](https://badgen.net/badge/Notebook/ResNet%20Connections/orange)](notebooks/residual.ipynb) | Add residual connections to networks |

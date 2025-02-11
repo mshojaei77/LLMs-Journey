@@ -19,9 +19,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Registry Setup | Setting up model registry and versioning |
-| Deployment Pipeline | Building automated deployment workflows |
-| Infrastructure Integration | Integrating with MLOps infrastructure |
+| [![Registry Setup](https://badgen.net/badge/Notebook/Registry%20Setup/orange)](notebooks/registry_setup.ipynb) | Setting up model registry and versioning |
+| [![Deployment Pipeline](https://badgen.net/badge/Notebook/Deployment%20Pipeline/orange)](notebooks/deployment_pipeline.ipynb) | Building automated deployment workflows |
+| [![Infrastructure Integration](https://badgen.net/badge/Notebook/Infrastructure%20Integration/orange)](notebooks/infrastructure_integration.ipynb) | Integrating with MLOps infrastructure |
 
 ### Model Versioning & Experiment Tracking
 - **Description**: Implement practices to track models and experiments throughout the ML lifecycle.
@@ -42,6 +42,26 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Version Control | Implementing model and data versioning |
-| Experiment Management | Setting up experiment tracking |
-| CI/CD Integration | Building CI/CD pipelines for ML |
+| [![Version Control](https://badgen.net/badge/Notebook/Version%20Control/orange)](notebooks/version_control.ipynb) | Implementing model and data versioning |
+| [![Experiment Management](https://badgen.net/badge/Notebook/Experiment%20Management/orange)](notebooks/experiment_management.ipynb) | Setting up experiment tracking |
+| [![CI/CD Integration](https://badgen.net/badge/Notebook/CI%2FCD%20Integration/orange)](notebooks/cicd_integration.ipynb) | Building CI/CD pipelines for ML |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![Knowledge Distillation Basics](https://badgen.net/badge/Notebook/Knowledge%20Distillation%20Basics/orange)](notebooks/knowledge_distillation_basics.ipynb) | Implement basic knowledge distillation |
+| [![Student Model Training](https://badgen.net/badge/Notebook/Student%20Model%20Training/orange)](notebooks/student_model_training.ipynb) | Train efficient student models |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![Model Merging Basics](https://badgen.net/badge/Notebook/Model%20Merging%20Basics/orange)](notebooks/model_merging_basics.ipynb) | Basic model merging techniques |
+| [![Weight Averaging](https://badgen.net/badge/Notebook/Weight%20Averaging/orange)](notebooks/weight_averaging.ipynb) | Implement weight averaging |
+| [![Model Fusion](https://badgen.net/badge/Notebook/Model%20Fusion/orange)](notebooks/model_fusion.ipynb) | Advanced model fusion techniques |
+
+#### Guided Practice
+| Notebook | Description |
+|----------|-------------|
+| [![CoT Dataset Creation](https://badgen.net/badge/Notebook/CoT%20Dataset%20Creation/orange)](notebooks/cot_dataset_creation.ipynb) | Build chain-of-thought datasets from scratch |
+| [![Data Quality Assessment](https://badgen.net/badge/Notebook/Data%20Quality%20Assessment/orange)](notebooks/data_quality_assessment.ipynb) | Implement filtering and verification techniques |
+| [![Poetry Dataset Generation](https://badgen.net/badge/Notebook/Poetry%20Dataset%20Generation/orange)](notebooks/poetry_dataset_generation.ipynb) | Create specialized poetry training data |

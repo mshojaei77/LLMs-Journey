@@ -17,9 +17,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Research Survey | Analyzing recent papers and identifying trends |
-| Architecture Analysis | Comparing novel model architectures |
-| Trend Implementation | Implementing emerging techniques |
+| [![Research Survey](https://badgen.net/badge/Notebook/Research%20Survey/orange)](notebooks/research_survey.ipynb) | Analyzing recent papers and identifying trends |
+| [![Architecture Analysis](https://badgen.net/badge/Notebook/Architecture%20Analysis/orange)](notebooks/architecture_analysis.ipynb) | Comparing novel model architectures |
+| [![Trend Implementation](https://badgen.net/badge/Notebook/Trend%20Implementation/orange)](notebooks/trend_implementation.ipynb) | Implementing emerging techniques |
 
 ### Quantum Machine Learning Integration
 - **Description**: Explore the intersection of quantum computing and LLMs for next-generation solutions.
@@ -38,9 +38,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Quantum Basics | Introduction to quantum computing concepts |
-| Hybrid Models | Building hybrid classical-quantum models |
-| QML Applications | Implementing quantum ML algorithms |
+| [![Quantum Basics](https://badgen.net/badge/Notebook/Quantum%20Basics/orange)](notebooks/quantum_basics.ipynb) | Introduction to quantum computing concepts |
+| [![Hybrid Models](https://badgen.net/badge/Notebook/Hybrid%20Models/orange)](notebooks/hybrid_models.ipynb) | Building hybrid classical-quantum models |
+| [![QML Applications](https://badgen.net/badge/Notebook/QML%20Applications/orange)](notebooks/qml_applications.ipynb) | Implementing quantum ML algorithms |
 
 ### Neurological Modeling & Brain-Inspired LLMs
 - **Description**: Investigate brain-inspired approaches to enhance LLM architectures and functioning.
@@ -59,6 +59,6 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Neural Architecture | Implementing brain-inspired neural networks |
-| Cognitive Modeling | Building cognitive architecture simulations |
-| Brain-LLM Integration | Combining neuroscience insights with LLMs |
+| [![Neural Architecture](https://badgen.net/badge/Notebook/Neural%20Architecture/orange)](notebooks/neural_architecture.ipynb) | Implementing brain-inspired neural networks |
+| [![Cognitive Modeling](https://badgen.net/badge/Notebook/Cognitive%20Modeling/orange)](notebooks/cognitive_modeling.ipynb) | Building cognitive architecture simulations |
+| [![Brain-LLM Integration](https://badgen.net/badge/Notebook/Brain-LLM%20Integration/orange)](notebooks/brain_llm_integration.ipynb) | Combining neuroscience insights with LLMs |

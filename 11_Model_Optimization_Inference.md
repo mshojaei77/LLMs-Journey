@@ -17,9 +17,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| KV-Cache Implementation | Hands-on implementation of KV-caching for inference speedup |
-| Shared Cache Setup | Setting up shared KV cache for multiple LLM instances |
-| Production Deployment | Deploying with vLLM and Kubernetes integration |
+| [![KV-Cache Implementation](https://badgen.net/badge/Notebook/KV-Cache%20Implementation/orange)](notebooks/kv_cache_impl.ipynb) | Hands-on implementation of KV-caching for inference speedup |
+| [![Shared Cache Setup](https://badgen.net/badge/Notebook/Shared%20Cache%20Setup/orange)](notebooks/shared_cache.ipynb) | Setting up shared KV cache for multiple LLM instances |
+| [![Production Deployment](https://badgen.net/badge/Notebook/Production%20Deployment/orange)](notebooks/prod_deployment.ipynb) | Deploying with vLLM and Kubernetes integration |
 
 ### Quantization Techniques for Inference
 
@@ -42,9 +42,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Basic Quantization | Implementing 4/8-bit quantization with BitsAndBytes |
-| GPTQ Training | Training and deploying GPTQ quantized models |
-| Advanced Optimization | Working with TensorRT and ONNX optimization |
+| [![Basic Quantization](https://badgen.net/badge/Notebook/Basic%20Quantization/orange)](notebooks/basic_quantization.ipynb) | Implementing 4/8-bit quantization with BitsAndBytes |
+| [![GPTQ Training](https://badgen.net/badge/Notebook/GPTQ%20Training/orange)](notebooks/gptq_training.ipynb) | Training and deploying GPTQ quantized models |
+| [![Advanced Optimization](https://badgen.net/badge/Notebook/Advanced%20Optimization/orange)](notebooks/advanced_optimization.ipynb) | Working with TensorRT and ONNX optimization |
 
 ### Model Pruning for Efficient Inference
 
@@ -62,8 +62,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Basic Pruning | Introduction to model pruning techniques |
-| Production Pruning | Implementing pruning in production environments |
+| [![Basic Pruning](https://badgen.net/badge/Notebook/Basic%20Pruning/orange)](notebooks/basic_pruning.ipynb) | Introduction to model pruning techniques |
+| [![Production Pruning](https://badgen.net/badge/Notebook/Production%20Pruning/orange)](notebooks/production_pruning.ipynb) | Implementing pruning in production environments |
 
 ### Model Formats & Quantization Standards
 
@@ -84,9 +84,10 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Format Conversion | Converting models to GGUF format |
-| Deployment Setup | Setting up deployment with GGUF models |
-| Performance Testing | Testing and validating converted models |
+| [![Format Conversion](https://badgen.net/badge/Notebook/Format%20Conversion/orange)](notebooks/format_conversion.ipynb) | Converting models to GGUF format |
+| [![Deployment Setup](https://badgen.net/badge/Notebook/Deployment%20Setup/orange)](notebooks/deployment_setup.ipynb) | Setting up deployment with GGUF models |
+| [![Performance Testing](https://badgen.net/badge/Notebook/Performance%20Testing/orange)](notebooks/performance_testing.ipynb) | Testing and validating converted models |
+
 ### Advanced Inference Optimization
 - **Description**: Explore advanced techniques for optimizing inference performance, including SIMD optimizations and GPU acceleration.
 - **Concepts Covered**: `SIMD`, `GPU`, `inference`, `performance`, `optimization`, `WASM`, `low-level optimization`, `dot product functions`
@@ -105,9 +106,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| SIMD Optimization | Implementing SIMD instructions for WASM |
-| Dot Product Functions | Optimizing qX_K_q8_K and qX_0_q8_0 functions |
-| Performance Benchmarking | Testing and validating optimizations |
+| [![SIMD Optimization](https://badgen.net/badge/Notebook/SIMD%20Optimization/orange)](notebooks/simd_optimization.ipynb) | Implementing SIMD instructions for WASM |
+| [![Dot Product Functions](https://badgen.net/badge/Notebook/Dot%20Product%20Functions/orange)](notebooks/dot_product_functions.ipynb) | Optimizing qX_K_q8_K and qX_0_q8_0 functions |
+| [![Performance Benchmarking](https://badgen.net/badge/Notebook/Performance%20Benchmarking/orange)](notebooks/performance_benchmarking.ipynb) | Testing and validating optimizations |
 
 ### Extending Context Length
 - **Description**: Explore techniques for extending LLM context windows beyond their original training length.
@@ -129,9 +130,9 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Position Interpolation | Implementing basic position interpolation |
-| RoPE Scaling | Working with NTK-aware and YaRN scaling |
-| Attention Patterns | Optimizing attention for long contexts |
+| [![Position Interpolation](https://badgen.net/badge/Notebook/Position%20Interpolation/orange)](notebooks/position_interpolation.ipynb) | Implementing basic position interpolation |
+| [![RoPE Scaling](https://badgen.net/badge/Notebook/RoPE%20Scaling/orange)](notebooks/rope_scaling.ipynb) | Working with NTK-aware and YaRN scaling |
+| [![Attention Patterns](https://badgen.net/badge/Notebook/Attention%20Patterns/orange)](notebooks/attention_patterns.ipynb) | Optimizing attention for long contexts |
 
 ### Qwen 2.5 1M Context Models
 - **Description**: Explore the first open-source models with 1 million token context length.
@@ -149,6 +150,6 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| Long Context Setup | Setting up Qwen 2.5 for long contexts |
-| Memory Management | Managing memory with 1M context windows |
-| Performance Testing | Evaluating long context performance |
+| [![Long Context Setup](https://badgen.net/badge/Notebook/Long%20Context%20Setup/orange)](notebooks/long_context_setup.ipynb) | Setting up Qwen 2.5 for long contexts |
+| [![Memory Management](https://badgen.net/badge/Notebook/Memory%20Management/orange)](notebooks/memory_management.ipynb) | Managing memory with 1M context windows |
+| [![Performance Testing](https://badgen.net/badge/Notebook/Performance%20Testing/orange)](notebooks/performance_testing.ipynb) | Evaluating long context performance |

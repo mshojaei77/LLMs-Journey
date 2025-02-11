@@ -19,8 +19,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Distributed Training Basics](notebooks/distributed_basics.ipynb) | Set up basic distributed training |
-| [Multi-Node Training](notebooks/multi_node.ipynb) | Scale training across multiple nodes |
+| [![Distributed Training Basics](https://badgen.net/badge/Notebook/Distributed%20Training%20Basics/orange)](notebooks/distributed_basics.ipynb) | Set up basic distributed training |
+| [![Multi-Node Training](https://badgen.net/badge/Notebook/Multi-Node%20Training/orange)](notebooks/multi_node.ipynb) | Scale training across multiple nodes |
 
 ### Mixed Precision Training
 - **Description**: Accelerate training and reduce memory usage with mixed precision techniques.
@@ -41,8 +41,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Mixed Precision Basics](notebooks/mixed_precision.ipynb) | Implement mixed precision training |
-| [AMP Integration](notebooks/amp_integration.ipynb) | Add AMP to existing training loops |
+| [![Mixed Precision Basics](https://badgen.net/badge/Notebook/Mixed%20Precision%20Basics/orange)](notebooks/mixed_precision.ipynb) | Implement mixed precision training |
+| [![AMP Integration](https://badgen.net/badge/Notebook/AMP%20Integration/orange)](notebooks/amp_integration.ipynb) | Add AMP to existing training loops |
 
 ### Gradient Accumulation & Checkpointing
 - **Description**: Manage large batch sizes and training stability with gradient accumulation and checkpointing.
@@ -62,8 +62,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Gradient Accumulation](notebooks/grad_accumulation.ipynb) | Implement gradient accumulation |
-| [Checkpointing System](notebooks/checkpointing.ipynb) | Build a robust checkpointing system |
+| [![Gradient Accumulation](https://badgen.net/badge/Notebook/Gradient%20Accumulation/orange)](notebooks/grad_accumulation.ipynb) | Implement gradient accumulation |
+| [![Checkpointing System](https://badgen.net/badge/Notebook/Checkpointing%20System/orange)](notebooks/checkpointing.ipynb) | Build a robust checkpointing system |
 
 ### Memory Optimization Techniques
 - **Description**: Optimize memory usage to train larger models and handle longer sequences.
@@ -83,8 +83,8 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Memory Profiling](notebooks/memory_profiling.ipynb) | Profile and optimize memory usage |
-| [Gradient Checkpointing](notebooks/grad_checkpointing.ipynb) | Implement gradient checkpointing |
+| [![Memory Profiling](https://badgen.net/badge/Notebook/Memory%20Profiling/orange)](notebooks/memory_profiling.ipynb) | Profile and optimize memory usage |
+| [![Gradient Checkpointing](https://badgen.net/badge/Notebook/Gradient%20Checkpointing/orange)](notebooks/grad_checkpointing.ipynb) | Implement gradient checkpointing |
 
 ### Cloud & GPU Providers
 - **Description**: Overview of various cloud providers and GPU rental services for ML/LLM training.
@@ -107,5 +107,5 @@
 #### Guided Practice
 | Notebook | Description |
 |----------|-------------|
-| [Cloud Setup](notebooks/cloud_setup.ipynb) | Set up cloud training environments |
-| [Cost Analysis](notebooks/cost_analysis.ipynb) | Analyze and optimize training costs |
+| [![Cloud Setup](https://badgen.net/badge/Notebook/Cloud%20Setup/orange)](notebooks/cloud_setup.ipynb) | Set up cloud training environments |
+| [![Cost Analysis](https://badgen.net/badge/Notebook/Cost%20Analysis/orange)](notebooks/cost_analysis.ipynb) | Analyze and optimize training costs |
