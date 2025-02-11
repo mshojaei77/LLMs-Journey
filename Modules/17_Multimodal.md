@@ -11,6 +11,10 @@
 | [![DeepSeek-VL Paper](https://badgen.net/badge/Paper/DeepSeek-VL_Paper/purple)](https://arxiv.org/pdf/2403.05525) | [![BLIP-3 Paper](https://badgen.net/badge/Paper/BLIP-3_Paper/purple)](https://arxiv.org/pdf/2408.08872) |
 | [![Qwen2.5VL Blog Post](https://badgen.net/badge/Blog/Qwen2.5VL_Blog_Post/pink)](https://qwenlm.github.io/blog/qwen2.5-vl/) | |
 
+https://research.nvidia.com/labs/dir/cosmos-tokenizer/ Cosmos Tokenizer: A suite of image and video tokenizers
+
+| [![Spectral Image Tokenizer](https://badgen.net/badge/Paper/Spectral%20Image%20Tokenizer/purple)](http://arxiv.org/abs/2412.09607) | Novel approach using DWT coefficients for image tokenization |
+
 #### Tools & Frameworks
 | Core | Additional |
 |-----------|----------|
