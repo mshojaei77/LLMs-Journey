@@ -48,7 +48,7 @@ Learn various tokenization methods to convert text into model-readable tokens.
 
 
 ## 2. Word Embeddings & Contextual Representations: Capturing Meaning in Vectors
-
+![image](https://github.com/user-attachments/assets/944f2cce-c66d-4c51-a443-cebc151055ff)
 Word embeddings are fundamental to Natural Language Processing, serving as dense vector representations of words that capture semantic and syntactic relationships.  Initially, techniques focused on static word embeddings, where each word had a fixed representation regardless of context. However, the field has significantly evolved, leading to more sophisticated methods that generate contextualized representations, adapting to the surrounding text to capture nuanced meanings.
 
 **Key Concepts**
